@@ -1,0 +1,74 @@
+{
+    "Number": 94,
+    "Name": "Mega Gengar",
+    "Stamina": 7,
+    "Movement": "L",
+    "Size": 4,
+    "Threat Level": 5,
+    "Defense": 3,
+    "Weak Defense": 3,
+    "Resistanse Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Lick",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Stun special condition."
+      },
+      {
+        "Name": "Shadow Ball",
+        "Range": 3,
+        "Strength": 7,
+        "Power Cost": 1,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+      },
+      {
+        "Name": "Hex",
+        "Range": 3,
+        "Strength": 8,
+        "Power Cost": 2,
+        "Effect": "If the target character has a special condition, add 2 dice to the attack roll."
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Poison special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Levitate",
+        "Type": "innate",
+        "Effect": "This character ignores terrain and other characters when moving."
+      },
+      {
+        "Name": "Hypnosis",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 3,
+        "Effect": "Range 3. The target character gains the Stun special condition."
+      },
+      {
+        "Name": "Shadow Tag",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 2,
+        "Effect": "Range 2. The target character cannot move or be moved by any effects until the start of its next activation."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 6,
+      "Additional Attack": [
+        {
+          "Name": "Dark Pulse",
+          "Range": 3,
+          "Strength": 7,
+          "Power Cost": 1,
+          "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
+        }
+      ]
+    }
+  }
