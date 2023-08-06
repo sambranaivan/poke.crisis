@@ -70,7 +70,7 @@
         {
            "Name": "Evolution",
            "Type": "active",
-           "Cost": 5,
+           "Cost": 3,
            "Range": 0,
            "Effect": "Replace this character with a Haunter character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
         }
