@@ -1,5 +1,6 @@
 import json
-
+f = open('icons.json')
+icon = json.load(f)
 
 
 
@@ -10,7 +11,7 @@ def make_attack(data):
         <div class="pill-with-badge relative flex flex-row h-11 w-full flex-1"><span
                 class="bg-black rounded-full z-10 w-11 h-11">
                 <div class="h-full text-white flex flex-col justify-center align-center w-11 text-3xl"><img
-                        src="https://www.jarvis-protocol.com/assets/images/fd2d64180ce9059612b6.png"
+                        src="#tipo#"
                         class="rounded-full w-11"></div>
             </span>
             <div class="flex flex-col align-center -ml-3 self-center w-full"><span
@@ -37,12 +38,14 @@ def make_attack(data):
  
 
     # Replace the placeholders with the corresponding values from the JSON
+
     replaced_html = html_template.replace("#N#", str((data["Name"][0]).upper()))
     replaced_html = replaced_html.replace("#NAME#", str((data["Name"][1:]).upper()))
     replaced_html = replaced_html.replace("#RANGE#", str(data["Range"]))
     replaced_html = replaced_html.replace("#STRENGTH#", str(data["Strength"]))
     replaced_html = replaced_html.replace("#COST#", str(data["Power Cost"]))
     replaced_html = replaced_html.replace("#description#", str(data["Effect"]))
+    replaced_html = replaced_html.replace("#tipo#",  icon[data["Type"]]  )
     # print(data["NAME"][0])
     return replaced_html
 
