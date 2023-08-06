@@ -1,9 +1,9 @@
-import base
+from base import portrait_url
 from attacks import make_attack
 from stats import make_stats
 from powers import make_sp
 import json
-
+from html import escape
 
 template = open('template.html')
 template = template.read()
@@ -33,8 +33,8 @@ superpower_html += '''</div>'''
 
 template = template.replace("@yield_superpowers",superpower_html)
 
-
-template = template.replace("#portraits#",data["Name"])
+port = (data["Name"]).replace(" ","%20")
+template = template.replace("#potrait#",portrait_url+port+".png")
 
 h = open("results.html", "w")
 
