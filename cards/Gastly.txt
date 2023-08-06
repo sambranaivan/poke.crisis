@@ -1,0 +1,27 @@
+Number: 092
+Name: Gastly
+Stamina: 3 (Scaled from HP 30)
+Movement: Medium (Scaled from Speed 80)
+Size: 2 (Scaled from Weight 0.1 kg)
+Threat Level: 2 (Scaled from Total stats 310)
+Base Defense Value: 2 (Scaled from Defense 30)
+Attacks:
+
+Lick: Range 2, Strength 3, Power Cost 0
+If a wild is rolled during this attack, the target character is given the Stun special condition.
+Shadow Ball: Range 3, Strength 4, Power Cost 1
+After this attack is resolved, this character gains power equal to the damage dealt.
+Night Shade: Range 3, Strength 4, Power Cost 2
+Fixed damage equal to this character's Threat Level.
+Superpowers:
+
+Levitate (Passive):
+This character ignores terrain and other characters when moving.
+Hypnosis (Active): Cost 2
+Range 3. The target character gains the Stun special condition.
+Injured Side:
+
+Stamina: 2
+Additional Attack:
+Dark Pulse: Range 3, Strength 4, Power Cost 1
+If a wild is rolled during this attack, the target character is given the Stagger special condition.

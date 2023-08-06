@@ -1,0 +1,79 @@
+{
+    "Number": 92,
+    "Name": "Gastly",
+    "Alter Ego":"",
+    "Stamina": 3,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 2,
+    "Type": "ghost",
+    "Weak Type": "ghost",
+    "Resistant Type": "fighting",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 5,
+    "Attacks": [
+      {
+        "Name": "Lick",
+        "Type":"ghost",
+        "Range": 2,
+        "Strength": 3,
+        "Power Cost": 0,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Stun special condition."
+      },
+      {
+        "Name": "Shadow Ball",
+        "Type":"ghost",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+      },
+      {
+        "Name": "Night Shade",
+        "Type":"ghost",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 2,
+        "Effect": "Fixed damage equal to this character's Threat Level."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Levitate",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character ignores terrain and other characters when moving."
+     },
+     {
+        "Name": "Hypnosis",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 3,
+        "Effect": "The target character gains the Stun special condition."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 2,
+      "Attacks": [
+        {
+          "Name": "Dark Pulse",
+          "Type":"ghost",
+          "Range": 3,
+          "Strength": 4,
+          "Power Cost": 1,
+          "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Evolution",
+           "Type": "active",
+           "Cost": 5,
+           "Range": 0,
+           "Effect": "Replace this character with a Haunter character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+        }
+      ]
+    }
+}

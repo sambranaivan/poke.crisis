@@ -1,13 +1,17 @@
 {
     "Number": 94,
     "Name": "Mega Gengar",
-    "Stamina": 7,
-    "Movement": "L",
-    "Size": 4,
+    "Alter Ego":"Gengar",
+    "Stamina": 4,
+    "Size": 2,
     "Threat Level": 5,
+    "Movement": "L",
+    "Type":"ghost",
+    "Weak Type":"ghost",
+    "Resistant Type":"fighting",
+    "Weak Defense": 2,
     "Defense": 3,
-    "Weak Defense": 3,
-    "Resistanse Defense": 3,
+    "Resistant Defense": 5,
     "Attacks": [
       {
         "Type": "ghost",
@@ -64,8 +68,8 @@
       }
     ],
     "Injured Side": {
-      "Stamina": 6,
-      "Additional Attack": [
+      "Stamina": 4,
+      "Attacks": [
         {
           "Type": "dark",
           "Name": "Dark Pulse",
@@ -74,6 +78,10 @@
           "Power Cost": 1,
           "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
         }
+      ],
+      "Superpowers":[
       ]
     }
   }
+
+  

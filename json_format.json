@@ -1,0 +1,55 @@
+{
+    "Number": Integer,
+    "Name": String,
+    "Alter ego": String,
+    "Stamina": Integer,
+    "Movement": "L" for long, "S" for Short, "M" for Medium,
+    "Size": Integer,
+    "Threat Level": Integer,
+    "Type":"ghost",
+    "Weak Type":"ghost",
+    "Resistant Type":"fighting",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 5,
+    "Attacks": [
+      {
+        "Name": String,
+        "Range": Integer,
+        "Strength": Integer,
+        "Power Cost": Integer,
+        "Effect": String
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name":String,
+        "Type": active, reactive or innate,
+        "Cost": Integer,
+        "Range": Integer,
+        "Effect": String
+     }
+     
+    ],
+    "Injured Side": {
+      "Attacks": [
+        {
+          "Name": String,
+          "Range": Integer,
+          "Strength": Integer,
+          "Power Cost": Integer,
+          "Effect": String
+        }
+      ]
+    },
+    "Superpowers": [
+        {
+           "Name":String,
+           "Type": active, reactive or innate,
+           "Cost": Integer,
+           "Range": Integer,
+           "Effect": String
+        }
+        
+       ]
+  }
