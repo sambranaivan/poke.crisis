@@ -1,4 +1,5 @@
 import json
+from base import icon_url
 f = open('icons.json')
 icon = json.load(f)
 
@@ -45,7 +46,7 @@ def make_attack(data):
     replaced_html = replaced_html.replace("#STRENGTH#", str(data["Strength"]))
     replaced_html = replaced_html.replace("#COST#", str(data["Power Cost"]))
     replaced_html = replaced_html.replace("#description#", str(data["Effect"]))
-    replaced_html = replaced_html.replace("#tipo#",  icon[data["Type"]]  )
+    replaced_html = replaced_html.replace("#tipo#",  icon_url+icon[data["Type"]]  )
     # print(data["NAME"][0])
     return replaced_html
 

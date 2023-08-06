@@ -1,3 +1,4 @@
+import base
 from attacks import make_attack
 from stats import make_stats
 from powers import make_sp
@@ -31,6 +32,9 @@ for super in data['Superpowers']:
 superpower_html += '''</div>'''
 
 template = template.replace("@yield_superpowers",superpower_html)
+
+
+template = template.replace("#portraits#",data["Name"])
 
 h = open("results.html", "w")
 
