@@ -1,6 +1,7 @@
 import json
 
-
+f = open('icons.json')
+icon = json.load(f)
 
 
 def make_sp(data):
@@ -15,7 +16,7 @@ def make_sp(data):
                 <div class="pill-with-badge relative flex flex-row h-11 w-full flex-1"><span
                         class="bg-black rounded-full z-10 w-11 h-11">
                         <div class="h-full text-white flex flex-col justify-center align-center w-11 text-3xl"><img
-                                src="https://www.jarvis-protocol.com/assets/images/8a37f9988cd86357cc3c.png"
+                                src="#icon#"
                                 class="rounded-full w-11"></div>
                     </span>
                     <div class="flex flex-col align-center -ml-3 self-center w-full"><span
@@ -40,7 +41,7 @@ def make_sp(data):
                 <div class="pill-with-badge relative flex flex-row h-11 w-full flex-1"><span
                         class="bg-black rounded-full z-10 w-11 h-11">
                         <div class="h-full text-white flex flex-col justify-center align-center w-11 text-3xl"><img
-                                src="https://www.jarvis-protocol.com/assets/images/8a37f9988cd86357cc3c.png"
+                                src="#icon#"
                                 class="rounded-full w-11"></div>
                     </span>
                     <div class="flex flex-col align-center -ml-3 self-center w-full"><span
@@ -65,6 +66,7 @@ def make_sp(data):
         replaced_html = replaced_html.replace("#COST#", str(data["Cost"]))
 
     replaced_html = replaced_html.replace("#EFFECT#", str(data["Effect"]))
+    replaced_html = replaced_html.replace("#icon#", icon[data["Type"]])
     # print(data["NAME"][0])
     return replaced_html
 
