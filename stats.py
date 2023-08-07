@@ -60,8 +60,8 @@ def make_stats(data):
     replaced_html = replaced_html.replace("#THREAT#",str(data["Threat Level"]))
     replaced_html = replaced_html.replace("#SIZE#",str(data["Size"]))
     replaced_html = replaced_html.replace("#MOVE#",str(data["Movement"]))
-    replaced_html = replaced_html.replace("#rtype#",icon_url+icon[data["Resistant Type"]])
-    replaced_html = replaced_html.replace("#wtype#",icon_url+icon[data["Weak Type"]])
+    replaced_html = replaced_html.replace("#rtype#",icon_url+icon[str(data["Resistant Type"]).lower()])
+    replaced_html = replaced_html.replace("#wtype#",icon_url+icon[str(data["Weak Type"]).lower()])
     replaced_html = replaced_html.replace("#dtype#",icon_url+icon["normal"])
 
     # print(data["NAME"][0])

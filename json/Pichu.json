@@ -1,0 +1,63 @@
+{
+    "Number": 172,
+    "Name": "Pichu",
+    "Alter Ego": "",
+    "Stamina": 4,
+    "Movement": "S",
+    "Size": 2,
+    "Threat Level": 2,
+    "Type": "Electric",
+    "Weak Type": "ground",
+    "Resistant Type": "flying",
+    "Weak Defense": 1,
+    "Defense": 2,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Thundershock",
+        "Type": "Electric",
+        "Range": 3,
+        "Strength": 3,
+        "Power Cost": 0,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Stun special condition."
+      },
+      {
+        "Name": "Charm",
+        "Type": "Fairy",
+        "Range": 2,
+        "Strength": 0,
+        "Power Cost": 1,
+        "Effect": "The target character has its attack strength reduced by 2 on its next attack."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Static",
+        "Type": "reactive",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "If this character is targeted by a melee attack, the attacker gains the Stun special condition."
+     }
+    ],
+    "Injured Side": {
+      "Attacks": [
+        {
+          "Name": "Sweet Kiss",
+          "Type": "Fairy",
+          "Range": 2,
+          "Strength": 0,
+          "Power Cost": 1,
+          "Effect": "The target character gains the Confused special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Evolution",
+           "Type": "active",
+           "Cost": 3,
+           "Range": 0,
+           "Effect": "Replace this character with a Pikachu character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+        }
+      ]
+    }
+}

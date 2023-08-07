@@ -1,0 +1,71 @@
+{
+    "Number": 25,
+    "Name": "Pikachu",
+    "Alter Ego": "",
+    "Stamina": 4,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Electric",
+    "Weak Type": "ground",
+    "Resistant Type": "flying",
+    "Weak Defense": 1,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Thunderbolt",
+        "Type": "Electric",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Stun special condition."
+      },
+      {
+        "Name": "Quick Attack",
+        "Type": "Normal",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "This attack ignores line of sight."
+      },
+      {
+        "Name": "Electro Ball",
+        "Type": "Electric",
+        "Range": 4,
+        "Strength": 4,
+        "Power Cost": 2,
+        "Effect": "Add dice to this attack equal to the difference in speed attributes between this character and the target."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Static",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "If this character is targeted by a melee attack, the attacker gains the Stun special condition."
+     }
+    ],
+    "Injured Side": {
+      "Attacks": [
+        {
+          "Name": "Iron Tail",
+          "Type": "Steel",
+          "Range": 2,
+          "Strength": 6,
+          "Power Cost": 2,
+          "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Evolution",
+           "Type": "active",
+           "Cost": 5,
+           "Range": 0,
+           "Effect": "Replace this character with a Raichu character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+        }
+      ]
+    }
+}

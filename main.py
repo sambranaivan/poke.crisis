@@ -8,7 +8,7 @@ import pyperclip
 
 template = open('template.html')
 template = template.read()
-f = open('json/Haunter.json')
+f = open('json/Pikachu.json')
 data = json.load(f)
 
 
