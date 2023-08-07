@@ -9,9 +9,9 @@
     "Type": "ghost",
     "Weak Type": "ghost",
     "Resistant Type": "fighting",
-    "Weak Defense": 2,
-    "Defense": 3,
-    "Resistant Defense": 5,
+    "Weak Defense": 1,
+    "Defense": 2,
+    "Resistant Defense": 4,
     "Attacks": [
       {
         "Name": "Lick",
