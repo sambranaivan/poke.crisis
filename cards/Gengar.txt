@@ -1,5 +1,7 @@
 Number: 094
 Name: Gengar
+Alter Ego: Gengar
+Type: Ghost
 Stamina: 6 (Scaled from HP 60)
 Movement: Long (Scaled from Speed 110)
 Size: 4 (Scaled from Weight 40.5 kg)

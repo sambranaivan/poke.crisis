@@ -1,5 +1,6 @@
 Number: 093
 Name: Haunter
+Type: Ghost
 Stamina: 4 (Scaled from HP 45)
 Movement: Long (Scaled from Speed 95)
 Size: 3 (Scaled from Weight 0.1 kg)

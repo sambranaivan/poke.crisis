@@ -1,0 +1,79 @@
+Pichu
+
+Number: 172
+Name: Pichu
+Stamina: 3 (Scaled from HP 20)
+Movement: Short (Scaled from Speed 60)
+Size: 2 (Scaled from Weight 2.0 kg)
+Threat Level: 2 (Scaled from Total stats 205)
+Base Defense Value: 2 (Scaled from Defense 15)
+Attacks:
+
+Thundershock (Electric): Range 3, Strength 3, Power Cost 0
+If a wild is rolled during this attack, the target character is given the Stun special condition.
+Charm (Fairy): Range 2, Strength 0, Power Cost 1
+The target character has its attack strength reduced by 2 on its next attack.
+Superpowers:
+
+Static (Passive):
+If this character is targeted by a melee attack, the attacker gains the Stun special condition.
+Injured Side:
+
+Stamina: 2
+Additional Attack:
+Sweet Kiss (Fairy): Range 2, Strength 0, Power Cost 1
+The target character gains the Confused special condition.
+Pikachu
+
+Number: 025
+Name: Pikachu
+Stamina: 4 (Scaled from HP 35)
+Movement: Medium (Scaled from Speed 90)
+Size: 2 (Scaled from Weight 6.0 kg)
+Threat Level: 3 (Scaled from Total stats 320)
+Base Defense Value: 3 (Scaled from Defense 40)
+Attacks:
+
+Thunderbolt (Electric): Range 3, Strength 5, Power Cost 1
+If a wild is rolled during this attack, the target character is given the Stun special condition.
+Quick Attack (Normal): Range 2, Strength 4, Power Cost 0
+This attack ignores line of sight.
+Electro Ball (Electric): Range 4, Strength 4, Power Cost 2
+Add dice to this attack equal to the difference in speed attributes between this character and the target.
+Superpowers:
+
+Static (Passive):
+If this character is targeted by a melee attack, the attacker gains the Stun special condition.
+Injured Side:
+
+Stamina: 3
+Additional Attack:
+Iron Tail (Steel): Range 2, Strength 6, Power Cost 2
+If a wild is rolled during this attack, the target character is given the Stagger special condition.
+Raichu
+
+Number: 026
+Name: Raichu
+Stamina: 6 (Scaled from HP 60)
+Movement: Medium (Scaled from Speed 110)
+Size: 3 (Scaled from Weight 30.0 kg)
+Threat Level: 4 (Scaled from Total stats 485)
+Base Defense Value: 3 (Scaled from Defense 55)
+Attacks:
+
+Thunder Punch (Electric): Range 2, Strength 6, Power Cost 1
+If a wild is rolled during this attack, the target character is given the Stun special condition.
+Volt Tackle (Electric): Range 3, Strength 7, Power Cost 2
+After this attack is resolved, this character suffers 1 damage.
+Thunder (Electric): Range 4, Strength 8, Power Cost 3
+If a wild is rolled during this attack, the target character is given the Stagger special condition.
+Superpowers:
+
+Static (Passive):
+If this character is targeted by a melee attack, the attacker gains the Stun special condition.
+Injured Side:
+
+Stamina: 5
+Additional Attack:
+Focus Punch (Fighting): Range 2, Strength 7, Power Cost 2
+If a wild is rolled during this attack, the target character is given the Stagger special condition.
