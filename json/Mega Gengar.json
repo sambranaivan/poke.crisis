@@ -38,12 +38,12 @@
         "Effect": "If the target character has a special condition, add 2 dice to the attack roll."
       },
       {
+        "Name": "Venom Drench",
         "Type": "poison",
-        "Name": "Sludge Bomb",
         "Range": 4,
         "Strength": 6,
-        "Power Cost": 2,
-        "Effect": "If a wild is rolled during this attack, the target character is given the Poison special condition."
+        "Power Cost": 3,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Poison special condition. If the target character is already poisoned, causes double damage."
       }
     ],
     "Superpowers": [

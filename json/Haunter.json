@@ -30,12 +30,12 @@
         "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
       },
       {
-        "Name": "Night Shade",
-        "Type": "ghost",
+        "Name": "Sludge Bomb",
+        "Type":"poison",
         "Range": 3,
         "Strength": 5,
         "Power Cost": 2,
-        "Effect": "Fixed damage equal to this character's Threat Level."
+        "Effect": "If a wild is rolled during this attack, the target character is given the Poison special condition."
       }
     ],
     "Superpowers": [
@@ -51,7 +51,7 @@
         "Type": "active",
         "Cost": 2,
         "Range": 3,
-        "Effect": "The target character gains the Stun special condition."
+        "Effect": "Range 3. The target character gains the Stun special condition."
      }
     ],
     "Injured Side": {
