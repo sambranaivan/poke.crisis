@@ -1,0 +1,77 @@
+{
+    "Number": "212-M",
+    "Name": "Mega Scizor",
+    "Alter Ego": "",
+    "Stamina": 7,
+    "Movement": "M",
+    "Size": 3,
+    "Threat Level": 5,
+    "Type": "Steel",
+    "Weak Type": "Fire",
+    "Resistant Type": "Grass",
+    "Weak Defense": 2,
+    "Defense": 4,
+    "Resistant Defense": 5,
+    "Attacks": [
+        {
+            "Name": "Bullet Punch",
+            "Type": "Steel",
+            "Range": 2,
+            "Strength": 6,
+            "Power Cost": 0,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Stun special condition."
+        },
+        {
+            "Name": "X-Scissor",
+            "Type": "Bug",
+            "Range": 3,
+            "Strength": 7,
+            "Power Cost": 2,
+            "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+        },
+        {
+            "Name": "Iron Head",
+            "Type": "Steel",
+            "Range": 2,
+            "Strength": 8,
+            "Power Cost": 3,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Name": "Technician",
+            "Type": "innate",
+            "Cost": 0,
+            "Range": 0,
+            "Effect": "This character may reroll one die in its attack rolls."
+         },
+         {
+            "Name": "Double Team",
+            "Type": "reactive",
+            "Cost": 2,
+            "Range": 0,
+            "Effect": "The next time this character would be targeted by an attack, the attacking character must roll one additional die for each success in their attack roll. If they roll fewer successes than the original attack roll, the attack misses."
+         },
+        {
+            "Type": "active",
+            "Name": "Swords Dance",
+            "Cost": 3,
+            "Effect": "The next time this character makes an attack this turn, add 3 dice to the attack roll."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 6,
+        "Attacks": [
+            {
+                "Name": "Hyper Beam",
+                "Type": "Normal",
+                "Range": 4,
+                "Strength": 9,
+                "Power Cost": 4,
+                "Effect": "After this attack is resolved, this character gains the Stun special condition."
+            }
+        ],
+        "Superpowers": []
+    }
+}
