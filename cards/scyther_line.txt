@@ -1,0 +1,125 @@
+Scyther
+
+Number: 123
+Name: Scyther
+Stamina: 5 (Scaled from HP 70)
+Movement: Long (Scaled from Speed 105)
+Size: 3 (Scaled from Weight 56.0 kg)
+Threat Level: 4 (Scaled from Total stats 500)
+Base Defense Value: 3 (Scaled from Defense 80)
+Attacks:
+
+Quick Attack: Range 2, Strength 4, Power Cost 0
+After this attack is resolved, this character gains power equal to the damage dealt.
+Wing Attack: Range 2, Strength 5, Power Cost 1
+If a wild is rolled during this attack, the target character is given the Stun special condition.
+Superpowers:
+
+Technician (Passive):
+This character may reroll one die in its attack rolls.
+Injured Side:
+
+Stamina: 4
+Additional Attack:
+Air Slash: Range 3, Strength 5, Power Cost 1
+If a wild is rolled during this attack, the target character is given the Stun special condition.
+Scizor
+
+Number: 212
+Name: Scizor
+Stamina: 6 (Scaled from HP 70)
+Movement: Medium (Scaled from Speed 65)
+Size: 3 (Scaled from Weight 118.0 kg)
+Threat Level: 5 (Scaled from Total stats 500)
+Base Defense Value: 4 (Scaled from Defense 100)
+Attacks:
+
+Quick Attack: Range 2, Strength 5, Power Cost 0
+After this attack is resolved, this character gains power equal to the damage dealt.
+Metal Claw: Range 2, Strength 6, Power Cost 1
+If a wild is rolled during this attack, the target character is given the Bleed special condition.
+Bullet Punch: Range 3, Strength 7, Power Cost 2
+After this attack is resolved, this character gains power equal to the damage dealt.
+Superpowers:
+
+Technician (Passive):
+This character may reroll one die in its attack rolls.
+Light Metal (Active): Cost 2
+This character makes a ranged attack. If a wild is rolled during this attack, the target character is given the Stun special condition.
+Injured Side:
+
+Stamina: 5
+Additional Attack:
+Air Slash: Range 3, Strength 6, Power Cost 1
+If a wild is rolled during this attack, the target character is given the Stun special condition.
+
+
+Kleavor 
+Healthy Side:
+
+Name: Kleavor
+Stamina: 6
+Movement: Medium
+Size: 3
+Threat: 4
+Physical Defense: 3
+Energy Defense: 3
+Mystic Defense: 2
+Attacks:
+
+Stone Axe: Range 2, Strength 5, Power Cost 0
+
+Effect: After this attack is resolved, Kleavor gains power equal to the damage dealt. On a roll of a wild, the target character gains the Stun special condition.
+X-Scissor: Range 3, Strength 6, Power Cost 3
+
+Effect: After this attack is resolved, push the target character away short. This push is resolved even if the attack deals no damage.
+Superpowers:
+
+Active:
+Iron Defense (Cost 2): Until the start of your next turn, when Kleavor is targeted by an attack, it may use its physical defense regardless of the type of attack.
+Passive:
+Swarm Change: When Kleavor is targeted by an attack, it may use its energy defense instead of the type of defense normally used.
+Injured Side:
+
+Stamina: 5
+Additional Attack:
+
+Fury Cutter: Range 2, Strength 6, Power Cost 2
+Effect: After this attack is resolved, Kleavor gains power equal to the damage dealt. On a roll of a wild, the target character gains the Bleed special condition.
+Superpowers:
+
+Active:
+Iron Defense (Cost 2): Until the start of your next turn, when Kleavor is targeted by an attack, it may use its physical defense regardless of the type of attack.
+Passive:
+Swarm Change: When Kleavor is targeted by an attack, it may use its energy defense instead of the type of defense normally used.
+
+
+Mega Scizor
+
+Number: 212-M
+Name: Mega Scizor
+Stamina: 7 (Scaled from HP 70)
+Movement: Medium (Scaled from Speed 105)
+Size: 4 (Scaled from Weight 125.0 kg)
+Threat Level: 5 (Scaled from Total stats 600)
+Base Defense Value: 4 (Scaled from Defense 140)
+Attacks:
+
+Bullet Punch (Steel): Range 2, Strength 6, Power Cost 0
+If a wild is rolled during this attack, the target character is given the Stun special condition.
+X-Scissor (Bug): Range 3, Strength 7, Power Cost 2
+After this attack is resolved, this character gains power equal to the damage dealt.
+Iron Head (Steel): Range 2, Strength 8, Power Cost 3
+If a wild is rolled during this attack, the target character is given the Stagger special condition.
+Superpowers:
+
+Technician (Passive):
+When this character makes an attack with a strength of 5 or less, add 2 dice to the attack roll.
+Swords Dance (Active): Cost 3
+The next time this character makes an attack this turn, add 3 dice to the attack roll.
+Injured Side:
+
+Stamina: 6
+Additional Attack:
+Hyper Beam (Normal): Range 4, Strength 9, Power Cost 4
+After this attack is resolved, this character gains the Stun special condition.

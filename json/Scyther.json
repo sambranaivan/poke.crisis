@@ -1,0 +1,76 @@
+{
+    "Number": 123,
+    "Name": "Scyther",
+    "Alter Ego": "",
+    "Stamina": 5,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Bug/Flying",
+    "Weak Type": "Rock",
+    "Resistant Type": "Grass",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense":4,
+    "Attacks": [
+      {
+        "Name": "Quick Attack",
+        "Type": "Normal",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+      },
+      {
+        "Name": "Wing Attack",
+        "Type": "Flying",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Stun special condition."
+      },
+      {
+        "Name": "X-Scissor ",
+        "Type": "Bug",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Double Team",
+        "Type": "reactive",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "The next time this character would be targeted by an attack, the attacking character must roll one additional die for each success in their attack roll. If they roll fewer tan half successes than the original attack roll, the attack misses."
+     },
+     {
+        "Type": "Passive",
+        "Name": "Swarm",
+        "Effect": "When this character has 3 or fewer stamina remaining, add 2 dice to its attack rolls."
+    }
+    ],
+    "Injured Side": {
+      "Attacks": [
+        {
+          "Name": "U-turn",
+          "Type": "Bug",
+          "Range": 3,
+          "Strength": 6,
+          "Power Cost": 3,
+          "Effect": "After this attack is resolved, place this character within range 2 of its current position."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Evolution",
+           "Type": "active",
+           "Cost": 5,
+           "Range": 0,
+           "Effect": "Replace this character with a Scizor or Kleavor character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+        }
+      ]
+    }
+}
