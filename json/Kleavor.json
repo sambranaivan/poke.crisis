@@ -8,13 +8,13 @@
         "Type": "Bug/Rock",
         "Weak Type": "Steel",
         "Resistant Type": "Poison",
-        "Weak Defense": 2,
-        "Defense": 3,
-        "Resistant Defense":4,
+        "Weak Defense": 3,
+        "Resistant Defense":2,
+        "Defense": 2,
         "Attacks": [
             {
                 "Name": "Stone Axe",
-                "Type": "Rock",
+                "Type": "physic",
                 "Range": 3,
                 "Strength": 6,
                 "Power Cost": 2,
@@ -22,7 +22,7 @@
             },
             {
                 "Name": "X-Scissor",
-                "Type": "Bug",
+                "Type": "physic",
                 "Range": 3,
                 "Strength": 6,
                 "Power Cost": 3,
@@ -30,7 +30,7 @@
             },
             {
                 "Name": "Fury Cutter",
-                "Type": "Bug",
+                "Type": "physic",
                 "Range": 2,
                 "Strength": 3,
                 "Power Cost": 2,
@@ -55,7 +55,7 @@
         "Attacks": [
             {
                 "Name": "Stone Edge",
-                "Type": "Rock",
+                "Type": "physic",
                 "Range": 2,
                 "Strength": 6,
                 "Power Cost": 4,

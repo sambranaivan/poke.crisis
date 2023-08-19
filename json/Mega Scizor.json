@@ -36,6 +36,14 @@
             "Strength": 8,
             "Power Cost": 3,
             "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
+        },
+        {
+            "Name": "Metal Claw",
+            "Type": "Steel",
+            "Range": 2,
+            "Strength": 8,
+            "Power Cost": 3,
+            "Effect": "If a wild is rolled during this attack, increase this attack Strength by 1 for its next turn."
         }
     ],
     "Superpowers": [

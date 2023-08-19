@@ -9,13 +9,13 @@
     "Threat Level": 4,
     "Weak Type": "ghost",
     "Resistant Type": "fighting",
-    "Weak Defense": 2,
-    "Defense": 3,
-    "Resistant Defense": 4,
+    "Weak Defense": 3,
+    "Resistant Defense": 2,
+    "Defense": 2,
     "Attacks": [
       {
         "Name": "Lick",
-        "Type": "ghost",
+        "Type": "physic",
         "Range": 2,
         "Strength": 4,
         "Power Cost": 0,
@@ -23,7 +23,7 @@
       },
       {
         "Name": "Shadow Ball",
-        "Type": "ghost",
+        "Type": "mystic",
         "Range": 3,
         "Strength": 5,
         "Power Cost": 1,
@@ -31,7 +31,7 @@
       },
       {
         "Name": "Sludge Bomb",
-        "Type":"poison",
+        "Type":"physic",
         "Range": 3,
         "Strength": 5,
         "Power Cost": 2,
@@ -59,7 +59,7 @@
       "Attacks": [
         {
           "Name": "Dark Pulse",
-          "Type": "dark",
+          "Type": "energy",
           "Range": 3,
           "Strength": 5,
           "Power Cost": 1,

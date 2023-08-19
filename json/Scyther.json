@@ -9,9 +9,9 @@
     "Type": "Bug/Flying",
     "Weak Type": "Rock",
     "Resistant Type": "Grass",
-    "Weak Defense": 2,
-    "Defense": 3,
-    "Resistant Defense":4,
+    "Weak Defense": 3,
+    "Resistant Defense":3,
+    "Defense": 1,
     "Attacks": [
       {
         "Name": "Quick Attack",

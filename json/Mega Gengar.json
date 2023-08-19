@@ -9,12 +9,12 @@
     "Type":"ghost",
     "Weak Type":"ghost",
     "Resistant Type":"fighting",
-    "Weak Defense": 2,
+    "Weak Defense": 5,
+    "Resistant Defense": 3,
     "Defense": 3,
-    "Resistant Defense": 5,
     "Attacks": [
       {
-        "Type": "ghost",
+        "Type": "physic",
         "Name": "Lick",
         "Range": 2,
         "Strength": 6,
@@ -22,7 +22,7 @@
         "Effect": "If a wild is rolled during this attack, the target character is given the Stun special condition."
       },
       {
-        "Type": "ghost",
+        "Type": "mystic",
         "Name": "Shadow Ball",
         "Range": 3,
         "Strength": 7,
@@ -30,7 +30,7 @@
         "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
       },
       {
-        "Type": "ghost",
+        "Type": "mystic",
         "Name": "Hex",
         "Range": 3,
         "Strength": 8,
@@ -39,7 +39,7 @@
       },
       {
         "Name": "Venom Drench",
-        "Type": "poison",
+        "Type": "physic",
         "Range": 4,
         "Strength": 6,
         "Power Cost": 3,
@@ -71,7 +71,7 @@
       "Stamina": 4,
       "Attacks": [
         {
-          "Type": "dark",
+          "Type": "energy",
           "Name": "Dark Pulse",
           "Range": 3,
           "Strength": 7,

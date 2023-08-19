@@ -21,7 +21,10 @@
 "innate":   "innate.png",
 "leader":   "leader.png",
 "active":   "active.png",
-"physic": "https://www.jarvis-protocol.com/assets/images/fd2d64180ce9059612b6.png",
-"energy": "https://www.jarvis-protocol.com/assets/images/c028a25276dab73ada81.png",
-"mistyc": "https://www.jarvis-protocol.com/assets/images/74cda4cceec102296947.png"
+"physic":  "physic.png",
+"energy":  "energy.png",
+"mystic":  "mystic.png",
+"physic_stat":  "physic_stat.png",
+"energy_stat":  "energy_stat.png",
+"mystic_stat":  "mystic_stat.png"
 }
