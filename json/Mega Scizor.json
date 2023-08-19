@@ -48,10 +48,10 @@
          },
          {
             "Name": "Double Team",
-            "Type": "reactive",
+            "Type": "active",
             "Cost": 2,
             "Range": 0,
-            "Effect": "The next time this character would be targeted by an attack, the attacking character must roll one additional die for each success in their attack roll. If they roll fewer successes than the original attack roll, the attack misses."
+            "Effect": "The next time this character would be targeted by an attack, the attacking character must roll one additional die for each success in their attack roll. If they roll fewer tan half successes than the original attack roll, the attack misses."
          },
         {
             "Type": "active",

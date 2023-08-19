@@ -20,5 +20,8 @@
 "reactive": "reactive.png",
 "innate":   "innate.png",
 "leader":   "leader.png",
-"active":   "active.png"
+"active":   "active.png",
+"physic": "https://www.jarvis-protocol.com/assets/images/fd2d64180ce9059612b6.png",
+"energy": "https://www.jarvis-protocol.com/assets/images/c028a25276dab73ada81.png",
+"mistyc": "https://www.jarvis-protocol.com/assets/images/74cda4cceec102296947.png"
 }

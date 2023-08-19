@@ -15,7 +15,7 @@
     "Attacks": [
       {
         "Name": "Quick Attack",
-        "Type": "Normal",
+        "Type": "physic",
         "Range": 2,
         "Strength": 5,
         "Power Cost": 0,
@@ -23,7 +23,7 @@
       },
       {
         "Name": "Metal Claw",
-        "Type": "Steel",
+        "Type": "physic",
         "Range": 2,
         "Strength": 6,
         "Power Cost": 1,
@@ -31,7 +31,7 @@
       },
       {
         "Name": "X-Scissor ",
-        "Type": "Bug",
+        "Type": "physic",
         "Range": 3,
         "Strength": 6,
         "Power Cost": 2,
@@ -48,17 +48,17 @@
      },
      {
         "Name": "Double Team",
-        "Type": "reactive",
+        "Type": "active",
         "Cost": 2,
         "Range": 0,
-        "Effect": "The next time this character would be targeted by an attack, the attacking character must roll one additional die for each success in their attack roll. If they roll fewer successes than the original attack roll, the attack misses."
+        "Effect": "The next time this character would be targeted by an attack, the attacking character must roll one additional die for each success in their attack roll. If they roll fewer tan half successes than the original attack roll, the attack misses."
      }
     ],
     "Injured Side": {
       "Attacks": [
         {
           "Name": "Air Slash",
-          "Type": "Flying",
+          "Type": "physic",
           "Range": 3,
           "Strength": 7,
           "Power Cost": 1,

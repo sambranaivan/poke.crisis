@@ -15,7 +15,7 @@
     "Attacks": [
       {
         "Name": "Quick Attack",
-        "Type": "Normal",
+        "Type": "physic",
         "Range": 2,
         "Strength": 4,
         "Power Cost": 0,
@@ -23,7 +23,7 @@
       },
       {
         "Name": "Wing Attack",
-        "Type": "Flying",
+        "Type": "physic",
         "Range": 2,
         "Strength": 5,
         "Power Cost": 1,
@@ -31,7 +31,7 @@
       },
       {
         "Name": "X-Scissor ",
-        "Type": "Bug",
+        "Type": "physic",
         "Range": 3,
         "Strength": 6,
         "Power Cost": 2,
@@ -41,13 +41,13 @@
     "Superpowers": [
      {
         "Name": "Double Team",
-        "Type": "reactive",
+        "Type": "active",
         "Cost": 2,
         "Range": 0,
         "Effect": "The next time this character would be targeted by an attack, the attacking character must roll one additional die for each success in their attack roll. If they roll fewer tan half successes than the original attack roll, the attack misses."
      },
      {
-        "Type": "Passive",
+        "Type": "innate",
         "Name": "Swarm",
         "Effect": "When this character has 3 or fewer stamina remaining, add 2 dice to its attack rolls."
     }
@@ -56,7 +56,7 @@
       "Attacks": [
         {
           "Name": "U-turn",
-          "Type": "Bug",
+          "Type": "physic",
           "Range": 3,
           "Strength": 6,
           "Power Cost": 3,
