@@ -8,7 +8,7 @@ import pyperclip
 
 template = open('template.html')
 template = template.read()
-f = open('json/Mega Scizor.json')
+f = open('json/Dratini.json')
 data = json.load(f)
 
 

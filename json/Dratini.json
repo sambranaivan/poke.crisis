@@ -1,0 +1,60 @@
+{
+    "Number": "",
+    "Name": "Dratini",
+    "Alter Ego": "",
+    "Stamina": 4,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Dragon",
+    "Weak Type": "Ice",
+    "Resistant Type": "Fire",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+        {
+            "Name": "Wrap",
+            "Type": "Normal",
+            "Range": 2,
+            "Strength": 4,
+            "Power Cost": 0,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
+        },
+        {
+            "Name": "Dragon Breath",
+            "Type": "Dragon",
+            "Range": 3,
+            "Strength": 5,
+            "Power Cost": 1,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Hex special condition."
+        },
+        {
+            "Name": "Aqua Jet",
+            "Type": "Water",
+            "Range": 2,
+            "Strength": 4,
+            "Power Cost": 1,
+            "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+        }
+    ],
+    "Superpowers": [
+        
+        ],
+    "Injured Side": {
+        "Stamina": 3,
+        "Attacks": [
+            {
+                "Name": "Twister",
+                "Type": "Dragon",
+                "Range": "A3",
+                "Strength": 4,
+                "Power Cost": 2,
+                "Effect": ""
+            }
+        ],
+        "Superpowers": [
+        
+        ]
+    }
+}
