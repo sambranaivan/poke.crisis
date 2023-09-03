@@ -1,0 +1,72 @@
+raCertainly! Here are hypothetical stat cards for Dratini, Dragonair, and Dragonite:
+
+Dratini
+
+Number: 147
+Name: Dratini
+Stamina: 4 (Scaled from HP 41)
+Movement: Medium (Scaled from Speed 50)
+Size: 3 (Scaled from Weight 3.3 kg)
+Threat Level: 2 (Scaled from Total stats 300)
+Base Defense Value: 2 (Scaled from Defense 45)
+Attacks:
+
+Wrap (Normal): Range 2, Strength 4, Power Cost 0
+If a wild is rolled during this attack, the target character is given the Stagger special condition.
+Dragon Breath (Dragon): Range 3, Strength 5, Power Cost 1
+If a wild is rolled during this attack, the target character is given the Hex special condition.
+Aqua Jet (Water): Range 2, Strength 4, Power Cost 1
+This attack has a priority effect, allowing Dratini to attack before an opponent's counter-attack.
+Injured Side:
+
+Stamina: 3
+Additional Attack:
+Twister (Dragon): Range 3, AOE 2, Strength 4, Power Cost 2
+This attack targets all characters within its area of effect.
+Dragonair
+
+Number: 148
+Name: Dragonair
+Stamina: 5 (Scaled from HP 61)
+Movement: Medium (Scaled from Speed 70)
+Size: 4 (Scaled from Weight 16.5 kg)
+Threat Level: 3 (Scaled from Total stats 420)
+Base Defense Value: 3 (Scaled from Defense 65)
+Attacks:
+
+Dragon Tail (Dragon): Range 2, Strength 5, Power Cost 1
+If this attack deals damage, push the target character away short range.
+Thunder Wave (Electric): Range 3, Strength 0, Power Cost 2
+The target character gains the Stun special condition.
+Aqua Tail (Water): Range 2, Strength 6, Power Cost 2
+Injured Side:
+
+Stamina: 4
+Additional Attack:
+Dragon Pulse (Dragon): Range 4, Strength 6, Power Cost 2
+Dragonite
+
+Number: 149
+Name: Dragonite
+Stamina: 7 (Scaled from HP 91)
+Movement: Long (Scaled from Speed 80)
+Size: 5 (Scaled from Weight 210.0 kg)
+Threat Level: 5 (Scaled from Total stats 600)
+Base Defense Value: 4 (Scaled from Defense 95)
+Attacks:
+
+Dragon Claw (Dragon): Range 2, Strength 7, Power Cost 2
+Hurricane (Flying): Range 3, AOE 2, Strength 6, Power Cost 3
+This attack targets all characters within its area of effect. If a wild is rolled during this attack, the target character is given the Stagger special condition.
+Fire Punch (Fire): Range 2, Strength 6, Power Cost 2
+If a wild is rolled during this attack, the target character is given the Burn special condition.
+Superpowers:
+
+Multiscale (Passive):
+The first time Dragonite would take damage each round, reduce that damage by 1.
+Injured Side:
+
+Stamina: 6
+Additional Attack:
+Hyper Beam (Normal): Range 4, Strength 8, Power Cost 4
+After this attack is resolved, Dragonite gains the Stun special condition.
