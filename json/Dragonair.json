@@ -1,0 +1,72 @@
+{
+    "Number": 148,
+    "Name": "Dragonair",
+    "Alter Ego": "",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 4,
+    "Type": "Dragon",
+    "Weak Type": "Ice",
+    "Resistant Type": "Fire",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 5,
+    "Attacks": [
+        {
+            "Name": "Dragon Tail",
+            "Type": "Dragon",
+            "Range": 2,
+            "Strength": 5,
+            "Power Cost": 1,
+            "Effect": "If this attack deals damage, push the target character away short range."
+        },
+        {
+            "Name": "Thunder Wave",
+            "Type": "Electric",
+            "Range": 3,
+            "Strength": 0,
+            "Power Cost": 2,
+            "Effect": "The target character gains the Stun special condition."
+        },
+        {
+            "Name": "Aqua Tail",
+            "Type": "Water",
+            "Range": 2,
+            "Strength": 6,
+            "Power Cost": 2,
+            "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Name": "Shed Skin",
+            "Type": "active",
+            "Cost": 2,
+            "Range": 0,
+            "Effect": "Roll one die. On a result (crit, wild, or hit), remove one special condition from this character."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 4,
+        "Attacks": [
+            {
+                "Name": "Dragon Pulse",
+                "Type": "Dragon",
+                "Range": "A4",
+                "Strength": 6,
+                "Power Cost": 2,
+                "Effect": "If this attack deals damage, push the target character away short range."
+            }
+        ],
+        "Superpowers": [
+            {
+                "Name": "Evolution",
+                "Type": "active",
+                "Cost": 3,
+                "Range": 0,
+                "Effect": "Replace this character with a Dragonite character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+             }
+        ]
+    }
+}

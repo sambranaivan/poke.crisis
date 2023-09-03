@@ -39,7 +39,13 @@
         }
     ],
     "Superpowers": [
-        
+        {
+            "Name": "Shed Skin",
+            "Type": "active",
+            "Cost": 2,
+            "Range": 0,
+            "Effect": "Roll one die. On a result (crit, wild, or hit), remove one special condition from this character."
+        }
         ],
     "Injured Side": {
         "Stamina": 3,
@@ -50,11 +56,17 @@
                 "Range": "A3",
                 "Strength": 4,
                 "Power Cost": 2,
-                "Effect": ""
+                "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
             }
         ],
         "Superpowers": [
-        
+            {
+                "Name": "Evolution",
+                "Type": "active",
+                "Cost": 3,
+                "Range": 0,
+                "Effect": "Replace this character with a Dragonair character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+             }
         ]
     }
 }
