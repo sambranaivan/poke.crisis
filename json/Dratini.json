@@ -6,6 +6,7 @@
     "Movement": "M",
     "Size": 2,
     "Threat Level": 3,
+    
     "Type": "Dragon",
     "Weak Type": "Ice",
     "Resistant Type": "Fire",
@@ -15,7 +16,7 @@
     "Attacks": [
         {
             "Name": "Wrap",
-            "Type": "Normal",
+            "Type": "Physic",
             "Range": 2,
             "Strength": 4,
             "Power Cost": 0,
@@ -23,7 +24,7 @@
         },
         {
             "Name": "Dragon Breath",
-            "Type": "Dragon",
+            "Type": "Energy",
             "Range": 3,
             "Strength": 5,
             "Power Cost": 1,
@@ -31,7 +32,7 @@
         },
         {
             "Name": "Aqua Jet",
-            "Type": "Water",
+            "Type": "Energy",
             "Range": 2,
             "Strength": 4,
             "Power Cost": 1,
@@ -52,7 +53,7 @@
         "Attacks": [
             {
                 "Name": "Twister",
-                "Type": "Dragon",
+                "Type": "Energy",
                 "Range": "A3",
                 "Strength": 4,
                 "Power Cost": 2,

@@ -1,0 +1,74 @@
+{
+    "Number": "149-A",
+    "Name": "Drageraph",
+    "Alter Ego": "Dragonite",
+    "Stamina": 7,
+    "Movement": "M",
+    "Size": 3,
+    "Threat Level": 4,
+    "Type": "Dragon/Fairy",
+    "Weak Type": "Ice",
+    "Resistant Type": "Dark",
+    "Weak Defense": 3,
+    "Defense": 4,
+    "Resistant Defense": 5,
+    "Attacks": [
+        {
+            "Name": "Moonblast",
+            "Type": "Fairy",
+            "Range": 3,
+            "Strength": 6,
+            "Power Cost": 2,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Hex special condition."
+        },
+        {
+            "Name": "Outrage",
+            "Type": "Dragon",
+            "Range": 3,
+            "Strength": 7,
+            "Power Cost": 3,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition, then Drageraph gains the Stun special condition."
+        },
+       
+        {
+            "Name": "Dazzling Gleam",
+            "Type": "Fairy",
+            "Range": "A3",
+            "AOE": 2,
+            "Strength": 5,
+            "Power Cost": 3,
+            "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "active",
+            "Name": "Healing Wish",
+            "Cost": 3,
+            "Effect": "Remove up to 3 damage tokens from an allied character within Range 3. Dragonserph then gains the Stun special condition."
+        },
+        {
+            "Name": "Dragon Dance",
+            "Type": "active",
+            "Range": 0,
+            "Strength": 0,
+            "Cost": 2,
+            "Effect": "This character gains 2 additional dice on its next attack and increases its movement by one size until the end of the turn."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 6,
+        "Attacks": [
+            {
+                "Name": "Draco Meteor",
+                "Type": "Dragon",
+                "Range": 4,
+                "Strength": 8,
+                "Power Cost": 4,
+                "Effect": "After this attack is resolved, Dragonserph's attack dice are reduced by 2 for its next attack."
+            }
+        ],
+        "Superpowers": [ ]
+
+    }
+}

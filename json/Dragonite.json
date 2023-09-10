@@ -51,7 +51,7 @@
             {
                 "Name": "Hyper Beam",
                 "Type": "Normal",
-                "Range": 4,
+                "Range": "B4",
                 "Strength": 8,
                 "Power Cost": 4,
                 "Effect": "After this attack is resolved, Dragonite gains the Stun special condition."

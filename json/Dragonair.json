@@ -15,7 +15,7 @@
     "Attacks": [
         {
             "Name": "Dragon Tail",
-            "Type": "Dragon",
+            "Type": "Physic",
             "Range": 2,
             "Strength": 5,
             "Power Cost": 1,
@@ -23,7 +23,7 @@
         },
         {
             "Name": "Thunder Wave",
-            "Type": "Electric",
+            "Type": "Energy",
             "Range": 3,
             "Strength": 0,
             "Power Cost": 2,
@@ -31,7 +31,7 @@
         },
         {
             "Name": "Aqua Tail",
-            "Type": "Water",
+            "Type": "Physic",
             "Range": 2,
             "Strength": 6,
             "Power Cost": 2,
@@ -52,7 +52,7 @@
         "Attacks": [
             {
                 "Name": "Dragon Pulse",
-                "Type": "Dragon",
+                "Type": "Energy",
                 "Range": "A4",
                 "Strength": 6,
                 "Power Cost": 2,
