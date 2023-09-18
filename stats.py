@@ -60,12 +60,12 @@ def make_stats(data):
     replaced_html = replaced_html.replace("#THREAT#",str(data["Threat Level"]))
     replaced_html = replaced_html.replace("#SIZE#",str(data["Size"]))
     replaced_html = replaced_html.replace("#MOVE#",str(data["Movement"]))
-    # replaced_html = replaced_html.replace("#rtype#",icon_url+icon[str(data["Resistant Type"]).lower()])
-    # replaced_html = replaced_html.replace("#wtype#",icon_url+icon[str(data["Weak Type"]).lower()])
-    # replaced_html = replaced_html.replace("#dtype#",icon_url+icon["normal"])
-    replaced_html = replaced_html.replace("#wtype#",icon_url+icon["physic_stat"])
-    replaced_html = replaced_html.replace("#rtype#",icon_url+icon["energy_stat"])
-    replaced_html = replaced_html.replace("#dtype#",icon_url+icon["mystic_stat"])
+    replaced_html = replaced_html.replace("#rtype#",icon_url+icon[str(data["Resistant Type"]).lower()])
+    replaced_html = replaced_html.replace("#wtype#",icon_url+icon[str(data["Weak Type"]).lower()])
+    replaced_html = replaced_html.replace("#dtype#",icon_url+icon["normal"])
+    # replaced_html = replaced_html.replace("#wtype#",icon_url+icon["physic_stat"])
+    # replaced_html = replaced_html.replace("#rtype#",icon_url+icon["energy_stat"])
+    # replaced_html = replaced_html.replace("#dtype#",icon_url+icon["mystic_stat"])
 
     # print(data["NAME"][0])
     return replaced_html

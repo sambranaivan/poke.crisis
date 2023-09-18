@@ -1,0 +1,35 @@
+Eevee
+
+Number: 133
+Name: Eevee
+Stamina: 4 (Scaled from HP 55)
+Movement: Medium (Scaled from Speed 55)
+Size: 2 (Scaled from Weight 6.5 kg)
+Threat Level: 2 (Scaled from Total stats 325)
+Base Defense Value: 2 (Scaled from Defense 50)
+Attacks:
+
+Tackle (Normal): Range 2, Strength 4, Power Cost 0
+Swift (Normal): Range 3, Strength 4, Power Cost 1
+This attack ignores line of sight and cannot be blocked by cover.
+Bite (Dark): Range 2, Strength 5, Power Cost 2
+If a wild is rolled during this attack, the target character is given the Stagger special condition.
+
+Charm (Fairy)
+
+Range: 3
+Strength: 4
+Power Cost: 2
+Effect:
+
+If this attack deals damage, reduce the target character's attack dice by 2 for their next attack this round.
+Superpowers:
+
+Adaptability (Passive):
+Once per turn, when Eevee is targeted by an attack, you may change the type of one of Eevee's attacks to any type (e.g., Fire, Water, Electric) until the end of the round. This does not change the attack's effects, only its type for interactions with other abilities or effects.
+Injured Side:
+
+Stamina: 3
+Additional Attack:
+Last Resort (Normal): Range 2, Strength 6, Power Cost 3
+This attack can only be used if Eevee has used all of its other attacks at least once this game.
