@@ -6,7 +6,7 @@ import json
 from html import escape
 import pyperclip
 
-template = open('template.html')
+template = open('mcp_template.html')
 template = template.read()
 f = open('json/Drageraph.json')
 data = json.load(f)

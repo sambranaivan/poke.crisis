@@ -15,7 +15,7 @@
     "Attacks": [
         {
             "Name": "Moonblast",
-            "Type": "Fairy",
+            "Type": "mystic",
             "Range": 3,
             "Strength": 6,
             "Power Cost": 2,
@@ -23,7 +23,7 @@
         },
         {
             "Name": "Outrage",
-            "Type": "Dragon",
+            "Type": "physic",
             "Range": 3,
             "Strength": 7,
             "Power Cost": 3,
@@ -32,7 +32,7 @@
        
         {
             "Name": "Dazzling Gleam",
-            "Type": "Fairy",
+            "Type": "mystic",
             "Range": "A3",
             "AOE": 2,
             "Strength": 5,
@@ -45,7 +45,7 @@
             "Type": "active",
             "Name": "Healing Wish",
             "Cost": 3,
-            "Effect": "Remove up to 3 damage tokens from an allied character within Range 3. Dragonserph then gains the Stun special condition."
+            "Effect": "Remove up to 3 damage tokens from an allied character within Range 3. Drageraph then gains the Stun special condition."
         },
         {
             "Name": "Dragon Dance",
@@ -61,11 +61,11 @@
         "Attacks": [
             {
                 "Name": "Draco Meteor",
-                "Type": "Dragon",
+                "Type": "energy",
                 "Range": 4,
                 "Strength": 8,
                 "Power Cost": 4,
-                "Effect": "After this attack is resolved, Dragonserph's attack dice are reduced by 2 for its next attack."
+                "Effect": "After this attack is resolved, Drageraph's attack dice are reduced by 2 for its next attack."
             }
         ],
         "Superpowers": [ ]
