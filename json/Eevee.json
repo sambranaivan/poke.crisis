@@ -3,7 +3,7 @@
     "Name": "Eevee",
     "Alter Ego": "",
     "Stamina": 4,
-    "Movement": "Medium",
+    "Movement": "M",
     "Size": 2,
     "Threat Level":3,
     "Type": "Normal",
@@ -15,7 +15,7 @@
     "Attacks": [
         {
             "Name": "Tackle",
-            "Type": "Normal",
+            "Type": "Physic",
             "Range": 2,
             "Strength": 3,
             "Power Cost": 0,
@@ -23,7 +23,7 @@
         },
         {
             "Name": "Swift",
-            "Type": "Normal",
+            "Type": "Physic",
             "Range": 3,
             "Strength": 4,
             "Power Cost": 1,
@@ -31,7 +31,7 @@
         },
         {
             "Name": "Bite",
-            "Type": "Dark",
+            "Type": "Physic",
             "Range": 2,
             "Strength": 5,
             "Power Cost": 2,
@@ -39,7 +39,7 @@
         },
         {
             "Name": "Charm",
-            "Type": "Fairy",
+            "Type": "Mystic",
             "Range": 3,
             "Strength": 4,
             "Power Cost": 2,
@@ -48,7 +48,8 @@
     ],
     "Superpowers": [
         {
-            "Type": "innate",
+            "Type": "reactive",
+            "Cost": 2,
             "Name": "Run Away",
             "Effect": "When Eevee is targeted by an attack, before attack dice are rolled, you may use this superpower. Eevee immediately makes a short move. If this move takes Eevee out of range of the attack, the attack misses."
         }
@@ -57,7 +58,7 @@
         "Attacks": [
             {
                 "Name": "Last Resort",
-                "Type": "Normal",
+                "Type": "Physic",
                 "Range": 2,
                 "Strength": 8,
                 "Power Cost": 3,

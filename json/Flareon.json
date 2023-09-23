@@ -1,0 +1,69 @@
+{
+    "Number": 136,
+    "Name": "Flareon",
+    "Alter Ego": "",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Fire",
+    "Weak Type": "Water",
+    "Resistant Type": "Ice",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+        {
+            "Name": "Hyper Voice",
+            "Type": "Fire",
+            "Range": 3,
+            "Strength": 5,
+            "Power Cost": 2,
+            "Effect": "This attack ignores line of sight and cover."
+        },
+        {
+            "Name": "Flamethrower",
+            "Type": "Fire",
+            "Range": 4,
+            "Strength": 6,
+            "Power Cost": 2,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Burn special condition, removing 1 power from the target."
+        },
+        {
+            "Name": "Fire Spin",
+            "Type": "Fire",
+            "Range": "B2",
+            "AOE": 2,
+            "Strength": 4,
+            "Power Cost": 3,
+            "Effect": "This attack targets all characters within its area of effect. Characters damaged by this attack gain the Burn special condition."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "innate",
+            "Name": "Flash Fire",
+            "Effect": "When Flareon is targeted by a Fire-type attack, it takes no damage and gains 1 power."
+        },
+        {
+            "Type": "active",
+            "Name": "Will-O-Wisp",
+            "Cost": 2,
+            "Effect": "Choose an enemy character within Range 3. That character gains the Burn special condition."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 5,
+        "Attacks": [
+            {
+                "Name": "Overheat",
+                "Type": "Fire",
+                "Range": 3,
+                "Strength": 8,
+                "Power Cost": 4,
+                "Effect": "After this attack is resolved, Flareon's attack dice are reduced by 2 for its next attack."
+            }
+        ],
+        "Superpowers": []
+    }
+}
