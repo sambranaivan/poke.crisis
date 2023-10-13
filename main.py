@@ -8,7 +8,7 @@ import pyperclip
 
 template = open('template.html')
 template = template.read()
-f = open('json/Flareon.json')
+f = open('json/Vaporeon.json')
 data = json.load(f)
 
 

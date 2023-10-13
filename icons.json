@@ -19,6 +19,7 @@
 "water":    "Pokemon_Type_Icon_Water.png",
 "reactive": "reactive.png",
 "innate":   "innate.png",
+"passive":   "innate.png",
 "leader":   "leader.png",
 "active":   "active.png",
 "physic":  "physic.png",

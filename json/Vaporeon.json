@@ -1,0 +1,69 @@
+{
+    "Number": 134,
+    "Name": "Vaporeon",
+    "Alter Ego": "",
+    "Stamina": 5,
+    "Movement": "Medium",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Water",
+    "Weak Type": "Grass",
+    "Resistant Type": "Fire",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+        {
+            "Name": "Aqua Tail",
+            "Type": "Water",
+            "Range": 2,
+            "Strength": 5,
+            "Power Cost": 0,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
+        },
+        {
+            "Name": "Hydro Pump",
+            "Type": "Water",
+            "Range": 4,
+            "Strength": 6,
+            "Power Cost": 2,
+            "Effect": "If a wild is rolled during this attack, the target character is pushed away short range."
+        },
+        {
+            "Name": "Water Pulse",
+            "Type": "Water",
+            "Range": 3,
+            "Strength": 4,
+            "Power Cost": 2,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Stun special condition."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "innate",
+            "Name": "Water Absorb",
+            "Effect": "When Vaporeon is targeted by a Water-type attack, it takes no damage and gains 1 power."
+        },
+        {
+            "Type": "active",
+            "Name": "Mist",
+            "Cost": 2,
+            "Effect": "Choose an allied character within Range 3. That character gains immunity to special conditions until the start of your next turn."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 6,
+        "Attacks": [
+            {
+                "Name": "Surf",
+                "Type": "Water",
+                "Range": 3,
+                "AOE": 2,
+                "Strength": 5,
+                "Power Cost": 3,
+                "Effect": "This attack targets all characters within its area of effect."
+            }
+        ],
+        "Superpowers": []
+    }
+}
