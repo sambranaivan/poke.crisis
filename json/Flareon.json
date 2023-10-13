@@ -15,7 +15,7 @@
     "Attacks": [
         {
             "Name": "Hyper Voice",
-            "Type": "Fire",
+            "Type": "Physic",
             "Range": 3,
             "Strength": 5,
             "Power Cost": 2,
@@ -23,33 +23,33 @@
         },
         {
             "Name": "Flamethrower",
-            "Type": "Fire",
+            "Type": "Energy",
             "Range": 4,
             "Strength": 6,
             "Power Cost": 2,
-            "Effect": "If a wild is rolled during this attack, the target character is given the Burn special condition, removing 1 power from the target."
+            "Effect": "If a wild is rolled during this attack, the target character is given the Incinerate special condition, removing 1 power from the target."
         },
         {
             "Name": "Fire Spin",
-            "Type": "Fire",
+            "Type": "Energy",
             "Range": "B2",
             "AOE": 2,
             "Strength": 4,
             "Power Cost": 3,
-            "Effect": "This attack targets all characters within its area of effect. Characters damaged by this attack gain the Burn special condition."
+            "Effect": "This attack targets all characters within its area of effect. Characters damaged by this attack gain the Incinerate special condition."
         }
     ],
     "Superpowers": [
         {
             "Type": "innate",
             "Name": "Flash Fire",
-            "Effect": "When Flareon is targeted by a Fire-type attack, it takes no damage and gains 1 power."
+            "Effect": "When Flareon is targeted by a Energy-type attack, it takes no damage and gains 1 power."
         },
         {
             "Type": "active",
             "Name": "Will-O-Wisp",
             "Cost": 2,
-            "Effect": "Choose an enemy character within Range 3. That character gains the Burn special condition."
+            "Effect": "Choose an enemy character within Range 3. That character gains the Incinerate special condition."
         }
     ],
     "Injured Side": {
@@ -57,7 +57,7 @@
         "Attacks": [
             {
                 "Name": "Overheat",
-                "Type": "Fire",
+                "Type": "Energy",
                 "Range": 3,
                 "Strength": 8,
                 "Power Cost": 4,
