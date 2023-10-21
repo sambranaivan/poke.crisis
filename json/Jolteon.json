@@ -1,0 +1,69 @@
+{
+    "Number": 135,
+    "Name": "Jolteon",
+    "Alter Ego": "",
+    "Stamina": 5,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Electric",
+    "Weak Type": "Ground",
+    "Resistant Type": "Steel",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+        {
+            "Name": "Thunderbolt",
+            "Type": "Energy",
+            "Range": 2,
+            "Strength": 3,
+            "Power Cost": 0,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Shock special condition."
+        },
+        {
+            "Name": "Thunder Fang",
+            "Type": "Energy",
+            "Range": 2,
+            "Strength": 5,
+            "Power Cost": 1,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
+        },
+        {
+            "Name": "Double Kick",
+            "Type": "Physic",
+            "Range": 2,
+            "Strength": 4,
+            "Power Cost": 2,
+            "Effect": "This attack can be made twice in succession against the same target."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "passive",
+            "Name": "Volt Absorb",
+            "Effect": "When Jolteon is targeted by an Energy-type attack, it takes no damage and gains 1 power."
+        },
+        {
+            "Type": "active",
+            "Name": "Agility",
+            "Cost": 2,
+            "Effect": "Jolteon immediately makes a long move."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 5,
+        "Attacks": [
+            {
+                "Name": "Discharge",
+                "Type": "Energy",
+                "Range": "A3",
+                "AOE": 2,
+                "Strength": 5,
+                "Power Cost": 3,
+                "Effect": "This attack targets all characters within its area of effect. Characters damaged by this attack gain the Shock special condition."
+            }
+        ],
+        "Superpowers": []
+    }
+}

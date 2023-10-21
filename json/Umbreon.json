@@ -1,0 +1,67 @@
+ {"Number": 197,
+    "Name": "Umbreon",
+    "Alter Ego": "",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Dark",
+    "Weak Type": "Fairy",
+    "Resistant Type": "Ghost",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+        {
+            "Name": "Foul Play",
+            "Type": "Mystic",
+            "Range": 2,
+            "Strength": 3,
+            "Power Cost": 0,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
+        },
+        {
+            "Name": "Dark Pulse",
+            "Type": "Energy",
+            "Range": 4,
+            "Strength": 5,
+            "Power Cost": 2,
+            "Effect": "If a wild is rolled during this attack, the target character is pushed away short range."
+        },
+        {
+            "Name": "Quick Attack",
+            "Type": "Physic",
+            "Range": 3,
+            "Strength": 4,
+            "Power Cost": 1,
+            "Effect": "After this attack is resolved, Umbreon can make a short move."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "passive",
+            "Name": "Synchronize",
+            "Effect": "When Umbreon is given a special condition by an enemy effect, the character that caused the effect is also given that condition if they are within Range 3 of Umbreon."
+        },
+        {
+            "Type": "active",
+            "Name": "Moonlight",
+            "Cost": 3,
+            "Effect": "Remove up to 3 damage from Umbreon."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 6,
+        "Attacks": [
+            {
+                "Name": "Payback",
+                "Type": "Mystic",
+                "Range": 2,
+                "Strength": 7,
+                "Power Cost": 3,
+                "Effect": "If Umbreon has taken damage this round, add 2 dice to this attack."
+            }
+        ],
+        "Superpowers": []
+    }
+}

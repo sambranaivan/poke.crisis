@@ -1,0 +1,70 @@
+{
+    "Number": 700,
+    "Name": "Sylveon",
+    "Alter Ego": "",
+    "Stamina": 6,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Fairy",
+    "Weak Type": "Poison",
+    "Resistant Type": "Dragon",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 5,
+    "Attacks": [
+        {
+            "Name": "Swift",
+            "Type": "Physic",
+            "Range": 2,
+            "Strength": 3,
+            "Power Cost": 0,
+            "Effect": "This attack ignores line of sight and cover. If a wild is rolled during this attack, the target character is pushed away short range."
+        },
+        {
+            "Name": "Moonblast",
+            "Type": "Mystic",
+            "Range": 4,
+            "Strength": 5,
+            "Power Cost": 2,
+            "Effect": "If a wild is rolled during this attack, reduce the target character's attack dice by 1 on their next attack."
+        },
+        {
+            "Name": "Draining Kiss",
+            "Type": "Mystic",
+            "Range": 3,
+            "Strength": 4,
+            "Power Cost": 2,
+            "Effect": "After this attack is resolved, heal 1 damage from Sylveon for each damage dealt."
+        }
+       
+    ],
+    "Superpowers": [
+        {
+            "Type": "active",
+            "Name": "Pixilate",
+            "Cost": 0,
+            "Effect": "Until the start of the next Round, Normal-type attacks counts as a Fairy-type attack for effects and interactions."
+        },
+        {
+            "Type": "active",
+            "Name": "Charm",
+            "Cost": 2,
+            "Effect": "Choose an enemy character within Range 3. That character has -2 dice on all attacks during its next activation."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 5,
+        "Attacks": [
+            {
+                "Name": "Mystical Fire",
+                "Type": "Mystic",
+                "Range": 4,
+                "Strength": 6,
+                "Power Cost": 3,
+                "Effect": "If a wild is rolled during this attack, the target character loses 2 power."
+            }
+        ],
+        "Superpowers": []
+    }
+}

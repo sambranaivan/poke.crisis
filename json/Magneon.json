@@ -1,0 +1,68 @@
+{
+    "Number": 700,
+    "Name": "Magneon",
+    "Alter Ego": "",
+    "Stamina": 6,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Steel",
+    "Weak Type": "Fire",
+    "Resistant Type": "Ice",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 5,
+    "Attacks": [
+        {
+            "Name": "Metal Claw",
+            "Type": "Steel",
+            "Range": 3,
+            "Strength": 5,
+            "Power Cost": 2,
+            "Effect": "If a wild is rolled during this attack, the target character gains the Bleed special condition."
+        },
+        {
+            "Name": "Iron Tail",
+            "Type": "Steel",
+            "Range": 2,
+            "Strength": 6,
+            "Power Cost": 3,
+            "Effect": "If a critical and a wild are rolled, this attack has a piercing effect, ignoring the target's defense dice."
+        },
+        {
+            "Name": "Mirror Shot",
+            "Type": "Steel",
+            "Range": 4,
+            "Strength": 4,
+            "Power Cost": 2,
+            "Effect": "If a wild is rolled during this attack, the target character has -1 dice on their next attack."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "Passive",
+            "Name": "Steel Fortress",
+            "Effect": "Reduce damage from all incoming attacks by 1, to a minimum of 1."
+        },
+        {
+            "Type": "Active",
+            "Name": "Magnetic Pull",
+            "Power Cost": 2,
+            "Effect": "Choose an enemy character within Range 3. Pull that character towards Acereon by short range."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 6,
+        "Additional Attack": [
+            {
+                "Name": "Gyro Ball",
+                "Type": "Steel",
+                "Range": 3,
+                "Strength": 4,
+                "Power Cost": 2,
+                "Effect": "This attack gains +1 strength for each power token on Acereon."
+            }
+        ],
+        "Superpowers": []
+    }
+}

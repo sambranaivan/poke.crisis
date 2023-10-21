@@ -1,0 +1,68 @@
+{
+    "Number": 196,
+    "Name": "Espeon",
+    "Alter Ego": "",
+    "Stamina": 6,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Mystic",
+    "Weak Type": "Dark",
+    "Resistant Type": "Fighting",
+    "Weak Defense": 3,
+    "Defense": 5,
+    "Resistant Defense": 3,
+    "Attacks": [
+        {
+            "Name": "Psybeam",
+            "Type": "Mystic",
+            "Range": 2,
+            "Strength": 3,
+            "Power Cost": 0,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Hex special condition."
+        },
+        {
+            "Name": "Psychic",
+            "Type": "Mystic",
+            "Range": 3,
+            "Strength": 6,
+            "Power Cost": 3,
+            "Effect": "If a wild is rolled during this attack, the target character is pushed away short range and loses 1 power."
+        },
+        {
+            "Name": "Swift",
+            "Type": "Physic",
+            "Range": 4,
+            "Strength": 5,
+            "Power Cost": 2,
+            "Effect": "This attack ignores line of sight and cover. If a wild is rolled during this attack, the target character is pushed away short range."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "passive",
+            "Name": "Magic Bounce",
+            "Effect": "When an enemy character targets Espeon with a superpower that gives a special condition, the effect is reflected back to the enemy character and Espeon remains unaffected."
+        },
+        {
+            "Type": "active",
+            "Name": "Future Sight",
+            "Cost": 3,
+            "Effect": "Choose an enemy character within Range 4. During its next activation, the chosen character has -2 dice on its first attack."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 5,
+        "Attacks": [
+            {
+                "Name": "Stored Power",
+                "Type": "Mystic",
+                "Range": 3,
+                "Strength": "4",
+                "Power Cost": 3,
+                "Effect": "This attack's strength increases by 1 for each power token on Espeon."
+            }
+        ],
+        "Superpowers": []
+    }
+}

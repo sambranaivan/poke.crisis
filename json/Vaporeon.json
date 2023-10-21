@@ -3,7 +3,7 @@
     "Name": "Vaporeon",
     "Alter Ego": "",
     "Stamina": 5,
-    "Movement": "Medium",
+    "Movement": "M",
     "Size": 2,
     "Threat Level": 3,
     "Type": "Water",
@@ -14,16 +14,16 @@
     "Resistant Defense": 4,
     "Attacks": [
         {
-            "Name": "Aqua Tail",
-            "Type": "Water",
+            "Name": "Quick Attack",
+            "Type": "Physic",
             "Range": 2,
-            "Strength": 5,
+            "Strength": 3,
             "Power Cost": 0,
-            "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
+            "Effect": "If a wild is rolled during this attack, the target character is pushed away short range."
         },
         {
             "Name": "Hydro Pump",
-            "Type": "Water",
+            "Type": "Energy",
             "Range": 4,
             "Strength": 6,
             "Power Cost": 2,
@@ -31,7 +31,7 @@
         },
         {
             "Name": "Water Pulse",
-            "Type": "Water",
+            "Type": "Energy",
             "Range": 3,
             "Strength": 4,
             "Power Cost": 2,
@@ -42,7 +42,7 @@
         {
             "Type": "innate",
             "Name": "Water Absorb",
-            "Effect": "When Vaporeon is targeted by a Water-type attack, it takes no damage and gains 1 power."
+            "Effect": "When Vaporeon is targeted by a Energy attack, it takes no damage and gains 1 power."
         },
         {
             "Type": "active",
@@ -56,8 +56,8 @@
         "Attacks": [
             {
                 "Name": "Surf",
-                "Type": "Water",
-                "Range": 3,
+                "Type": "Energy",
+                "Range": "A3",
                 "AOE": 2,
                 "Strength": 5,
                 "Power Cost": 3,

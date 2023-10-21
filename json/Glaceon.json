@@ -1,0 +1,68 @@
+{
+    "Number": 471,
+    "Name": "Glaceon",
+    "Alter Ego": "",
+    "Stamina": 6,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Ice",
+    "Weak Type": "Fire",
+    "Resistant Type": "Ice",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+        {
+            "Name": "Quick Attack",
+            "Type": "Normal",
+            "Range": 2,
+            "Strength": 3,
+            "Power Cost": 0,
+            "Effect": "If a wild is rolled during this attack, the target character is pushed away short range."
+        },
+        {
+            "Name": "Ice Beam",
+            "Type": "Ice",
+            "Range": "B4",
+            "Strength": 5,
+            "Power Cost": 2,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Slow special condition."
+        },
+        {
+            "Name": "Blizzard",
+            "Type": "Ice",
+            "Range": 3,
+            "Strength": 6,
+            "Power Cost": 3,
+            "Effect": "This attack targets all characters within its area of effect. Characters damaged by this attack gain the Slow special condition."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "passive",
+            "Name": "Ice Body",
+            "Effect": "At the start of Glaceon's activation, it heals 1 damage."
+        },
+        {
+            "Type": "active",
+            "Name": "Mirror Coat",
+            "Cost": 2,
+            "Effect": "The next time Glaceon is damaged by an enemy attack this round, the attacking character suffers damage equal to the amount of damage dealt to Glaceon."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 5,
+        "Attacks": [
+            {
+                "Name": "Frost Breath",
+                "Type": "Ice",
+                "Range": 3,
+                "Strength": 6,
+                "Power Cost": 4,
+                "Effect": "If a wild is rolled during this attack, count as Critical"
+            }
+        ],
+        "Superpowers": []
+    }
+}

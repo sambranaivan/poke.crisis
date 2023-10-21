@@ -1,0 +1,68 @@
+{
+    "Number": 470,
+    "Name": "Leafeon",
+    "Alter Ego": "",
+    "Stamina": 6,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Grass",
+    "Weak Type": "Fire",
+    "Resistant Type": "Water",
+    "Weak Defense": 2,
+    "Defense": 4,
+    "Resistant Defense": 5,
+    "Attacks": [
+        {
+            "Name": "Quick Attack",
+            "Type": "Physic",
+            "Range": 2,
+            "Strength": 3,
+            "Power Cost": 0,
+            "Effect": "If a wild is rolled during this attack, the target character is pushed away short range."
+        },
+        {
+            "Name": "Leaf Blade",
+            "Type": "Physic",
+            "Range": 3,
+            "Strength": 5,
+            "Power Cost": 2,
+            "Effect": "If a wild is rolled during this attack, the target character is given the Bleed special condition."
+        },
+        {
+            "Name": "Solar Beam",
+            "Type": "Energy",
+            "Range": "B4",
+            "Strength": 7,
+            "Power Cost": 3,
+            "Effect": "Before using this attack, Leafeon must spend an action to charge. If charged, this attack ignores cover."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "passive",
+            "Name": "Chlorophyll",
+            "Effect": "If Leafeon starts its activation with 3 or more power, it gains an additional action during its activation."
+        },
+        {
+            "Type": "active",
+            "Name": "Synthesis",
+            "Cost": 3,
+            "Effect": "Remove up to 3 damage from Leafeon."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 5,
+        "Attacks": [
+            {
+                "Name": "Razor Leaf",
+                "Type": "Physic",
+                "Range": 4,
+                "Strength": 5,
+                "Power Cost": 2,
+                "Effect": "This attack has a piercing effect. If a critical and a wild are rolled, ignore the target's defense dice."
+            }
+        ],
+        "Superpowers": []
+    }
+}
