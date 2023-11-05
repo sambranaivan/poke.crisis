@@ -15,7 +15,7 @@
     "Attacks": [
         {
             "Name": "Shadow Ball",
-            "Type": "Ghost",
+            "Type": "Mystic",
             "Range": 4,
             "Strength": 5,
             "Power Cost": 2,
@@ -23,7 +23,7 @@
         },
         {
             "Name": "Phantom Force",
-            "Type": "Ghost",
+            "Type": "Mystic",
             "Range": 3,
             "Strength": 6,
             "Power Cost": 1,
@@ -31,7 +31,7 @@
         },
         {
             "Name": "Ominous Wind",
-            "Type": "Ghost",
+            "Type": "Mystic",
             "Range": "A2",
             "Strength": 4,
             "Power Cost": 3,
@@ -42,13 +42,13 @@
         {
             "Type": "active",
             "Name": "Ethereal Form",
-            "Power Cost": 2,
+            "Cost": 2,
             "Effect": "Specteon can use this power to phase through terrain and characters during its next movement."
         },
         {
             "Type": "active",
             "Name": "Haunting Presence",
-            "Power Cost": 3,
+            "Cost": 3,
             "Effect": "Choose an enemy character within Range 3. That character loses 2 power, and Specteon gains 2 power."
         }
     ],
@@ -57,7 +57,7 @@
         "Attacks": [
             {
                 "Name": "Poltergeist",
-                "Type": "Ghost",
+                "Type": "Mystic",
                 "Range": 3,
                 "Strength": 7,
                 "Power Cost": 4,
@@ -65,7 +65,7 @@
             },
             {
                 "Name": "Spectral Scream",
-                "Type": "Ghost",
+                "Type": "Mystic",
                 "Range": 2,
                 "Strength": 5,
                 "Power Cost": 2,

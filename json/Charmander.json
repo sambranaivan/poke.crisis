@@ -1,0 +1,69 @@
+{
+    "Number": "004",
+    "Name": "Charmander",
+    "Alter Ego": "",
+    "Stamina": 4,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 2,
+    "Type": "Fire",
+    "Weak Type": "Water",
+    "Resistant Type": "Grass",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+        {
+            "Name": "Ember",
+            "Type": "Energy",
+            "Range": 3,
+            "Strength": 4,
+            "Power Cost": 1,
+            "Effect": "If a wild is rolled during this attack, the target character gains the Burn special condition."
+        },
+        {
+            "Name": "Scratch",
+            "Type": "Physic",
+            "Range": 2,
+            "Strength": 3,
+            "Power Cost": 0,
+            "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "active",
+            "Name": "Blaze",
+            "Cost": 2,
+            "Effect": "For the next attack, if Charmander has 2 or fewer Stamina remaining, increase the strength of its next fire-type attack by 2."
+        },
+        {
+            "Type": "passive",
+            "Name": "Flame Cloak",
+            "Power Cost": 2,
+            "Effect": "Charmander gains immunity to Burn conditions"
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 3,
+        "Attacks": [
+            {
+                "Name": "Fire Fang",
+                "Type": "Energy",
+                "Range": 2,
+                "Strength": 5,
+                "Power Cost": 3,
+                "Effect": "If a wild is rolled during this attack, the target character gains the Bleed special condition."
+            }
+        ],
+        "Superpowers": [
+            {
+               "Name": "Evolution",
+               "Type": "active",
+               "Cost": 5,
+               "Range": 0,
+               "Effect": "Replace this character with a Charmaleon character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+            }
+          ]
+    }
+}
