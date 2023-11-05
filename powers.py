@@ -11,7 +11,7 @@ def make_sp(data):
          cost = data["Cost"]
     except:
          cost = False
-    if cost >=0 :
+    if cost >0 :
         html_template = '''<div class="w-full flex flex-col cursor-pointer">
             <div class="flex flex-row">
                 <div class="pill-with-badge relative flex flex-row h-11 w-full flex-1"><span
@@ -63,7 +63,7 @@ def make_sp(data):
     # Replace the placeholders with the corresponding values from the JSON
     replaced_html = html_template.replace("#S#", str((data["Name"][0]).upper()))
     replaced_html = replaced_html.replace("#NAME#", str((data["Name"][1:]).upper()))
-    if cost >=0 :
+    if cost >0 :
         replaced_html = replaced_html.replace("#COST#", str(data["Cost"]))
 
     replaced_html = replaced_html.replace("#EFFECT#", str(data["Effect"]))

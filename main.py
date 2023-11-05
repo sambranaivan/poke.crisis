@@ -8,7 +8,7 @@ import pyperclip
 
 template = open('mcp_template.html')
 template = template.read()
-f = open('json/Sylveon.json')
+f = open('json/Magneon.json')
 data = json.load(f)
 
 
