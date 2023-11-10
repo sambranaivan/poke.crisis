@@ -1,72 +1,90 @@
 {
-    "Number": 212,
-    "Name": "Scizor",
-    "Alter Ego": "",
-    "Stamina": 6,
-    "Movement": "M",
-    "Size": 2,
-    "Threat Level": 4,
-    "Type": "Steel",
-    "Weak Type": "Fire",
-    "Resistant Type": "Grass",
-    "Weak Defense": 3,
-    "Resistant Defense": 2,
-    "Defense": 1,
-    "Attacks": [
+  "Number": "212",
+  "Name": "Scizor",
+  "Alter Ego": "",
+  "Type": "Bug/Steel",
+  "Stamina": 5,
+  "Movement": "M",
+  "Size": 2,
+  "Threat Level": 4,
+  "Weak Type": "fire",
+  "Resistant Type": "grass",
+  "Weak Defense": 3,
+  "Resistant Defense": 2,
+  "Defense": 3,
+  "Attacks": [
       {
-        "Name": "Quick Attack",
-        "Type": "physic",
-        "Range": 2,
-        "Strength": 5,
-        "Power Cost": 0,
-        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
-      },
-      {
-        "Name": "Metal Claw",
-        "Type": "physic",
-        "Range": 2,
-        "Strength": 6,
-        "Power Cost": 1,
-        "Effect": "If a wild is rolled during this attack, the target character is given the Stun special condition."
-      },
-      {
-        "Name": "X-Scissor ",
-        "Type": "physic",
-        "Range": 3,
-        "Strength": 6,
-        "Power Cost": 2,
-        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
-      }
-    ],
-    "Superpowers": [
-     {
-        "Name": "Technician",
-        "Type": "innate",
-        "Cost": 0,
-        "Range": 0,
-        "Effect": "This character may reroll one die in its attack rolls."
-     },
-     {
-        "Name": "Double Team",
-        "Type": "active",
-        "Cost": 2,
-        "Range": 0,
-        "Effect": "The next time this character would be targeted by an attack, the attacking character must roll one additional die for each success in their attack roll. If they roll fewer tan half successes than the original attack roll, the attack misses."
-     }
-    ],
-    "Injured Side": {
-      "Attacks": [
-        {
-          "Name": "Air Slash",
-          "Type": "physic",
-          "Range": 3,
-          "Strength": 7,
+          "Name": "Bullet Punch",
+          "Type": "physical",
+          "Poke Type": "steel",
+          "Range": 2,
+          "Strength": 5,
           "Power Cost": 1,
-          "Effect": "If a wild is rolled during this attack, the target character is given the Stun special condition."
-        }
+          "Effect": "After this attack is resolved, Scizor gains power equal to the damage dealt. If a wild is rolled, the target character is pushed away."
+      },
+      {
+          "Name": "Knock Off",
+          "Type": "physical",
+          "Poke Type": "dark",
+          "Range": 2,
+          "Strength": 4,
+          "Power Cost": 1,
+          "Effect": "If damage is dealt, the target character loses 1 power."
+      },
+      {
+          "Name": "Superpower",
+          "Type": "physical",
+          "Poke Type": "fighting",
+          "Range": 1,
+          "Strength": 7,
+          "Power Cost": 3,
+          "Effect": "After this attack is resolved, Scizor receives 1 power. If a wild is rolled, this attack causes stagger on the target."
+      }
+  ],
+  "Superpowers": [
+      {
+          "Name": "Swords Dance",
+          "Type": "active",
+          "Cost": 2,
+          "Range": 0,
+          "Effect": "Scizor gains 2 power. The next physical attack made by Scizor this turn adds 2 dice to its attack roll."
+      },
+      {
+          "Name": "Roost",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "Scizor heals 2 damage."
+      },
+      {
+          "Name": "Light Metal",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 0,
+          "Effect": "Scizor reduces the power cost of all physical attacks by 1 to a minimum of 1."
+      }
+  ],
+  "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+          {
+              "Name": "Metal Claw",
+              "Type": "energy",
+              "Poke Type": "steel",
+              "Range": 2,
+              "Strength": 6,
+              "Power Cost": 2,
+              "Effect": "If a wild is rolled during this attack, the target character gains the Bleed special condition."
+          }
+      ],
+      "Superpowers": [
+          {
+              "Name": "Evolutionary Adaptation",
+              "Type": "active",
+              "Cost": 4,
+              "Range": 0,
+              "Effect": "When Scizor is injured, it can play this ability to gain 3 power and increase its physical attack strength by 1 for the rest of the game."
+          }
       ]
-      ,
-      "Superpowers": []
-    }
-    
+  }
 }
