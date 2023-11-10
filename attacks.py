@@ -5,7 +5,7 @@ icon = json.load(f)
 
 
 
-def make_attack(data):
+def make_attack(data,mcp):
     # HTML template
     html_template = '''<div class="w-full flex flex-col cursor-pointer">
     <div class="flex flex-row items-center pr-5">
@@ -46,7 +46,10 @@ def make_attack(data):
     replaced_html = replaced_html.replace("#STRENGTH#", str(data["Strength"]))
     replaced_html = replaced_html.replace("#COST#", str(data["Power Cost"]))
     replaced_html = replaced_html.replace("#description#", str(data["Effect"]))
-    replaced_html = replaced_html.replace("#tipo#",  icon_url+icon[str(data["Type"].lower())]  )
+    if mcp: 
+        replaced_html = replaced_html.replace("#tipo#",  icon_url+icon[str(data["Type"].lower())]  )
+    else:
+        replaced_html = replaced_html.replace("#tipo#",  icon_url+icon[str(data["Poke Type"].lower())]  )
     # print(data["NAME"][0])
     return replaced_html
 

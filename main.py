@@ -5,10 +5,18 @@ from powers import make_sp
 import json
 from html import escape
 import pyperclip
-
+mcp = 0
+chara = 'Squirtle'
 template = open('template.html')
+
+if mcp:
+    template = open('mcp_template.html')
+
+
+
+
 template = template.read()
-f = open('json/Charmeleon.json')
+f = open('json/'+chara+'.json')
 data = json.load(f)
 
 
@@ -19,16 +27,16 @@ data = json.load(f)
 attack_html  = '''<div class="mt-8 ml-7 px-2 py-1 w-213 h-[46rem] flex flex-col z-20">'''
 
 for attack in data["Attacks"]:
-    attack_html += make_attack(attack)+'''<div class="flex flex-shrink h-[20px]"></div>'''
+    attack_html += make_attack(attack,mcp)+'''<div class="flex flex-shrink h-[20px]"></div>'''
 
 
 template = template.replace("@HealtyAttacks",attack_html)
 
 ######BLOQUE DE STATS
-template = template.replace("@yield_stats",make_stats(data))
+template = template.replace("@yield_stats",make_stats(data,mcp))
 
 ######BLOQUE DE STATS HERIDO
-template = template.replace("@yield_inyured",make_stats(data))
+template = template.replace("@yield_inyured",make_stats(data,mcp))
 
 ######BLOQUE DE HABILIDARES
 
@@ -50,10 +58,10 @@ template = template.replace("#potrait#",portrait_url+data["Name"]+".png")
 attack_html  = '''<div class="mt-8 ml-7 px-2 py-1 w-213 h-[46rem] flex flex-col z-20">'''
 
 for attack in data["Attacks"]:
-    attack_html += make_attack(attack)+'''<div class="flex flex-shrink h-[20px]"></div>'''
+    attack_html += make_attack(attack,mcp)+'''<div class="flex flex-shrink h-[20px]"></div>'''
 ##suma el nuevo ataque
 for attack in data["Injured Side"]["Attacks"]:
-    attack_html += make_attack(attack)+'''<div class="flex flex-shrink h-[20px]"></div>'''
+    attack_html += make_attack(attack,mcp)+'''<div class="flex flex-shrink h-[20px]"></div>'''
 
 template = template.replace("@injured_attacks",attack_html)
 
