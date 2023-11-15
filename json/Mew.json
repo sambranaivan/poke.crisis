@@ -1,0 +1,83 @@
+{
+    "Number": 151,
+    "Name": "Mew",
+    "Alter Ego": "",
+    "Type": "Psychic",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 4,
+    "Weak Type": "bug",
+    "Resistant Type": "fighting",
+    "Weak Defense": 3,
+    "Resistant Defense": 4,
+    "Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Psywave",
+        "Type": "mystic",
+        "Poke Type": "psychic",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is given the Confuse special condition."
+      },
+      {
+        "Name": "Psychic",
+        "Type": "mystic",
+        "Poke Type": "psychic",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled during this attack, the target character is Pushed away from this character by S distance."
+      },
+      {
+        "Name": "Aura Sphere",
+        "Type": "energy",
+        "Poke Type": "fighting",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 3,
+        "Effect": "This attack ignores line of sight and does not require line of sight."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Teleport",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Place this character within range 3 of its current position."
+     },
+     {
+        "Name": "Mew's Versatility",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Once per turn, when this character is targeted by an attack, it can change its resistant type to the type of the attacking character’s attack."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Psychic Fury",
+          "Type": "mystic",
+          "Poke Type": "psychic",
+          "Range": 3,
+          "Strength": 7,
+          "Power Cost": 3,
+          "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is given the Stun special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Mew's Resilience",
+           "Type": "active",
+           "Cost": 3,
+           "Range": 0,
+           "Effect": "Remove all damage from this character. This superpower can be used only once per game."
+        }
+      ]
+    }
+}
