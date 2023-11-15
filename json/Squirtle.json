@@ -1,0 +1,83 @@
+{
+    "Number": 7,
+    "Name": "Squirtle",
+    "Alter Ego": "",
+    "Type": "Water",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "Electric",
+    "Resistant Type": "Fire",
+    "Weak Defense": 4,
+    "Resistant Defense": 1,
+    "Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Tackle",
+        "Type": "Physical",
+        "Poke Type": "Normal",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Slow special condition."
+      },
+      {
+        "Name": "Water Gun",
+        "Type": "Energy",
+        "Poke Type": "Water",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "After this attack is resolved, push the target character Short if it is Size 3 or less."
+      },
+      {
+        "Name": "Bubble",
+        "Type": "Energy",
+        "Poke Type": "Water",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Stagger special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Shell Defense",
+        "Type": "Innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character adds 2 dice to its defense rolls against Physical and Energy attacks."
+      },
+      {
+        "Name": "Withdraw",
+        "Type": "Active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "This character gains the Impenetrable Defense special condition until the beginning of its next turn."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Hydro Pump",
+          "Type": "Energy",
+          "Poke Type": "Water",
+          "Range": 4,
+          "Strength": 6,
+          "Power Cost": 3,
+          "Effect": "After this attack is resolved, this character may advance Short."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Rapid Spin",
+           "Type": "Active",
+           "Cost": 2,
+           "Range": 2,
+           "Effect": "Remove all Stun, Bleed, and Root special conditions from this character. Then, it may make a move action."
+        }
+      ]
+    }
+}

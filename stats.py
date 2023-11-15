@@ -4,7 +4,7 @@ import json
 
 f = open('icons.json')
 icon = json.load(f)
-def make_stats(data):
+def make_stats(data,mcp):
     html_template = '''<div class="mt-8 ml-6 w-67 h-[220px] z-20">
                 <div class="font-face-agency-fb-black-condensed text-center" style="font-size: 35px; line-height: 35px; font-weight: bold; letter-spacing: 3px;">#NAME#</div>
                 <div class="font-face-noto-sans-condensed text-center tracking-widest flex flex-wrap justify-center" style="font-size: 20px; line-height: 22px;"><span class="whitespace-pre"><span class="leading-4 tracking-normal mr-px text-xl">#ALTER#</span><span class="tracking-wider leading-3 text-base"></span></span></div>
@@ -60,12 +60,15 @@ def make_stats(data):
     replaced_html = replaced_html.replace("#THREAT#",str(data["Threat Level"]))
     replaced_html = replaced_html.replace("#SIZE#",str(data["Size"]))
     replaced_html = replaced_html.replace("#MOVE#",str(data["Movement"]))
-    replaced_html = replaced_html.replace("#rtype#",icon_url+icon[str(data["Resistant Type"]).lower()])
-    replaced_html = replaced_html.replace("#wtype#",icon_url+icon[str(data["Weak Type"]).lower()])
-    replaced_html = replaced_html.replace("#dtype#",icon_url+icon["normal"])
-    # replaced_html = replaced_html.replace("#wtype#",icon_url+icon["physic_stat"])
-    # replaced_html = replaced_html.replace("#rtype#",icon_url+icon["energy_stat"])
-    # replaced_html = replaced_html.replace("#dtype#",icon_url+icon["mystic_stat"])
+    if mcp:
+        replaced_html = replaced_html.replace("#wtype#",icon_url+icon["physic_stat"])
+        replaced_html = replaced_html.replace("#rtype#",icon_url+icon["energy_stat"])
+        replaced_html = replaced_html.replace("#dtype#",icon_url+icon["mystic_stat"])
+    else:
+        replaced_html = replaced_html.replace("#rtype#",icon_url+icon[str(data["Resistant Type"]).lower()])
+        replaced_html = replaced_html.replace("#wtype#",icon_url+icon[str(data["Weak Type"]).lower()])
+        replaced_html = replaced_html.replace("#dtype#",icon_url+icon["normal"])
+   
 
     # print(data["NAME"][0])
     return replaced_html
