@@ -1,0 +1,77 @@
+{
+    "Number": "248",
+    "Name": "Tyranitar",
+    "Alter Ego": "",
+    "Stamina": 8,
+    "Movement": "M",
+    "Size": 3,
+    "Threat Level": 5,
+    "Type": "Rock",
+    "Weak Type": "Fighting",
+    "Resistant Type": "Poison",
+    "Weak Defense": 4,
+    "Defense": 6,
+    "Resistant Defense": 7,
+    "Attacks": [
+        {
+            "Name": "Rock Slide",
+            "Type": "Rock",
+            "Range": 3,
+            "Strength": 5,
+            "Power Cost": 0,
+            "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+        },
+        {
+            "Name": "Crunch",
+            "Type": "Dark",
+            "Range": 2,
+            "Strength": 5,
+            "Power Cost": 0,
+            "Effect": "If a wild is rolled during this attack, the target character gains the Bleed special condition."
+        },
+        {
+            "Name": "Stone Edge",
+            "Type": "Rock",
+            "Range": 4,
+            "Strength": 6,
+            "Power Cost": 3,
+            "Effect": "If a wild is rolled during this attack, the target character is Stun."
+        },
+       
+        {
+            "Name": "Earthquake",
+            "Type": "Ground",
+            "Range": "A3",
+            "Strength": 5,
+            "Power Cost": 4,
+            "Effect": "This attack targets all characters, friend or foe, within its range."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "active",
+            "Name": "Sand Stream",
+            "Cost": 3,
+            "Effect": "Create a sandstorm in a range of 3 around Tyranitar until its next activation. All characters within the sandstorm, except Tyranitar, lose 1 power at the start of their activation."
+        },
+        {
+            "Type": "reactive",
+            "Name": "Unyielding",
+            "Effect": "When Tyranitar would be dazed or KO'd by an attack, it can use 3 power to reduce the damage to 1, preventing the daze or KO."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 7,
+        "Attacks": [
+            {
+                "Name": "Hyper Beam",
+                "Type": "Normal",
+                "Range": "B5",
+                "Strength": 7,
+                "Power Cost": 5,
+                "Effect": "After this attack is resolved, Tyranitar gains the Stun special condition."
+            }
+        ],
+        "Superpowers": []
+    }
+}

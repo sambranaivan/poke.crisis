@@ -1,0 +1,78 @@
+{
+    "Number": "006",
+    "Name": "Charizard",
+    "Alter Ego": "",
+    "Stamina": 8,
+    "Movement": "L",
+    "Size": 3,
+    "Threat Level": 4,
+    "Type": "Fire",
+    "Weak Type": "Water",
+    "Resistant Type": "Grass",
+    "Weak Defense": 4,
+    "Defense": 5,
+    "Resistant Defense": 6,
+    "Attacks": [
+        {
+            "Name": "Air Slash",
+            "Type": "Flying",
+            "Range": 3,
+            "Strength": 5,
+            "Power Cost": 0,
+            "Effect": "If a wild is rolled during this attack, the target character is pushed away Short range. After this attack is resolved, this character gains power equal to the damage dealt."
+        },
+        {
+            "Name": "Fire Blast",
+            "Type": "Fire",
+            "Range": 4,
+            "Strength": 7,
+            "Power Cost": 3,
+            "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+        },
+       
+        {
+            "Name": "Dragon Breath",
+            "Type": "Dragon",
+            "Range": 3,
+            "Strength": 6,
+            "Power Cost": 3,
+            "Effect": "If a wild is rolled during this attack, the target character gains the Stagger special condition."
+        },
+        {
+            "Name": "Dragon Claw",
+            "Type": "Dragon",
+            "Range": 2,
+            "Strength": 5,
+            "Power Cost": 3,
+            "Effect": "This attack has a piercing effect. If a critical and a wild are rolled, ignore the target's defense dice."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "passive",
+            "Name": "Wings of Fire",
+            "Cost": 0,
+            "Effect": "Charizard gains Flight and can ignore terrain and characters when moving until the end of the turn."
+        },
+        {
+            "Type": "active",
+            "Name": "Flame Tail Sweep",
+            "Cost": 2,
+            "Effect": "Perform a sweeping attack with Range 2. Any character hit by this attack suffers 1 damage and gains the Incinerate special condition."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 7,
+        "Attacks": [
+            {
+                "Name": "Heat Wave",
+                "Type": "Fire",
+                "Range": "A2",
+                "Strength": 5,
+                "Power Cost": 4,
+                "Effect": "This attack targets all characters within Range 2 of the point of impact. If a wild is rolled, characters hit by this attack suffer the Burn special condition."
+            }
+        ],
+        "Superpowers": []
+    }
+}

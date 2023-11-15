@@ -15,7 +15,7 @@
     "Attacks": [
         {
             "Name": "Scratch",
-            "Type": "Physic",
+            "Type": "Normal",
             "Range": 2,
             "Strength": 3,
             "Power Cost": 0,
@@ -31,7 +31,7 @@
         },
         {
             "Name": "Dragon Claw",
-            "Type": "Fire",
+            "Type": "Dragon",
             "Range": 2,
             "Strength": 4,
             "Power Cost": 2,
@@ -64,6 +64,14 @@
                 "Effect": "This attack targets all characters within Range 2 of the point of impact. If a wild is rolled, characters hit by this attack cannot advance during their next activation."
             }
         ],
-        "Superpowers": []
+        "Superpowers": [
+            {
+               "Name": "Evolution",
+               "Type": "active",
+               "Cost": 5,
+               "Range": 0,
+               "Effect": "Replace this character with a Charizard character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+            }
+          ]
     }
 }

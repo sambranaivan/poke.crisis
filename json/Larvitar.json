@@ -1,0 +1,68 @@
+{
+    "Number": "246",
+    "Name": "Larvitar",
+    "Alter Ego": "",
+    "Stamina": 5,
+    "Movement": "S",
+    "Size": 2,
+    "Threat Level": 2,
+    "Type": "Rock",
+    "Weak Type": "Fighting",
+    "Resistant Type": "Poison",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+        {
+            "Name": "Bite",
+            "Type": "physic",
+            "Range": 2,
+            "Strength": 2,
+            "Power Cost": 0,
+            "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+        },
+        {
+            "Name": "Rock Slide",
+            "Type": "physic",
+            "Range": 3,
+            "Strength": 4,
+            "Power Cost": 2,
+            "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+        }
+        
+    ],
+    "Superpowers": [
+        {
+            "Type": "passive",
+            "Name": "Guts",
+            "Effect": "If Larvitar has a special condition, it gains +1 strength to its attacks."
+        },
+        {
+            "Type": "passive",
+            "Name": "Rock Skin",
+            "Effect": "When Larvitar is targeted by a attack of a enemy character within Range 1, reduce the damage by 1, to a minimum of 1."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 4,
+        "Attacks": [
+            {
+                "Name": "Stomp",
+                "Type": "physic",
+                "Range": 2,
+                "Strength": 5,
+                "Power Cost": 2,
+                "Effect": "If a critical and a wild are rolled, this attack has a Stun effect."
+            }
+        ],
+        "Superpowers": [
+            {
+               "Name": "Evolution",
+               "Type": "active",
+               "Cost": 5,
+               "Range": 0,
+               "Effect": "Replace this character with a Pupytar character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+            }
+          ]
+    }
+}

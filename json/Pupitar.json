@@ -1,0 +1,77 @@
+{
+    "Number": "247",
+    "Name": "Pupitar",
+    "Alter Ego": "",
+    "Stamina": 6,
+    "Movement": "S",
+    "Size": 2,
+    "Threat Level": 3,
+    "Type": "Rock",
+    "Weak Type": "Fighting",
+    "Resistant Type": "Poison",
+    "Weak Defense": 3,
+    "Defense": 4,
+    "Resistant Defense": 6,
+    "Attacks": [
+        {
+            "Name": "Rock Slide",
+            "Type": "Physic",
+            "Range": 3,
+            "Strength": 5,
+            "Power Cost": 0,
+            "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+        },
+        {
+            "Name": "Dark Pulse",
+            "Type": "Energy",
+            "Range": 4,
+            "Strength": 4,
+            "Power Cost": 2,
+            "Effect": "If a wild is rolled during this attack, push the target character away short range."
+        },
+        {
+            "Name": "Thrash",
+            "Type": "Physic",
+            "Range": 2,
+            "Strength": 6,
+            "Power Cost": 3,
+            "Effect": "After this attack is resolved, Pupitar gains the Stun special condition."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Type": "active",
+            "Name": "Shed Skin",
+            "Cost": 1,
+            "Effect": "Remove one special condition from Pupitar."
+        },
+        {
+            "Type": "passive",
+            "Name": "Hardened Carapace",
+            "Effect": "When Pupitar is targeted by an attack, reduce the damage by 1, to a minimum of 1."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 5,
+        "Attacks": [
+       
+        ],
+        "Superpowers": [
+            {
+                "Name": "Iron Defense",
+                "Type": "active",
+                "Cost": 2,
+                "Range": 0,
+                "Effect": "Pupitar gains immunity to all effects and cannot be damaged until its next activation or until it performs an action."
+             }
+             ,
+            {
+                "Name": "Evolution",
+                "Type": "active",
+                "Cost": 5,
+                "Range": 0,
+                "Effect": "Replace this character with a Tyranitar character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+             }
+        ]
+    }
+}
