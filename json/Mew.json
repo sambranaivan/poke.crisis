@@ -9,7 +9,7 @@
     "Threat Level": 4,
     "Weak Type": "bug",
     "Resistant Type": "fighting",
-    "Weak Defense": 3,
+    "Weak Defense": 2,
     "Resistant Defense": 4,
     "Defense": 3,
     "Attacks": [
@@ -20,7 +20,7 @@
         "Range": 3,
         "Strength": 4,
         "Power Cost": 0,
-        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is given the Confuse special condition."
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is given the Stun special condition."
       },
       {
         "Name": "Psychic",
@@ -50,11 +50,11 @@
         "Effect": "Place this character within range 3 of its current position."
      },
      {
-        "Name": "Mew's Versatility",
-        "Type": "innate",
-        "Cost": 0,
+        "Name": "Ancient Power",
+        "Type": "reactive",
+        "Cost": 2,
         "Range": 0,
-        "Effect": "Once per turn, when this character is targeted by an attack, it can change its resistant type to the type of the attacking character’s attack."
+        "Effect": "When this character is attacked, it can use this superpower. Roll four dice. For each crit and wild rolled, reduce the damage dealt by the attack by 1."
      }
     ],
     "Injured Side": {
