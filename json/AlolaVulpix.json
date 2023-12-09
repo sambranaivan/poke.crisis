@@ -1,0 +1,83 @@
+{
+    "Number": 37,
+    "Name": "Alolan Vulpix",
+    "Alter Ego": "",
+    "Type": "Ice",
+    "Stamina": 4,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "fire",
+    "Resistant Type": "ice",
+    "Weak Defense": 3,
+    "Resistant Defense": 4,
+    "Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Powder Snow",
+        "Type": "energy",
+        "Poke Type": "ice",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Freeze special condition, reducing their movement by half during their next activation."
+      },
+      {
+        "Name": "Ice Shard",
+        "Type": "energy",
+        "Poke Type": "ice",
+        "Range": 4,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "This attack deals piercing damage. After the attack is resolved, the target character reduces its defense by 1 for the rest of the turn."
+      },
+      {
+        "Name": "Blizzard",
+        "Type": "energy",
+        "Poke Type": "ice",
+        "Range": "A2",
+        "Strength": 6,
+        "Power Cost": 3,
+        "Effect": "This attack affects all characters (friend and foe) within range 2 of the target character. Characters hit by this attack gain the Chill special condition, reducing their attack strength by 1 until the end of their next activation."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Snow Cloak",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character is targeted by an attack, if there is another character within range 2, the attacker must roll 1 fewer attack die."
+     },
+     {
+        "Name": "Frosty Retreat",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "After being targeted by an attack, this character may use this superpower to immediately move S."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Icy Wind",
+          "Type": "energy",
+          "Poke Type": "ice",
+          "Range": 4,
+          "Strength": 5,
+          "Power Cost": 1,
+          "Effect": "After this attack is resolved, the target character gains the Slow special condition, reducing their movement by S during their next activation. If a wild is rolled, apply the Slow condition to all enemy characters within range 2 of the target."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Winter's Resilience",
+           "Type": "active",
+           "Cost": 3,
+           "Range": 0,
+           "Effect": "Remove all damage from this character and gain the Frozen Armor special condition, adding 1 to its defense for the rest of the game. This superpower can be used only once per game."
+        }
+      ]
+    }
+}
