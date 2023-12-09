@@ -1,0 +1,83 @@
+{
+    "Number": 3,
+    "Name": "Venusaur",
+    "Alter Ego": "",
+    "Type": "Grass/Poison",
+    "Stamina": 6,
+    "Movement": "M",
+    "Size": 3,
+    "Threat Level": 4,
+    "Weak Type": "fire",
+    "Resistant Type": "water",
+    "Weak Defense": 3,
+    "Defense": 5,
+    "Resistant Defense": 6,
+    "Attacks": [
+      {
+        "Name": "Petal Blizzard",
+        "Type": "energy",
+        "Poke Type": "grass",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, all enemy characters within range 2 of the target suffer 1 damage."
+      },
+      {
+        "Name": "Solar Beam",
+        "Type": "energy",
+        "Poke Type": "grass",
+        "Range": 5,
+        "Strength": 8,
+        "Power Cost": 3,
+        "Effect": "This attack requires one turn to charge before it can be used. After charging, on the next activation of this character, use this attack without paying its power cost. If a wild is rolled, the target character is Staggered."
+      },
+      {
+        "Name": "Sludge Bomb",
+        "Type": "energy",
+        "Poke Type": "poison",
+        "Range": 4,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled during this attack, up to two target characters are given the Poison special condition."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Thick Skin",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Reduce the damage from all attacks against this character by 1, to a minimum of 1."
+     },
+     {
+        "Name": "Overgrow",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "For the rest of the game, increase the strength of all 'Petal Blizzard' attacks by 2. This superpower can be used only once per game."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Earthquake",
+          "Type": "physic",
+          "Poke Type": "ground",
+          "Range": "A3",
+          "Strength": 7,
+          "Power Cost": 2,
+          "Effect": "This attack deals damage to all characters within range 2 of this character."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Chlorophyll Surge",
+           "Type": "active",
+           "Cost": 2,
+           "Range": 0,
+           "Effect": "This character immediately gains 2 power and may make an immediate move action. This superpower can be used only once per turn."
+        }
+      ]
+    }
+}
