@@ -1,0 +1,83 @@
+{
+    "Number": 38,
+    "Name": "Ninetales",
+    "Alter Ego": "",
+    "Type": "Fire",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "water",
+    "Resistant Type": "grass",
+    "Weak Defense": 3,
+    "Resistant Defense": 4,
+    "Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Flame Burst",
+        "Type": "energy",
+        "Poke Type": "fire",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Burn special condition."
+      },
+      {
+        "Name": "Fire Spin",
+        "Type": "energy",
+        "Poke Type": "fire",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "This attack affects all characters (friend and foe) within range 2 of the target character. Characters hit by this attack gain the Burn special condition."
+      },
+      {
+        "Name": "Heat Wave",
+        "Type": "energy",
+        "Poke Type": "fire",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 3,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Incinerate special condition, reducing their defense by 1 until the end of their next activation."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Flash Fire",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character is targeted by a energy-type attack, it takes no damage and instead gains 1 power."
+     },
+     {
+        "Name": "Fiery Teleport",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Place this character within range 3 of its current position."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Inferno",
+          "Type": "energy",
+          "Poke Type": "fire",
+          "Range": 4,
+          "Strength": 7,
+          "Power Cost": 3,
+          "Effect": "After this attack is resolved, if a wild is rolled, the target character and all characters within range 2 of the target gain the Burn special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Will-O-Wisp",
+           "Type": "active",
+           "Cost": 2,
+           "Range": 0,
+           "Effect": "Choose an enemy character within range 3. That character gains the Burn special condition. This superpower can be used only once per turn."
+        }
+      ]
+    }
+}

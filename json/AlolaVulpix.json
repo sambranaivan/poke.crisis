@@ -35,20 +35,14 @@
         "Name": "Blizzard",
         "Type": "energy",
         "Poke Type": "ice",
-        "Range": "A2",
+        "Range": 3,
         "Strength": 6,
         "Power Cost": 3,
         "Effect": "This attack affects all characters (friend and foe) within range 2 of the target character. Characters hit by this attack gain the Chill special condition, reducing their attack strength by 1 until the end of their next activation."
       }
     ],
     "Superpowers": [
-     {
-        "Name": "Snow Cloak",
-        "Type": "innate",
-        "Cost": 0,
-        "Range": 0,
-        "Effect": "When this character is targeted by an attack, if there is another character within range 2, the attacker must roll 1 fewer attack die."
-     },
+   
      {
         "Name": "Frosty Retreat",
         "Type": "active",
@@ -77,7 +71,14 @@
            "Cost": 3,
            "Range": 0,
            "Effect": "Remove all damage from this character and gain the Frozen Armor special condition, adding 1 to its defense for the rest of the game. This superpower can be used only once per game."
-        }
+        },
+        {
+          "Name": "Evolution",
+          "Type": "active",
+          "Cost": 5,
+          "Range": 0,
+          "Effect": "Replace this character with a Alolan Ninetales character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+       }
       ]
     }
 }
