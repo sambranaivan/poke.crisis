@@ -1,0 +1,83 @@
+{
+    "Number": "X1",
+    "Name": "Gifteon",
+    "Alter Ego": "",
+    "Type": "Ice/Grass",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "fire",
+    "Resistant Type": "water",
+    "Weak Defense": 3,
+    "Resistant Defense": 4,
+    "Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Frosty Foliage",
+        "Type": "energy",
+        "Poke Type": "grass",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is given the Freeze special condition, reducing their movement by half during their next activation."
+      },
+      {
+        "Name": "Icicle Wreath",
+        "Type": "energy",
+        "Poke Type": "ice",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "This attack deals piercing damage. After the attack is resolved, the target character and all characters within range 1 of the target suffer 1 damage."
+      },
+      {
+        "Name": "Gift Barrage",
+        "Type": "mystic",
+        "Poke Type": "grass",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, distribute 1 power among allied characters within range 3 of Gifteon."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Yuletide Cheer",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "At the start of each turn, Gifteon gives 1 power to an allied character within range 3."
+     },
+     {
+        "Name": "Evergreen Shield",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Allied characters within range 2 of Gifteon add 1 die to their defense rolls until the start of Gifteon's next activation."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Blizzard of Giving",
+          "Type": "energy",
+          "Poke Type": "ice",
+          "Range": 4,
+          "Strength": 7,
+          "Power Cost": 3,
+          "Effect": "After this attack is resolved, Gifteon distributes up to 3 power among allied characters within range 3."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Spirit of the Holidays",
+           "Type": "active",
+           "Cost": 2,
+           "Range": 0,
+           "Effect": "Remove all special conditions from Gifteon and gain 2 power. This superpower can be used only once per game."
+        }
+      ]
+    }
+}
