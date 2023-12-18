@@ -1,0 +1,90 @@
+{
+    "Number": 8,
+    "Name": "Wartortle",
+    "Alter Ego": "",
+    "Type": "Water",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "grass",
+    "Resistant Type": "fire",
+    "Weak Defense": 3,
+    "Resistant Defense": 4,
+    "Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Water Pulse",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Stun special condition."
+      },
+      {
+        "Name": "Rapid Spin",
+        "Type": "physic",
+        "Poke Type": "water",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "This attack allows Wartortle to move S after the attack is resolved. If a wild is rolled, remove one special condition from Wartortle."
+      },
+      {
+        "Name": "Hydro Pump",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 4,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "This attack deals damage to all characters (friend and foe) within range 1 of the target character."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Aqua Shell",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Add 2 dice to Wartortle's defense rolls and gain 1 power. This superpower can be used only once per turn."
+     },
+     {
+        "Name": "Whirlpool",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 3,
+        "Effect": "Choose an enemy character within range and line of sight. That character is pulled S towards Wartortle."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Shell Smash",
+          "Type": "physic",
+          "Poke Type": "water",
+          "Range": 2,
+          "Strength": 6,
+          "Power Cost": 2,
+          "Effect": "After this attack is resolved, Wartortle gains the Shell Shield special condition, reducing damage from the next attack against it by 2."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Tidal Retreat",
+           "Type": "active",
+           "Cost": 2,
+           "Range": 0,
+           "Effect": "Remove all special conditions from Wartortle and make an immediate move action."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Blastoise character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+}
