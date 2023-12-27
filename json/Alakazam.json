@@ -1,0 +1,83 @@
+{
+    "Number": 65,
+    "Name": "Alakazam",
+    "Alter Ego": "",
+    "Type": "Psychic",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 4,
+    "Weak Type": "ghost",
+    "Resistant Type": "fighting",
+    "Weak Defense": 3,
+    "Resistant Defense": 6,
+    "Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Psycho Cut",
+        "Type": "mystic",
+        "Poke Type": "psychic",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is Staggered."
+      },
+      {
+        "Name": "Telekinesis",
+        "Type": "mystic",
+        "Poke Type": "psychic",
+        "Range": 3,
+        "Strength": 0,
+        "Power Cost": 2,
+        "Effect": "Choose an enemy character within range and line of sight. That character is lifted and placed within range 2 of its current position. This attack does not deal damage."
+      },
+      {
+        "Name": "Psychic",
+        "Type": "mystic",
+        "Poke Type": "psychic",
+        "Range": 3,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "This attack causes the target character to gain the Confused special condition. If a wild is rolled, also apply the Stun special condition."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Master Teleporter",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Place this character within range 4 of its current position. This superpower can be used only once per turn."
+     },
+     {
+        "Name": "Mind Barrier",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Add 3 dice to Alakazam's defense rolls until the start of its next activation."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Future Sight",
+          "Type": "mystic",
+          "Poke Type": "psychic",
+          "Range": 4,
+          "Strength": 5,
+          "Power Cost": 2,
+          "Effect": "This attack predicts the target character's next move. If this attack deals damage, reduce the target character's next attack strength by 2."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Zen Headbutt",
+           "Type": "active",
+           "Cost": 2,
+           "Range": 2,
+           "Effect": "Make an immediate attack with a strength of 6. If this attack deals damage, the target character is knocked down. This superpower can be used only once per turn."
+        }
+      ]
+    }
+}

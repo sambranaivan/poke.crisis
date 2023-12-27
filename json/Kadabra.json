@@ -1,0 +1,90 @@
+{
+    "Number": 64,
+    "Name": "Kadabra",
+    "Alter Ego": "",
+    "Type": "Psychic",
+    "Stamina": 4,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "ghost",
+    "Resistant Type": "fighting",
+    "Weak Defense": 3,
+    "Resistant Defense": 5,
+    "Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Confusion",
+        "Type": "mystic",
+        "Poke Type": "psychic",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Confused special condition."
+      },
+      {
+        "Name": "Psybeam",
+        "Type": "mystic",
+        "Poke Type": "psychic",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled during this attack, apply the Stun special condition to the target character."
+      },
+      {
+        "Name": "Psychic",
+        "Type": "mystic",
+        "Poke Type": "psychic",
+        "Range": 3,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "This attack lifts the target character and places them within range 2 of their current position. If a wild is rolled, they also gain the Stun special condition."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Teleportation",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Place this character within range 3 of its current position. This superpower can be used only once per turn."
+     },
+     {
+        "Name": "Mind Shield",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Add 2 dice to Kadabra's defense rolls until the start of its next activation."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Reflect",
+          "Type": "mystic",
+          "Poke Type": "psychic",
+          "Range": 0,
+          "Strength": 0,
+          "Power Cost": 1,
+          "Effect": "Reflect an attack back at the attacker. Roll defense dice as usual, and any excess successes (beyond the attack's damage) deal damage back to the attacker."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Psycho Cut",
+           "Type": "active",
+           "Cost": 2,
+           "Range": 2,
+           "Effect": "Make an immediate attack with a strength of 6. If this attack deals damage, gain power equal to the damage dealt. This superpower can be used only once per turn."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Alakazam character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+}
