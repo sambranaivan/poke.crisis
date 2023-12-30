@@ -1,0 +1,33 @@
+{
+    "Number": 65,
+    "Name": "Substitute",
+    "Alter Ego": "",
+    "Type": "Psychic",
+    "Stamina": 1,
+    "Movement": "S",
+    "Size": 1,
+    "Threat Level": 0,
+    "Weak Type": "normal",
+    "Resistant Type": "normal",
+    "Weak Defense": 0,
+    "Resistant Defense": 0,
+    "Defense":0,
+    "Attacks": [ ],
+    "Superpowers": [
+         
+                {
+                    "Name": "Take the Hit",
+                    "Type": "Innate",
+                    "Effect": "When an attack targets the character that created this Substitute, the attack can be redirected to the Substitute if it is within range 1 of the attacking character."
+                },
+                {
+                    "Name": "Sacrificial Figure",
+                    "Type": "Innate",
+                    "Effect": "When the Substitute takes damage equal to its Stamina, it is removed from the game. The character that created the Substitute does not take any overflow damage."
+                }
+            ],
+            "Injured Side": {  "Attacks": [ ], "Superpowers": []}
+                
+        
+    
+}
