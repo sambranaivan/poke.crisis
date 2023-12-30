@@ -1,0 +1,90 @@
+{
+    "Number": 657,
+    "Name": "Frogadier",
+    "Alter Ego": "",
+    "Type": "Water",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "electric",
+    "Resistant Type": "fire",
+    "Weak Defense": 3,
+    "Resistant Defense": 5,
+    "Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Water Shuriken",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, apply the Bleed special condition to the target character."
+      },
+      {
+        "Name": "Quick Attack",
+        "Type": "physic",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "After this attack is resolved, Frogadier may make an immediate move action."
+      },
+      {
+        "Name": "Bubble Beam",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "This attack deals damage to all characters within range 1 of the target character. If a wild is rolled, also apply the Slow special condition to those characters."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Ninja Leap",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Frogadier makes an immediate move action. This superpower can be used only once per turn."
+     },
+     {
+        "Name": "Stealthy Approach",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Until the start of its next activation, Frogadier adds 2 dice to its defense rolls when attacked from more than range 3."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Shadow Sneak",
+          "Type": "physic",
+          "Poke Type": "ghost",
+          "Range": 2,
+          "Strength": 5,
+          "Power Cost": 1,
+          "Effect": "If this attack deals damage, Frogadier gains Stealth special condition, making it harder to target until the end of its next activation."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Evasive Maneuver",
+           "Type": "active",
+           "Cost": 1,
+           "Range": 0,
+           "Effect": "After being attacked, use this superpower to make an immediate move action. This superpower can be used only once per turn."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Greninja character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+}

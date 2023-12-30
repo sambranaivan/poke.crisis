@@ -1,0 +1,90 @@
+{
+    "Number": 658,
+    "Name": "Greninja",
+    "Alter Ego": "",
+    "Type": "Water/Dark",
+    "Stamina": 6,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 4,
+    "Weak Type": "electric",
+    "Resistant Type": "fire",
+    "Weak Defense": 3,
+    "Resistant Defense": 6,
+    "Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Water Shuriken",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, apply the Bleed special condition to the target character."
+      },
+      {
+        "Name": "Night Slash",
+        "Type": "physic",
+        "Poke Type": "dark",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled during this attack, the target character is Staggered."
+      },
+      {
+        "Name": "Hydro Pump",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 4,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "This attack deals damage to all characters (friend and foe) within range 2 of the target character."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Shadow Sneak",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Greninja becomes difficult to target until the start of its next activation, adding 2 dice to its defense rolls when attacked from more than range 3."
+     },
+     {
+        "Name": "Substitute",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Place a Substitute token within range 2. Attacks targeting Greninja can be redirected to the Substitute if it is closer to the attacker."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Aerial Ace",
+          "Type": "physic",
+          "Poke Type": "flying",
+          "Range": 3,
+          "Strength": 6,
+          "Power Cost": 2,
+          "Effect": "After this attack is resolved, Greninja may make an immediate move action."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Ninja Vanish",
+           "Type": "active",
+           "Cost": 2,
+           "Range": 0,
+           "Effect": "After being attacked, use this superpower to make Greninja immediately invisible, making it untargetable until the end of the attacker's turn. This superpower can be used only once per turn."
+        },
+        {
+            "Name": "Battle Bond",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Ash-Greninja character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+}
