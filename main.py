@@ -5,7 +5,7 @@ from powers import make_sp
 import json
 from html import escape
 import pyperclip
-mcp = 1
+mcp = 0
 chara = 'substitute'
 template = open('template.html')
 
