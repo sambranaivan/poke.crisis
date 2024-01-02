@@ -37,7 +37,7 @@
         "Poke Type": "ghost",
         "Range": 4,
         "Strength": 8,
-        "Power Cost": 3,
+        "Power Cost": 5,
         "Effect": "This attack deals piercing damage, ignoring part of the target's defense. If a wild is rolled, apply the Stun special condition to the target character."
       }
     ],
@@ -67,7 +67,7 @@
           "Range": 3,
           "Strength": 7,
           "Power Cost": 2,
-          "Effect": "After this attack is resolved, deal 1 automatic damage to all enemy characters within range 2 of the target."
+          "Effect": "After this attack is resolved, deal 1 automatic damage to all enemy characters within range 3 of the target."
         }
       ],
       "Superpowers": [
