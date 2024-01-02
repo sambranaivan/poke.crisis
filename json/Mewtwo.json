@@ -20,7 +20,7 @@
         "Range": 4,
         "Strength": 7,
         "Power Cost": 0,
-        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Confused special condition."
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Stun special condition."
       },
       {
         "Name": "Psychic",
