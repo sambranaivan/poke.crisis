@@ -5,8 +5,8 @@ from powers import make_sp
 import json
 from html import escape
 import pyperclip
-mcp = 1
-chara = 'substitute'
+mcp = 0
+chara = 'Mewtwo'
 template = open('template.html')
 
 if mcp:
