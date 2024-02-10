@@ -1,0 +1,92 @@
+{
+    "Number": 250,
+    "Name": "Ho-Oh",
+    "Alter Ego": "",
+    "Type": "Fire/Flying",
+    "Stamina": 8,
+    "Movement": "L",
+    "Size": 3,
+    "Threat Level": 6,
+    "Weak Type": "water",
+    "Resistant Type": "grass",
+    "Weak Defense": 5,
+    "Defense": 6,
+    "Resistant Defense": 7,
+    "Attacks": [
+        {
+            "Name": "Sacred Fire",
+            "Type": "energy",
+            "Poke Type": "fire",
+            "Range": 4,
+            "Strength": 7,
+            "Power Cost": 0,
+            "Effect": "Inflicts damage and has a chance to Burn the target. If a wild is rolled, the Burn condition spreads to one additional character within range 2 of the target."
+        },
+        {
+            "Name": "Sky Attack",
+            "Type": "physic",
+            "Poke Type": "flying",
+            "Range": 3,
+            "Strength": 8,
+            "Power Cost": 3,
+            "Effect": "Deals heavy damage and Stuns the target if a wild is rolled."
+        },
+        {
+            "Name": "Rainbow Blast",
+            "Type": "energy",
+            "Poke Type": "fire",
+            "Range": 4,
+            "Strength": 9,
+            "Power Cost": 4,
+            "Effect": "A powerful attack that deals damage to all enemies within range 3. Targets hit by a wild are Blinded, reducing their attack rolls by 1."
+        }
+    ],
+    "Superpowers": [
+        {
+            "Name": "Rebirth",
+            "Type": "active",
+            "Cost": 4,
+            "Range": 0,
+            "Effect": "Once per game, when Ho-Oh would be KO’d, it instead recovers all Stamina and removes all conditions."
+        },
+        {
+            "Name": "Glide",
+            "Type": "active",
+            "Cost": 2,
+            "Range": 0,
+            "Effect": "Increases Ho-Oh's Movement to S for its next activation, allowing it to ignore terrain and characters."
+        }
+    ],
+    "Injured Side": {
+        "Stamina": 7,
+        "Attacks": [
+            {
+                "Name": "Solar Wing",
+                "Type": "Energy",
+                "Poke Type": "Fire",
+                "Range": 3,
+                "Strength": 7,
+                "Power Cost": 2,
+                "Effect": "This attack illuminates the battlefield, healing Ho-Oh for 1 damage for each enemy character hit. If a wild is rolled, enemies within range 2 of the target are Blinded for their next activation."
+            },
+            {
+                "Name": "Flame of Life",
+                "Type": "Mystic",
+                "Poke Type": "Fire",
+                "Range": 4,
+                "Strength": 6,
+                "Power Cost": 3,
+                "Effect": "An attack that channels Ho-Oh's life force, redistributing damage dealt as health among allied characters within range 3. A wild roll grants Ho-Oh an additional power for each damage dealt."
+            }
+        ],
+        "Superpowers": [
+            {
+                "Name": "Phoenix Flame",
+                "Type": "innate",
+                "Cost": 0,
+                "Range": 0,
+                "Effect": "Ho-Oh’s attacks gain +1 Strength. Additionally, once per round, it can remove a special condition from itself."
+            }
+        ]
+    }
+}
