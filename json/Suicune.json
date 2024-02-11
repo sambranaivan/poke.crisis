@@ -1,0 +1,101 @@
+{
+    "Number": 245,
+    "Name": "Suicune",
+    "Alter Ego": "",
+    "Type": "Water",
+    "Stamina": 7,
+    "Movement": "L",
+    "Size": 3,
+    "Threat Level": 5,
+    "Weak Type": "electric",
+    "Resistant Type": "fire",
+    "Weak Defense": 4,
+    "Defense": 5,
+    "Resistant Defense": 7,
+    "Attacks": [
+      {
+        "Name": "Aurora Beam",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 4,
+        "Strength": 7,
+        "Power Cost": 0,
+        "Effect": "This attack deals damage to the target and reduces the target's attack strength by 1 until the end of their next activation. If a wild is rolled, apply the Frozen special condition."
+      },
+      {
+        "Name": "Bubblebeam",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "This attack causes all enemy characters within range 1 of the target to gain the Slow special condition, reducing their movement."
+      },
+      {
+        "Name": "Hydro Pump",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 4,
+        "Strength": 8,
+        "Power Cost": 3,
+        "Effect": "This attack deals massive damage and knocks back the target L distance if a wild is rolled."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Mist",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Create a mist around Suicune that adds 2 dice to its defense rolls and makes it immune to all special conditions for one round."
+     },
+     {
+        "Name": "Purify",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Remove all special conditions from Suicune and one other allied character within range 2. Gain 1 power for each condition removed."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 6,
+      "Attacks": [
+        {
+          "Name": "Ice Fang",
+          "Type": "physic",
+          "Poke Type": "ice",
+          "Range": 2,
+          "Strength": 6,
+          "Power Cost": 2,
+          "Effect": "If a wild is rolled, the target character is Frozen, skipping their next activation."
+        },
+        {
+            "Name": "Crystallize",
+            "Type": "energy",
+            "Poke Type": "ice",
+            "Range": 3,
+            "Strength": 7,
+            "Power Cost": 2,
+            "Effect": "This attack encases the target in ice, applying the Frozen condition. The target skips their next activation. If a wild is rolled, adjacent characters to the target also gain the Frozen condition, reducing their movement by S."
+          },
+          {
+            "Name": "Gale Storm",
+            "Type": "energy",
+            "Poke Type": "water",
+            "Range": 4,
+            "Strength": 6,
+            "Power Cost": 3,
+            "Effect": "Summons a fierce windstorm, pushing all enemy characters within range 2 away M distance and dealing 1 automatic damage. If a wild is rolled, apply the Stun condition to those characters."
+          }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Water Veil",
+           "Type": "innate",
+           "Cost": 0,
+           "Range": 0,
+           "Effect": "Suicune and allies within range 2 gain immunity to Burn and Frozen conditions."
+        }
+      ]
+    }
+}

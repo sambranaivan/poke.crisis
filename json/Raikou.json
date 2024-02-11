@@ -1,0 +1,101 @@
+{
+    "Number": 243,
+    "Name": "Raikou",
+    "Alter Ego": "",
+    "Type": "Electric",
+    "Stamina": 7,
+    "Movement": "L",
+    "Size": 3,
+    "Threat Level":5,
+    "Weak Type": "ground",
+    "Resistant Type": "water",
+    "Weak Defense": 4,
+    "Defense": 5,
+    "Resistant Defense": 7,
+    "Attacks": [
+      {
+        "Name": "Thunder Shock",
+        "Type": "energy",
+        "Poke Type": "electric",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "This attack deals damage and may Stun the target if a wild is rolled."
+      },
+      {
+        "Name": "Volt Tackle",
+        "Type": "physic",
+        "Poke Type": "electric",
+        "Range": 2,
+        "Strength": 7,
+        "Power Cost": 2,
+        "Effect": "Deals damage and pushes the target L if a wild is rolled."
+      },
+      {
+        "Name": "Thunder",
+        "Type": "energy",
+        "Poke Type": "electric",
+        "Range": 3,
+        "Strength": 8,
+        "Power Cost": 3,
+        "Effect": "Damages all characters within range 2 of the target. A wild roll applies the Shocked condition, reducing attack strength by 1."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Lightning Rod",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Redirects any electric-based attack targeted within range 3 to Raikou, gaining 1 power for each attack redirected."
+     },
+     {
+        "Name": "Storm Summoner",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "At the beginning of the turn, if outside, Raikou may change the weather to stormy, enhancing its electric attacks for that turn."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 6,
+      "Attacks": [
+        {
+            "Name": "Electro Ball",
+            "Type": "energy",
+            "Poke Type": "electric",
+            "Range": 4,
+            "Strength": 7,
+            "Power Cost": 2,
+            "Effect": "A hit applies the Paralyzed condition, preventing the target from moving next turn."
+          },
+          {
+            "Name": "Spark",
+            "Type": "energy",
+            "Poke Type": "electric",
+            "Range": 2,
+            "Strength": 5,
+            "Power Cost": 1,
+            "Effect": "This quick attack allows Raikou to immediately take a move action if a wild is rolled."
+          },
+          {
+            "Name": "Wild Charge",
+            "Type": "physic",
+            "Poke Type": "electric",
+            "Range": 1,
+            "Strength": 8,
+            "Power Cost": 3,
+            "Effect": "Deals massive damage and causes recoil damage to Raikou. Raikou takes 1 damage but gains 2 power if a wild is rolled."
+          }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Electric Surge",
+           "Type": "active",
+           "Cost": 3,
+           "Range": 0,
+           "Effect": "Gives Raikou a boost, adding 2 dice to all electric attack rolls for the rest of the game. This superpower can be used only once per game."
+        }
+      ]
+    }
+}

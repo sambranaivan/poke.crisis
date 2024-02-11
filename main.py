@@ -6,7 +6,7 @@ import json
 from html import escape
 import pyperclip
 mcp = 0
-chara = 'Ho-Oh'
+chara = 'Suicune'
 template = open('template.html')
 
 if mcp:
