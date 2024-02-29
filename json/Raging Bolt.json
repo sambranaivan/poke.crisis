@@ -63,7 +63,7 @@
         {
           "Name": "Electro-Draco Burst",
           "Type": "energy",
-          "Poke Type": "electric/dragon",
+          "Poke Type": "electric",
           "Range": 4,
           "Strength": 9,
           "Power Cost": 3,
