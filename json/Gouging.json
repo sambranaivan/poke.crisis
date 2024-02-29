@@ -1,0 +1,92 @@
+{
+    "Number": 1020,
+    "Name": "Gouging Fire",
+    "Alter Ego": "",
+    "Type": "Fire/Dragon",
+    "Stamina": 8,
+    "Movement": "L",
+    "Size": 3,
+    "Threat Level": 5,
+    "Weak Type": "fairy",
+    "Resistant Type": "grass",
+    "Weak Defense": 4,
+    "Defense": 5,
+    "Resistant Defense": 7,
+    "Attacks": [
+      {
+        "Name": "Blazing Stare",
+        "Type": "energy",
+        "Poke Type": "fire",
+        "Range": 4,
+        "Strength": 7,
+        "Power Cost": 0,
+        "Effect": "This gaze attack lowers the defense of the target by 1 for their next activation. If a wild is rolled, also inflict the Burn condition, dealing 1 automatic damage at the start of the target's next two turns."
+      },
+      {
+        "Name": "Dragon's Inferno",
+        "Type": "energy",
+        "Poke Type": "dragon",
+        "Range": 3,
+        "Strength": 8,
+        "Power Cost": 3,
+        "Effect": "A fiery breath attack that deals massive damage. If a wild is rolled, the target and any character within range 1 of the target are pushed away M distance from Gouging Fire."
+      },
+      {
+        "Name": "Scorching Wheels",
+        "Type": "physic",
+        "Poke Type": "fire",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "This attack simulates Gouging Fire charging at the opponent with fiery momentum. It deals damage and, if a wild is rolled, applies the Staggered condition to the target."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Eternal Flame",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Gouging Fire heals 2 stamina and gains immunity to Freeze and Stun conditions for one turn."
+     },
+     {
+        "Name": "Fiery Dominion",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "All enemy characters within range 3 suffer -1 to their defense until the end of their next activation. This does not stack."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 7,
+      "Attacks": [
+        {
+          "Name": "Crimson Charge",
+          "Type": "physic",
+          "Poke Type": "fire",
+          "Range": 2,
+          "Strength": 7,
+          "Power Cost": 2,
+          "Effect": "Gouging Fire unleashes a devastating charge cloaked in flames, pushing the target L distance if a wild is rolled, and dealing damage to characters adjacent to the path."
+        },
+        {
+          "Name": "Flare Up",
+          "Type": "energy",
+          "Poke Type": "fire",
+          "Range": 3,
+          "Strength": 6,
+          "Power Cost": 1,
+          "Effect": "This explosive burst of fire deals damage to all characters within range 2 of the target. If a wild is rolled, also apply the Burn condition."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Dragon's Wrath",
+           "Type": "active",
+           "Cost": 4,
+           "Range": 0,
+           "Effect": "For the next turn, increase the strength of all of Gouging Fire's attacks by 2. This superpower can be used only once per game."
+        }
+      ]
+    }
+}

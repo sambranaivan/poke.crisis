@@ -1,0 +1,83 @@
+{
+    "Number": 1021,
+    "Name": "Raging Bolt",
+    "Alter Ego": "",
+    "Type": "Electric/Dragon",
+    "Stamina": 8,
+    "Movement": "L",
+    "Size": 3,
+    "Threat Level": 5,
+    "Weak Type": "fairy",
+    "Resistant Type": "water",
+    "Weak Defense": 4,
+    "Defense": 5,
+    "Resistant Defense": 7,
+    "Attacks": [
+      {
+        "Name": "Thunderous Roar",
+        "Type": "energy",
+        "Poke Type": "electric",
+        "Range": 4,
+        "Strength": 7,
+        "Power Cost": 0,
+        "Effect": "This attack emits a powerful roar that deals damage and causes the target to gain the Stunned condition. If a wild is rolled, nearby enemy characters within range 2 of the target also suffer -1 to their next attack roll due to the disorienting roar."
+      },
+      {
+        "Name": "Volt Tackle",
+        "Type": "physic",
+        "Poke Type": "electric",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "Raging Bolt charges at the target with electrified force, dealing damage and if a wild is rolled, applying the Paralyzed condition, preventing the target from moving during their next activation."
+      },
+      {
+        "Name": "Dragon's Wrath",
+        "Type": "mystic",
+        "Poke Type": "dragon",
+        "Range": 3,
+        "Strength": 8,
+        "Power Cost": 3,
+        "Effect": "A fierce dragon-type energy attack that deals massive damage. If a wild is rolled, it also causes the Burn condition, dealing additional damage over time."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Storm Summoner",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Generates a localized storm around Raging Bolt, increasing its defense by +2 dice and causing enemy characters within range 3 to suffer -1 to their defense rolls due to harsh weather conditions."
+     },
+     {
+        "Name": "Lightning Speed",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Raging Bolt can immediately make a move action. This superpower grants an additional action where Raging Bolt can either attack with a basic action or use another superpower."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 7,
+      "Attacks": [
+        {
+          "Name": "Electro-Draco Burst",
+          "Type": "energy",
+          "Poke Type": "electric/dragon",
+          "Range": 4,
+          "Strength": 9,
+          "Power Cost": 3,
+          "Effect": "A devastating combination of electric and dragon energy that explodes on impact, dealing damage to all enemies within range 2 of the target. If a wild is rolled, all affected characters are both Paralyzed and Burned."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Eternal Storm",
+           "Type": "active",
+           "Cost": 4,
+           "Range": 0,
+           "Effect": "Enhances Storm Summoner effect, granting Raging Bolt an additional +1 to attack rolls and causing enemy characters to lose 1 power if they start their activation within range 3 of Raging Bolt. This superpower can be used only once per game."
+        }
+      ]
+    }
+}

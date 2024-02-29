@@ -1,0 +1,92 @@
+{
+    "Number": "X",
+    "Name": "Paradox Beast",
+    "Alter Ego": "",
+    "Type": "Water/Fire/Electric/Dragon",
+    "Stamina": 10,
+    "Movement": "L",
+    "Size": 4,
+    "Threat Level": 6,
+    "Weak Type": "dragon",
+    "Resistant Type": "fairy",
+    "Weak Defense": 5,
+    "Defense": 6,
+    "Resistant Defense": 8,
+    "Attacks": [
+      {
+        "Name": "Elemental Cataclysm",
+        "Type": "energy",
+        "Poke Type": "electric",
+        "Range": 5,
+        "Strength": 9,
+        "Power Cost": 0,
+        "Effect": "A devastating attack that combines water, fire, and electricity. Deals damage and applies Burn, Soaked, and Paralyzed conditions if a wild is rolled."
+      },
+      {
+        "Name": "Temporal Roar",
+        "Type": "mystic",
+        "Poke Type": "dragon",
+        "Range": 4,
+        "Strength": 8,
+        "Power Cost": 2,
+        "Effect": "A powerful roar that distorts time around the targets, reducing their defense and attack by 1 for their next activation. If a wild is rolled, also apply the Stunned condition."
+      },
+      {
+        "Name": "Primal Surge",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 4,
+        "Strength": 10,
+        "Power Cost": 4,
+        "Effect": "Unleashes a surge of primal energy, dealing massive damage to all characters within range 2 of the target. If a wild is rolled, the battlefield is altered, creating barriers of ice and fire that last for one round."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Aegis of Paradox",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Grants immunity to all special conditions and adds +3 to defense rolls for one turn."
+     },
+     {
+        "Name": "Chrono Shift",
+        "Type": "active",
+        "Cost": 4,
+        "Range": 0,
+        "Effect": "Allows Paradox Beast to take an additional activation this turn, ignoring the usual turn sequence. This superpower can be used only once per game."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 9,
+      "Attacks": [
+        {
+          "Name": "Fusion Flare Blitz",
+          "Type": "energy",
+          "Poke Type": "fire",
+          "Range": 3,
+          "Strength": 10,
+          "Power Cost": 3,
+          "Effect": "A fiery and electrified charge that explodes on impact, dealing damage to the target and all adjacent characters. Characters hit are Burned and Paralyzed."
+        },
+        {
+          "Name": "Draconic Vortex",
+          "Type": "mystic",
+          "Poke Type": "dragon",
+          "Range": 4,
+          "Strength": 9,
+          "Power Cost": 3,
+          "Effect": "Creates a vortex that pulls all enemy characters within range 3 towards the center, applying the Confused condition."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Dimensional Rift",
+           "Type": "active",
+           "Cost": 5,
+           "Range": 0,
+           "Effect": "Teleports Paradox Beast anywhere on the battlefield and causes a shockwave upon arrival, dealing 2 automatic damage to all characters within range 2. This superpower can be used only once per game."
+        }
+      ]
+    }
+}

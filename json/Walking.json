@@ -1,0 +1,92 @@
+{
+    "Number": 1009,
+    "Name": "Walking Wake",
+    "Alter Ego": "",
+    "Type": "Water/Dragon",
+    "Stamina": 8,
+    "Movement": "L",
+    "Size": 3,
+    "Threat Level": 5,
+    "Weak Type": "Fairy",
+    "Resistant Type": "Fire",
+    "Weak Defense": 4,
+    "Defense": 5,
+    "Resistant Defense": 7,
+    "Attacks": [
+      {
+        "Name": "Hydro Steam",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 4,
+        "Strength": 8,
+        "Power Cost": 0,
+        "Effect": "This attack deals massive damage. After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, apply the Soaked condition, reducing the target's movement and defense by 1 until the end of their next activation."
+      },
+      {
+        "Name": "Dragon Pulse",
+        "Type": "energy",
+        "Poke Type": "dragon",
+        "Range": 4,
+        "Strength": 7,
+        "Power Cost": 2,
+        "Effect": "Emits a powerful burst of energy. If a wild is rolled during this attack, the target character suffers the Disoriented condition, subtracting 1 die from their next attack roll."
+      },
+      {
+        "Name": "Aqua Tail",
+        "Type": "physic",
+        "Poke Type": "water",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled during this attack, the target character is pushed away M distance from Walking Wake."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Protosynthesis",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Increases Walking Wake's highest stat by 30% under sunny conditions or when specific criteria are met. This superpower can be used only once per turn."
+     },
+     {
+        "Name": "Ancient Awakening",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Heals 2 damage from Walking Wake and removes all special conditions. Additionally, for the next turn, Walking Wake's attacks gain +1 strength."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 7,
+      "Attacks": [
+        {
+          "Name": "Surf",
+          "Type": "energy",
+          "Poke Type": "water",
+          "Range": 3,
+          "Strength": 7,
+          "Power Cost": 2,
+          "Effect": "Creates a large wave, hitting all characters within range 2 of the target area. If a wild is rolled, characters hit by Surf are knocked down."
+        },
+        {
+          "Name": "Outrage",
+          "Type": "physic",
+          "Poke Type": "dragon",
+          "Range": 1,
+          "Strength": 8,
+          "Power Cost": 3,
+          "Effect": "Walking Wake unleashes its fury, gaining +2 strength for this attack for each damage it has. After this attack, Walking Wake gains the Stunned special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Temporal Reset",
+           "Type": "active",
+           "Cost": 4,
+           "Range": 0,
+           "Effect": "Reset the game state for Walking Wake to the beginning of the turn, excluding this superpower's activation. This includes restoring its position, health, and removing any damage dealt or conditions applied this turn. This superpower can be used only once per game."
+        }
+      ]
+    }
+}
