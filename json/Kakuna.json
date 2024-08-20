@@ -1,0 +1,75 @@
+{
+    "Number": 14,
+    "Name": "Kakuna",
+    "Alter Ego": "",
+    "Type": "Bug/Poison",
+    "Stamina": 4,
+    "Movement": "S",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "fire",
+    "Resistant Type": "grass",
+    "Weak Defense": 2,
+    "Resistant Defense": 2,
+    "Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Harden",
+        "Type": "physical",
+        "Poke Type": "bug",
+        "Range": 0,
+        "Strength": 1,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains one additional defense die for the rest of the turn. If a wild is rolled during this attack, this character gains an additional power."
+      },
+      {
+        "Name": "Poison Sting",
+        "Type": "physical",
+        "Poke Type": "poison",
+        "Range": 2,
+        "Strength": 3,
+        "Power Cost": 1,
+        "Effect": "After this attack is resolved, the target character gains the Poison special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Shed Skin",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "During the Cleanup Phase, remove one special condition from this character."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Bug Bite",
+          "Type": "physical",
+          "Poke Type": "bug",
+          "Range": 1,
+          "Strength": 4,
+          "Power Cost": 0,
+          "Effect": "If a wild is rolled during this attack, this character heals 1 damage."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Adaptability",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 0,
+          "Effect": "When this character is attacked, it may change one of its blank results to a hit result."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 1,
+            "Range": 0,
+            "Effect": "Replace this character with a Beedrill character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+  }
+  

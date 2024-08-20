@@ -1,0 +1,75 @@
+{
+    "Number": 13,
+    "Name": "Weedle",
+    "Alter Ego": "",
+    "Type": "Bug/Poison",
+    "Stamina": 3,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 1,
+    "Weak Type": "fire",
+    "Resistant Type": "grass",
+    "Weak Defense": 2,
+    "Resistant Defense": 1,
+    "Defense": 1,
+    "Attacks": [
+      {
+        "Name": "Poison Sting",
+        "Type": "physical",
+        "Poke Type": "poison",
+        "Range": 2,
+        "Strength": 3,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled during this attack, the target character gains the Poison special condition."
+      },
+      {
+        "Name": "String Shot",
+        "Type": "physical",
+        "Poke Type": "bug",
+        "Range": 3,
+        "Strength": 2,
+        "Power Cost": 1,
+        "Effect": "After this attack is resolved, the target character gains the Slow special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Shield Dust",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character is immune to the effects of wild rolls from enemy attacks."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Bug Bite",
+          "Type": "physical",
+          "Poke Type": "bug",
+          "Range": 1,
+          "Strength": 4,
+          "Power Cost": 0,
+          "Effect": "If a wild is rolled during this attack, this character heals 1 damage."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Adaptability",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 0,
+          "Effect": "When this character is attacked, it may change one of its blank results to a hit result."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 1,
+            "Range": 0,
+            "Effect": "Replace this character with a Kakuna character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+  }
+  

@@ -1,0 +1,75 @@
+{
+    "Number": 15,
+    "Name": "Beedrill",
+    "Alter Ego": "",
+    "Type": "Bug/Poison",
+    "Stamina": 5,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "fire",
+    "Resistant Type": "grass",
+    "Weak Defense": 3,
+    "Resistant Defense": 3,
+    "Defense": 2,
+    "Attacks": [
+      {
+        "Name": "Twinneedle",
+        "Type": "physical",
+        "Poke Type": "bug",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled during this attack, this attack may be made again targeting the same character. This additional attack does not generate power."
+      },
+      {
+        "Name": "Poison Jab",
+        "Type": "physical",
+        "Poke Type": "poison",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "After this attack is resolved, the target character gains the Poison special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Swarm",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character is attacking, it may reroll one attack die for each allied Bug-type character within Range 2."
+      },
+      {
+        "Name": "Agility",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "This character immediately makes a move action. This superpower can be used only once per turn."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Fury Attack",
+          "Type": "physical",
+          "Poke Type": "bug",
+          "Range": 1,
+          "Strength": 5,
+          "Power Cost": 1,
+          "Effect": "If a wild is rolled during this attack, this attack may be made again targeting the same character. This additional attack does not generate power."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Adaptability",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 0,
+          "Effect": "When this character is attacked, it may change one of its blank results to a hit result."
+        }
+      ]
+    }
+  }
+  
