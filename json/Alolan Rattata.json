@@ -1,0 +1,91 @@
+{
+    "Number": 19,
+    "Name": "Alolan Rattata",
+    "Alter Ego": "",
+    "Type": "Dark/Normal",
+    "Stamina": 3,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "Fighting",
+    "Resistant Type": "Psychic",
+    "Weak Defense": 2,
+    "Resistant Defense": 3,
+    "Defense": 2,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Type": "physic",
+        "Poke Type": "Dark",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Bleed special condition."
+      },
+      {
+        "Name": "Pursuit",
+        "Type": "physic",
+        "Poke Type": "Dark",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If the target character moved this turn, this attack gains 2 dice."
+      },
+      {
+        "Name": "Taunt",
+        "Type": "energy",
+        "Poke Type": "Dark",
+        "Range": 3,
+        "Strength": 0,
+        "Power Cost": 2,
+        "Effect": "Choose an enemy character within Range 3. Until the end of its next activation, that character must target Alolan Rattata with any attacks it makes."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Hustle",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character adds 1 die to its attack rolls but subtracts 1 die from its defense rolls."
+      },
+      {
+        "Name": "Run Away",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character may reroll all defense dice when targeted by an attack from a character that is within Range 2."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 2,
+      "Attacks": [
+        {
+          "Name": "Sucker Punch",
+          "Type": "physic",
+          "Poke Type": "Dark",
+          "Range": 2,
+          "Strength": 6,
+          "Power Cost": 2,
+          "Effect": "If the target character has already activated this turn, this attack gains 2 dice."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Hustle",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 0,
+          "Effect": "This character adds 1 die to its attack rolls but subtracts 1 die from its defense rolls."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Alolan's Raticate character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+  }
+  

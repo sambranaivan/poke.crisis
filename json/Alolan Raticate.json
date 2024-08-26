@@ -1,0 +1,83 @@
+{
+    "Number": 20,
+    "Name": "Alolan Raticate",
+    "Alter Ego": "",
+    "Type": "Dark/Normal",
+    "Stamina": 6,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "Fighting",
+    "Resistant Type": "Psychic",
+    "Weak Defense": 3,
+    "Resistant Defense": 3,
+    "Defense": 2,
+    "Attacks": [
+      {
+        "Name": "Crunch",
+        "Type": "physic",
+        "Poke Type": "Dark",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character's defense is reduced by 1 for its next defense roll."
+      },
+      {
+        "Name": "Hyper Fang",
+        "Type": "physic",
+        "Poke Type": "Normal",
+        "Range": 2,
+        "Strength": 7,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled during this attack, the target character gains the Stun special condition."
+      },
+      {
+        "Name": "Knock Off",
+        "Type": "physic",
+        "Poke Type": "Dark",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "If this attack deals damage, the target character drops one objective token it is holding."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Gluttony",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "During the Power Phase, if this character has less than half of its Stamina remaining, it gains 1 additional power."
+      },
+      {
+        "Name": "Thick Fat",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When defending against Fire or Ice-type attacks, this character adds 1 die to its defense roll."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Double-Edge",
+          "Type": "physic",
+          "Poke Type": "Normal",
+          "Range": 2,
+          "Strength": 8,
+          "Power Cost": 3,
+          "Effect": "After this attack is resolved, this character suffers 2 damage."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Gluttony",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 0,
+          "Effect": "During the Power Phase, if this character has less than half of its Stamina remaining, it gains 1 additional power."
+        }
+      ]
+    }
+  }

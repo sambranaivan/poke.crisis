@@ -1,0 +1,84 @@
+{
+    "Number": 20,
+    "Name": "Raticate",
+    "Alter Ego": "",
+    "Type": "Normal",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 3,
+    "Weak Type": "Fighting",
+    "Resistant Type": "Ghost",
+    "Weak Defense": 3,
+    "Resistant Defense": 2,
+    "Defense": 2,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Type": "physic",
+        "Poke Type": "Normal",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target gains the Bleed special condition."
+      },
+      {
+        "Name": "Super Fang",
+        "Type": "physic",
+        "Poke Type": "Normal",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "This attack deals damage equal to half the target character's remaining Stamina, rounded up."
+      },
+      {
+        "Name": "Scary Face",
+        "Type": "energy",
+        "Poke Type": "Normal",
+        "Range": 3,
+        "Strength": 0,
+        "Power Cost": 1,
+        "Effect": "Choose an enemy character within Range 3. That character's Movement is reduced to S until the end of its next activation."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Hustle",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character adds 1 die to its attack rolls but subtracts 1 die from its defense rolls."
+      },
+      {
+        "Name": "Hyper Focus",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "For the next attack action made by this character this turn, add two dice to its attack roll."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Double-Edge",
+          "Type": "physic",
+          "Poke Type": "Normal",
+          "Range": 2,
+          "Strength": 7,
+          "Power Cost": 3,
+          "Effect": "After this attack is resolved, this character suffers 2 damage."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Hustle",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 0,
+          "Effect": "This character adds 1 die to its attack rolls but subtracts 1 die from its defense rolls."
+        }
+      ]
+    }
+  }
+  
