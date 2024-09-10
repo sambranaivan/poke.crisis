@@ -1,0 +1,75 @@
+{
+    "Number": 17,
+    "Name": "Pidgeotto",
+    "Alter Ego": "",
+    "Type": "Normal/Flying",
+    "Stamina": 4,
+    "Movement": "L",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "Electric",
+    "Resistant Type": "Ground",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Gust",
+        "Type": "energy",
+        "Poke Type": "Flying",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+      },
+      {
+        "Name": "Wing Attack",
+        "Type": "physic",
+        "Poke Type": "Flying",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, the target character gains the Stagger special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Keen Eye",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character cannot have its attack dice modified by an enemy character."
+      },
+      {
+        "Name": "Tangled Feet",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "If this character is under the Confused condition, it adds 1 die to its defense rolls."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Feather Dance",
+          "Type": "energy",
+          "Poke Type": "Flying",
+          "Range": 2,
+          "Strength": 0,
+          "Power Cost": 2,
+          "Effect": "Choose an enemy character within range. That character subtracts 1 die from its attack rolls until the end of its next activation."
+        }
+      ],
+      "Superpowers": [
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 3,
+            "Range": 0,
+            "Effect": "Replace this character with a Pidgeot character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+  }
+  
