@@ -1,0 +1,84 @@
+{
+    "Number": 144,
+    "Name": "Galarian Articuno",
+    "Alter Ego": "",
+    "Type": "Psychic/Flying",
+    "Stamina": 7,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 5,
+    "Weak Type": "electric",
+    "Resistant Type": "fighting",
+    "Weak Defense": 3,
+    "Resistant Defense": 2,
+    "Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Freezing Glare",
+        "Type": "mystic",
+        "Poke Type": "psychic",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Galarian Articuno gains power equal to the damage dealt. Wild: The target gains the Stun special condition."
+      },
+      {
+        "Name": "Psycho Cut",
+        "Type": "physical",
+        "Poke Type": "psychic",
+        "Range": 2,
+        "Strength": 7,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled, the target gains the Stagger special condition. After this attack is resolved, Galarian Articuno may advance M."
+      },
+      {
+        "Name": "Hurricane",
+        "Type": "energy",
+        "Poke Type": "flying",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 3,
+        "Effect": "After this attack is resolved, enemy characters within Range 2 of the target are pushed away S and gain the Slow special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Competitive",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When Galarian Articuno is targeted by an enemy attack or superpower and suffers no damage, it gains 1 additional power."
+      },
+      {
+        "Name": "Mind Shield",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Until the start of Galarian Articuno's next activation, it adds 2 dice to its defense rolls against mystic attacks."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 6,
+      "Attacks": [
+        {
+          "Name": "Mystic Storm",
+          "Type": "mystic",
+          "Poke Type": "psychic",
+          "Range": 4,
+          "Strength": 8,
+          "Power Cost": 4,
+          "Effect": "After this attack is resolved, the target character gains the Stun and Slow special conditions. Galarian Articuno heals 2 damage."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Psychic Rejuvenation",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "Remove 3 damage from Galarian Articuno. After using this superpower, Galarian Articuno gains the Stagger special condition."
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,84 @@
+{
+    "Number": 145,
+    "Name": "Zapdos",
+    "Alter Ego": "",
+    "Type": "Electric/Flying",
+    "Stamina": 6,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 5,
+    "Weak Type": "ice, rock",
+    "Resistant Type": "steel, flying, bug",
+    "Weak Defense": 3,
+    "Resistant Defense": 2,
+    "Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Thunder Shock",
+        "Type": "energy",
+        "Poke Type": "electric",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Zapdos gains power equal to the damage dealt. Wild: The target gains the Shock special condition."
+      },
+      {
+        "Name": "Drill Peck",
+        "Type": "physical",
+        "Poke Type": "flying",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled, Zapdos may push the target character away S."
+      },
+      {
+        "Name": "Thunderbolt",
+        "Type": "energy",
+        "Poke Type": "electric",
+        "Range": 4,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "After this attack is resolved, enemy characters within Range 2 of the target suffer 1 damage."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Pressure",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Enemy characters within Range 3 must spend 1 additional power to play active or reactive superpowers."
+      },
+      {
+        "Name": "Electric Surge",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Zapdos may advance M. After the advance, enemy characters within Range 2 gain the Shock and Stagger special conditions."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Volt Crash",
+          "Type": "energy",
+          "Poke Type": "electric",
+          "Range": 3,
+          "Strength": 8,
+          "Power Cost": 4,
+          "Effect": "If this attack deals damage, the target character is Stunned and suffers 1 additional damage."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Lightning Recovery",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "Remove 2 damage from Zapdos. After using this superpower, Zapdos gains the Stun special condition."
+        }
+      ]
+    }
+  }
+  

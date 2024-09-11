@@ -1,0 +1,84 @@
+{
+    "Number": 146,
+    "Name": "Moltres",
+    "Alter Ego": "",
+    "Type": "Fire/Flying",
+    "Stamina": 6,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 5,
+    "Weak Type": "water",
+    "Resistant Type": "grass",
+    "Weak Defense": 3,
+    "Resistant Defense": 2,
+    "Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Flame Burst",
+        "Type": "energy",
+        "Poke Type": "fire",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Moltres gains power equal to the damage dealt. Wild: The target gains the Incinerate special condition."
+      },
+      {
+        "Name": "Sky Attack",
+        "Type": "physical",
+        "Poke Type": "flying",
+        "Range": 2,
+        "Strength": 7,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled, Moltres may push the target character away S before damage is dealt."
+      },
+      {
+        "Name": "Heat Wave",
+        "Type": "energy",
+        "Poke Type": "fire",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 3,
+        "Effect": "After this attack is resolved, enemy characters within Range 2 of the target suffer 1 damage."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Pressure",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Enemy characters within Range 3 must spend 1 additional power to play active or reactive superpowers."
+      },
+      {
+        "Name": "Fiery Flight",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Moltres may advance L. After the advance, enemy characters within Range 2 gain the Incinerate special condition."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Overheat",
+          "Type": "energy",
+          "Poke Type": "fire",
+          "Range": 2,
+          "Strength": 8,
+          "Power Cost": 4,
+          "Effect": "After this attack is resolved, Moltres suffers 1 damage and gains 2 power."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Rebirth",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "Remove 3 damage from Moltres and gain the Stun special condition."
+        }
+      ]
+    }
+  }
+  

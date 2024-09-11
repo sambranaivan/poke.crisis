@@ -1,0 +1,84 @@
+{
+    "Number": 146,
+    "Name": "Galarian Moltres",
+    "Alter Ego": "",
+    "Type": "Dark/Flying",
+    "Stamina": 7,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 5,
+    "Weak Type": "fairy",
+    "Resistant Type": "psychic",
+    "Weak Defense": 3,
+    "Resistant Defense": 3,
+    "Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Fiery Wrath",
+        "Type": "mystic",
+        "Poke Type": "dark",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Galarian Moltres gains power equal to the damage dealt. Wild: The target gains the Hex special condition."
+      },
+      {
+        "Name": "Gale of Darkness",
+        "Type": "energy",
+        "Poke Type": "flying",
+        "Range": 4,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "After this attack is resolved, enemy characters within Range 2 of the target suffer 1 damage and gain the Stun special condition."
+      },
+      {
+        "Name": "Oblivion Wing",
+        "Type": "mystic",
+        "Poke Type": "dark",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "Galarian Moltres heals damage equal to half of the damage dealt by this attack (rounding down)."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Berserk",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "If Galarian Moltres suffers damage from an enemy attack and is not Dazed, it gains 1 additional power."
+      },
+      {
+        "Name": "Shadow Flight",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Galarian Moltres may advance M. After the advance, enemy characters within Range 2 gain the Hex and Incinerate special conditions."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 6,
+      "Attacks": [
+        {
+          "Name": "Dark Inferno",
+          "Type": "mystic",
+          "Poke Type": "dark",
+          "Range": 3,
+          "Strength": 8,
+          "Power Cost": 4,
+          "Effect": "After this attack is resolved, the target gains the Stun and Incinerate special conditions. Galarian Moltres heals 2 damage."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Dark Rebirth",
+          "Type": "active",
+          "Cost": 4,
+          "Range": 0,
+          "Effect": "Remove 3 damage from Galarian Moltres. After using this superpower, Galarian Moltres gains the Stagger special condition."
+        }
+      ]
+    }
+  }
+  

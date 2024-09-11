@@ -1,0 +1,84 @@
+{
+    "Number": 144,
+    "Name": "Articuno",
+    "Alter Ego": "",
+    "Type": "Ice/Flying",
+    "Stamina": 6,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 5,
+    "Weak Type": "electric",
+    "Resistant Type": "grass",
+    "Weak Defense": 3,
+    "Resistant Defense": 2,
+    "Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Ice Shard",
+        "Type": "physical",
+        "Poke Type": "ice",
+        "Range": 4,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Articuno gains power equal to the damage dealt. Wild: The target gains the Slow special condition."
+      },
+      {
+        "Name": "Blizzard",
+        "Type": "energy",
+        "Poke Type": "ice",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "After this attack is resolved, enemy characters within Range 2 of the target gain the Stun special condition."
+      },
+      {
+        "Name": "Freeze-Dry",
+        "Type": "energy",
+        "Poke Type": "ice",
+        "Range": 3,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "If the target character is Water-type or has a water ability, this attack deals 2 additional dice of damage."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Pressure",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Enemy characters within Range 3 must spend 1 additional power to use superpowers."
+      },
+      {
+        "Name": "Frozen Winds",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 2,
+        "Effect": "Articuno may advance M. After the advance, enemy characters within Range 2 gain the Slow special condition."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Hailstorm",
+          "Type": "energy",
+          "Poke Type": "ice",
+          "Range": 4,
+          "Strength": 8,
+          "Power Cost": 4,
+          "Effect": "After this attack is resolved, enemy characters within Range 2 of Articuno suffer 1 damage."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Rejuvenation",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "Remove 3 damage from Articuno and gain the Stagger special condition."
+        }
+      ]
+    }
+  }
+  
