@@ -1,0 +1,91 @@
+{
+    "Number": 6,
+    "Name": "Mega Charizard Y",
+    "Alter Ego": "",
+    "Type": "Fire/Flying",
+    "Stamina": 7,
+    "Movement": "L",
+    "Size": 3,
+    "Threat Level": 5,
+    "Weak Type": "Rock",
+    "Resistant Type": "Grass",
+    "Weak Defense": 5,
+    "Defense": 6,
+    "Resistant Defense": 7,
+    "Attacks": [
+      {
+        "Name": "Flamethrower",
+        "Type": "energy",
+        "Poke Type": "Fire",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target gains the Burn special condition."
+      },
+      {
+        "Name": "Air Slash",
+        "Type": "physic",
+        "Poke Type": "Flying",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, the target character gains the Stagger special condition."
+      },
+      {
+        "Name": "Solar Beam",
+        "Type": "energy",
+        "Poke Type": "Fire",
+        "Range": 5,
+        "Strength": 8,
+        "Power Cost": 3,
+        "Effect": "This attack ignores line of sight, and the defending character does not benefit from cover."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Drought",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "At the start of the round, all Fire-type attacks made by this character or allied characters within Range 3 gain an additional die."
+      },
+      {
+        "Name": "Tough Claws",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character adds 1 die to its attack rolls when targeting an enemy character within Range 2."
+      },
+      {
+        "Name": "Heat Wave",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 2,
+        "Effect": "All enemy characters within Range 2 of this character gain the Incinerate special condition."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 6,
+      "Attacks": [
+        {
+          "Name": "Blast Burn",
+          "Type": "energy",
+          "Poke Type": "Fire",
+          "Range": 4,
+          "Strength": 9,
+          "Power Cost": 4,
+          "Effect": "After this attack is resolved, this character cannot make any attacks during its next activation."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Drought",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 0,
+          "Effect": "At the start of the round, all Fire-type attacks made by this character or allied characters within Range 3 gain an additional die."
+        }
+      ]
+    }
+  }
+  
