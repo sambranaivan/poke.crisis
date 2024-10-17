@@ -1,0 +1,82 @@
+{
+    "Number": 21,
+    "Name": "Spearow",
+    "Alter Ego": "",
+    "Type": "Normal/Flying",
+    "Stamina": 4,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "rock",
+    "Resistant Type": "bug",
+    "Defense": 2,
+    "Weak Defense": 1,
+    "Resistant Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Peck",
+        "Type": "physical",
+        "Poke Type": "flying",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Spearow gains power equal to the damage dealt. Wild: The target gains the Bleed special condition."
+      },
+      {
+        "Name": "Fury Attack",
+        "Type": "physical",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, Spearow may make an additional Fury Attack without paying the cost. The additional attack must target the original character."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Keen Eye",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Spearow may reroll one die in its attack rolls when attacking a character with the Stealth ability."
+      },
+      {
+        "Name": "Quick Escape",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Spearow may immediately advance S. This superpower can be used only once per turn."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Wing Attack",
+          "Type": "physical",
+          "Poke Type": "flying",
+          "Range": 3,
+          "Strength": 5,
+          "Power Cost": 2,
+          "Effect": "If a wild is rolled, Spearow may push the target character S before damage is dealt."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Feisty Fighter",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 0,
+          "Effect": "When Spearow is attacked, if no damage is dealt, Spearow gains 1 power."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Fearow character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+  }
+  

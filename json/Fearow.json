@@ -1,0 +1,84 @@
+{
+    "Number": 22,
+    "Name": "Fearow",
+    "Alter Ego": "",
+    "Type": "Normal/Flying",
+    "Stamina": 6,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "rock",
+    "Resistant Type": "bug",
+    "Weak Defense": 1,
+    "Resistant Defense": 4,
+    "Defense": 2,
+    "Attacks": [
+      {
+        "Name": "Drill Peck",
+        "Type": "physical",
+        "Poke Type": "flying",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Fearow gains power equal to the damage dealt. Wild: The target gains the Stagger special condition."
+      },
+      {
+        "Name": "Fury Attack",
+        "Type": "physical",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, Fearow may make an additional Fury Attack without paying the cost. The additional attack must target the original character."
+      },
+      {
+        "Name": "Sky Attack",
+        "Type": "physical",
+        "Poke Type": "flying",
+        "Range": 3,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "If a wild is rolled, the target is Pushed S before damage is dealt."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Keen Eye",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Fearow may reroll one die in its attack rolls when attacking a character with the Stealth ability."
+      },
+      {
+        "Name": "Agility",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Fearow may advance S after being targeted by an enemy attack. This superpower can be used only once per turn."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Brave Bird",
+          "Type": "physical",
+          "Poke Type": "flying",
+          "Range": 2,
+          "Strength": 8,
+          "Power Cost": 4,
+          "Effect": "After this attack is resolved, Fearow suffers 1 damage and the target character is pushed S."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Reckless",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 0,
+          "Effect": "Fearow may add 1 die to its attack rolls when performing physical attacks, but it suffers 1 damage after the attack is resolved."
+        }
+      ]
+    }
+  }
+  
