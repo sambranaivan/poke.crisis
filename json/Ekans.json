@@ -1,0 +1,75 @@
+{
+    "Number": 23,
+    "Name": "Ekans",
+    "Alter Ego": "",
+    "Type": "Poison",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "psychic",
+    "Resistant Type": "grass",
+    "Weak Defense": 1,
+    "Resistant Defense": 3,
+    "Defense": 2,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Type": "physical",
+        "Poke Type": "dark",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Ekans gains power equal to the damage dealt. Wild: The target gains the Bleed special condition."
+      },
+      {
+        "Name": "Poison Sting",
+        "Type": "energy",
+        "Poke Type": "poison",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, the target gains the Poison special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Intimidate",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Enemy characters within Range 2 must reroll one success in their attack rolls when targeting Ekans."
+      },
+      {
+        "Name": "Slither Away",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Ekans may advance S. This superpower can be used only once per turn."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Wrap",
+          "Type": "physical",
+          "Poke Type": "normal",
+          "Range": 1,
+          "Strength": 5,
+          "Power Cost": 2,
+          "Effect": "If this attack deals damage, the target gains the Stagger special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Venomous Wrath",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "Ekans may reroll up to two dice in its attack rolls when using poison-type attacks."
+        }
+      ]
+    }
+  }
+  
