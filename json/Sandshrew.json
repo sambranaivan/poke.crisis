@@ -1,0 +1,82 @@
+{
+    "Number": 27,
+    "Name": "Sandshrew",
+    "Alter Ego": "",
+    "Type": "Ground",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "water",
+    "Resistant Type": "electric",
+    "Weak Defense": 1,
+    "Defense": 2,
+    "Resistant Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Scratch",
+        "Type": "physical",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Sandshrew gains power equal to the damage dealt."
+      },
+      {
+        "Name": "Sand Attack",
+        "Type": "physical",
+        "Poke Type": "ground",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, the target gains the Blind special condition, reducing their attack dice by 1 until the end of their next activation."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Defense Curl",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Sandshrew gains 1 additional die in defense rolls until the start of its next activation."
+      },
+      {
+        "Name": "Dig",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Place Sandshrew within Range 2. After placement, enemy characters within Range 1 of Sandshrew suffer 1 damage."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Rollout",
+          "Type": "physical",
+          "Poke Type": "rock",
+          "Range": 3,
+          "Strength": 6,
+          "Power Cost": 2,
+          "Effect": "After this attack is resolved, Sandshrew may advance S."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Sandstorm",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "Enemy characters within Range 2 of Sandshrew suffer -1 defense die until the end of the round."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Sandslash character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+  }
+  

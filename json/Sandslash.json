@@ -1,0 +1,84 @@
+{
+    "Number": 28,
+    "Name": "Sandslash",
+    "Alter Ego": "",
+    "Type": "Ground",
+    "Stamina": 7,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "water",
+    "Resistant Type": "electric",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Slash",
+        "Type": "physical",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Sandslash gains power equal to the damage dealt. Wild: This attack gains the Pierce effect, changing one of the target's defense successes to a blank."
+      },
+      {
+        "Name": "Earthquake",
+        "Type": "energy",
+        "Poke Type": "ground",
+        "Range": 2,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "All characters within Range 2, including allies, suffer damage. Wild: Targets gain the Stagger special condition."
+      },
+      {
+        "Name": "Rapid Spin",
+        "Type": "physical",
+        "Poke Type": "normal",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "Sandslash may advance S after the attack is resolved. Wild: The target gains the Slow special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Sand Veil",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Enemy characters within Range 2 of Sandslash must reroll one success in their attack rolls."
+      },
+      {
+        "Name": "Defense Curl",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Sandslash gains 1 additional die in defense rolls until the start of its next activation. If used before Earthquake, increase Earthquake's range by 1."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 6,
+      "Attacks": [
+        {
+          "Name": "Drill Run",
+          "Type": "physical",
+          "Poke Type": "ground",
+          "Range": 3,
+          "Strength": 7,
+          "Power Cost": 3,
+          "Effect": "If a wild is rolled, Sandslash may reroll up to two dice in its attack roll and push the target S."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Sandstorm",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "Enemy characters within Range 2 of Sandslash suffer -1 defense die until the end of the round."
+        }
+      ]
+    }
+  }
+  
