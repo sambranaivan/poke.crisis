@@ -1,17 +1,17 @@
 {
-    "Number": 23,
-    "Name": "Ekans",
+    "Number": 24,
+    "Name": "Arbok",
     "Alter Ego": "",
     "Type": "Poison",
-    "Stamina": 5,
+    "Stamina": 6,
     "Movement": "M",
-    "Size": 1,
-    "Threat Level": 2,
+    "Size": 2,
+    "Threat Level": 3,
     "Weak Type": "psychic",
     "Resistant Type": "grass",
-    "Weak Defense": 1,
+    "Weak Defense": 2,
     "Resistant Defense": 3,
-    "Defense": 2,
+    "Defense": 4,
     "Attacks": [
       {
         "Name": "Bite",
@@ -20,16 +20,25 @@
         "Range": 2,
         "Strength": 5,
         "Power Cost": 0,
-        "Effect": "After this attack is resolved, Ekans gains power equal to the damage dealt. Wild: The target gains the Bleed special condition."
+        "Effect": "After this attack is resolved, Arbok gains power equal to the damage dealt. Wild: The target gains the Bleed special condition."
       },
       {
-        "Name": "Poison Sting",
+        "Name": "Poison Tail",
+        "Type": "physical",
+        "Poke Type": "poison",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, the target gains the Poison special condition."
+      },
+      {
+        "Name": "Gunk Shot",
         "Type": "energy",
         "Poke Type": "poison",
         "Range": 3,
-        "Strength": 4,
-        "Power Cost": 1,
-        "Effect": "If a wild is rolled, the target gains the Poison special condition."
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "If this attack deals damage, the target gains the Poison and Stun special conditions."
       }
     ],
     "Superpowers": [
@@ -38,25 +47,25 @@
         "Type": "innate",
         "Cost": 0,
         "Range": 0,
-        "Effect": "Enemy characters within Range 2 must reroll one success in their attack rolls when targeting Ekans."
+        "Effect": "Enemy characters within Range 2 must reroll one success in their attack rolls when targeting Arbok."
       },
       {
-        "Name": "Slither Away",
+        "Name": "Coil",
         "Type": "active",
         "Cost": 2,
         "Range": 0,
-        "Effect": "Ekans may advance S. This superpower can be used only once per turn."
+        "Effect": "Arbok gains 1 additional die on its next attack roll and adds 1 die to its defense rolls until the start of its next activation."
       }
     ],
     "Injured Side": {
-      "Stamina": 4,
+      "Stamina": 5,
       "Attacks": [
         {
           "Name": "Wrap",
           "Type": "physical",
           "Poke Type": "normal",
           "Range": 1,
-          "Strength": 5,
+          "Strength": 6,
           "Power Cost": 2,
           "Effect": "If this attack deals damage, the target gains the Stagger special condition."
         }
@@ -67,15 +76,8 @@
           "Type": "active",
           "Cost": 3,
           "Range": 0,
-          "Effect": "Ekans may reroll up to two dice in its attack rolls when using poison-type attacks."
-        },
-        {
-            "Name": "Evolution",
-            "Type": "active",
-            "Cost": 5,
-            "Range": 0,
-            "Effect": "Replace this character with a Arbok character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
-         }
+          "Effect": "Arbok may reroll up to two dice in its attack rolls when using poison-type attacks. Additionally, Arbok gains 1 power if the attack deals damage."
+        }
       ]
     }
   }
