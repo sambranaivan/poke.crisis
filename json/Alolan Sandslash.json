@@ -1,0 +1,91 @@
+{
+    "Number": 28,
+    "Name": "Alolan Sandslash",
+    "Alter Ego": "",
+    "Type": "Ice/Steel",
+    "Stamina": 7,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "fire",
+    "Resistant Type": "fairy",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Icicle Crash",
+        "Type": "physical",
+        "Poke Type": "ice",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Alolan Sandslash gains power equal to the damage dealt. Wild: The target gains the Slow special condition."
+      },
+      {
+        "Name": "Iron Head",
+        "Type": "physical",
+        "Poke Type": "steel",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, Alolan Sandslash may push the target character S before damage is dealt."
+      },
+      {
+        "Name": "Blizzard",
+        "Type": "energy",
+        "Poke Type": "ice",
+        "Range": 4,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "After this attack is resolved, enemy characters within Range 2 of the target suffer 1 damage and gain the Slow special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Snow Cloak",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Enemy characters targeting Alolan Sandslash with attacks suffer -1 attack die if they are within Range 3."
+      },
+      {
+        "Name": "Iron Defense",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Until the start of its next activation, Alolan Sandslash adds 1 die to its defense rolls."
+      },
+      {
+        "Name": "Avalanche",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 2,
+        "Effect": "Enemy characters within Range 2 of Alolan Sandslash suffer 1 damage. Alolan Sandslash gains 1 power for each character damaged this way."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 6,
+      "Attacks": [
+        {
+          "Name": "Frostbite Strike",
+          "Type": "physical",
+          "Poke Type": "ice",
+          "Range": 3,
+          "Strength": 8,
+          "Power Cost": 4,
+          "Effect": "If this attack deals damage, the target gains the Stun and Incinerate special conditions."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Spinning Slash",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "Place Alolan Sandslash within Range 2. After placement, enemy characters within Range 1 suffer 1 damage."
+        }
+      ]
+    }
+  }
+  

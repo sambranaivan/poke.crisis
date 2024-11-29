@@ -1,0 +1,82 @@
+{
+    "Number": 27,
+    "Name": "Alolan Sandshrew",
+    "Alter Ego": "",
+    "Type": "Ice/Steel",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "fire",
+    "Resistant Type": "fairy",
+    "Weak Defense": 1,
+    "Defense": 2,
+    "Resistant Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Ice Shard",
+        "Type": "energy",
+        "Poke Type": "ice",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Alolan Sandshrew gains power equal to the damage dealt. Wild: The target gains the Slow special condition."
+      },
+      {
+        "Name": "Metal Claw",
+        "Type": "physical",
+        "Poke Type": "steel",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, Alolan Sandshrew gains 1 power after the attack is resolved."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Snow Cloak",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Enemy characters targeting Alolan Sandshrew with attacks suffer -1 attack die if they are within Range 3."
+      },
+      {
+        "Name": "Iron Defense",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Until the start of its next activation, Alolan Sandshrew adds 1 die to its defense rolls."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Blizzard",
+          "Type": "energy",
+          "Poke Type": "ice",
+          "Range": 4,
+          "Strength": 6,
+          "Power Cost": 3,
+          "Effect": "After this attack is resolved, enemy characters within Range 2 of the target suffer 1 damage and gain the Slow special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Avalanche",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "Enemy characters within Range 2 of Alolan Sandshrew suffer 1 damage. Alolan Sandshrew gains 1 power for each character damaged this way."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Alolan Sandslash character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+  }
+  
