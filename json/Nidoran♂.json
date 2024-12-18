@@ -1,0 +1,82 @@
+{
+    "Number": 32,
+    "Name": "Nidoran♂",
+    "Alter Ego": "",
+    "Type": "Poison",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "psychic",
+    "Resistant Type": "fighting",
+    "Weak Defense": 1,
+    "Defense": 2,
+    "Resistant Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Peck",
+        "Type": "physical",
+        "Poke Type": "flying",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Nidoran♂ gains power equal to the damage dealt. Wild: The target gains the Bleed special condition."
+      },
+      {
+        "Name": "Poison Sting",
+        "Type": "energy",
+        "Poke Type": "poison",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, the target gains the Poison special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Poison Point",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When Nidoran♂ is targeted by a physical attack and the attacker rolls a wild, the attacking character gains the Poison special condition."
+      },
+      {
+        "Name": "Quick Dodge",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Nidoran♂ may advance S after being targeted by an enemy attack. This superpower can be used only once per turn."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Horn Attack",
+          "Type": "physical",
+          "Poke Type": "normal",
+          "Range": 2,
+          "Strength": 6,
+          "Power Cost": 2,
+          "Effect": "If a wild is rolled, the target is pushed S before damage is dealt."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Venom Surge",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 2,
+          "Effect": "Choose an enemy character within Range 2. The chosen character suffers 1 damage and gains the Poison special condition."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Nidorino character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+  }
+  

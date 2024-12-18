@@ -1,0 +1,91 @@
+{
+    "Number": 33,
+    "Name": "Nidorino",
+    "Alter Ego": "",
+    "Type": "Poison",
+    "Stamina": 6,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "psychic",
+    "Resistant Type": "fighting",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Horn Attack",
+        "Type": "physical",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Nidorino gains power equal to the damage dealt. Wild: The target is pushed S."
+      },
+      {
+        "Name": "Poison Jab",
+        "Type": "physical",
+        "Poke Type": "poison",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, the target gains the Poison special condition."
+      },
+      {
+        "Name": "Double Kick",
+        "Type": "physical",
+        "Poke Type": "fighting",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "This attack can be made twice in the same action. The second attack must target the same character."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Poison Point",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When Nidorino is targeted by a physical attack and the attacker rolls a wild, the attacking character gains the Poison special condition."
+      },
+      {
+        "Name": "Aggressive Charge",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Nidorino advances M. If this movement ends within Range 1 of an enemy character, that character suffers 1 damage."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Horn Drill",
+          "Type": "physical",
+          "Poke Type": "normal",
+          "Range": 2,
+          "Strength": 7,
+          "Power Cost": 3,
+          "Effect": "If this attack deals damage, the target gains the Stagger special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Venom Burst",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 2,
+          "Effect": "Enemy characters within Range 2 of Nidorino suffer 1 damage and gain the Poison special condition."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Nidoking character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+  }
+  
