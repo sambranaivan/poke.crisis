@@ -1,6 +1,6 @@
 {
     "Number": 29,
-    "Name": "Nidoran♀",
+    "Name": "Nidoran",
     "Alter Ego": "",
     "Type": "Poison",
     "Stamina": 5,
@@ -20,7 +20,7 @@
         "Range": 2,
         "Strength": 4,
         "Power Cost": 0,
-        "Effect": "After this attack is resolved, Nidoran♀ gains power equal to the damage dealt."
+        "Effect": "After this attack is resolved, Nidoran gains power equal to the damage dealt."
       },
       {
         "Name": "Poison Sting",
@@ -38,14 +38,14 @@
         "Type": "innate",
         "Cost": 0,
         "Range": 0,
-        "Effect": "When Nidoran♀ is targeted by a physical attack and the attacker rolls a wild, the attacking character gains the Poison special condition."
+        "Effect": "When Nidoran is targeted by a physical attack and the attacker rolls a wild, the attacking character gains the Poison special condition."
       },
       {
         "Name": "Quick Retreat",
         "Type": "active",
         "Cost": 2,
         "Range": 0,
-        "Effect": "Nidoran♀ may advance S after being targeted by an enemy attack. This superpower can be used only once per turn."
+        "Effect": "Nidoran may advance S after being targeted by an enemy attack. This superpower can be used only once per turn."
       }
     ],
     "Injured Side": {
