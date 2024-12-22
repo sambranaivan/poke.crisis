@@ -1,6 +1,6 @@
 {
-    "Number": 29,
-    "Name": "Nidoran♀",
+    "Number": 32,
+    "Name": "Nidoran",
     "Alter Ego": "",
     "Type": "Poison",
     "Stamina": 5,
@@ -14,20 +14,20 @@
     "Resistant Defense": 3,
     "Attacks": [
       {
-        "Name": "Scratch",
+        "Name": "Peck",
         "Type": "physical",
-        "Poke Type": "normal",
+        "Poke Type": "flying",
         "Range": 2,
         "Strength": 4,
         "Power Cost": 0,
-        "Effect": "After this attack is resolved, Nidoran♀ gains power equal to the damage dealt."
+        "Effect": "After this attack is resolved, Nidoran♂ gains power equal to the damage dealt. Wild: The target gains the Bleed special condition."
       },
       {
         "Name": "Poison Sting",
         "Type": "energy",
         "Poke Type": "poison",
         "Range": 3,
-        "Strength": 4,
+        "Strength": 5,
         "Power Cost": 1,
         "Effect": "If a wild is rolled, the target gains the Poison special condition."
       }
@@ -38,32 +38,32 @@
         "Type": "innate",
         "Cost": 0,
         "Range": 0,
-        "Effect": "When Nidoran♀ is targeted by a physical attack and the attacker rolls a wild, the attacking character gains the Poison special condition."
+        "Effect": "When Nidoran♂ is targeted by a physical attack and the attacker rolls a wild, the attacking character gains the Poison special condition."
       },
       {
-        "Name": "Quick Retreat",
+        "Name": "Quick Dodge",
         "Type": "active",
         "Cost": 2,
         "Range": 0,
-        "Effect": "Nidoran♀ may advance S after being targeted by an enemy attack. This superpower can be used only once per turn."
+        "Effect": "Nidoran♂ may advance S after being targeted by an enemy attack. This superpower can be used only once per turn."
       }
     ],
     "Injured Side": {
       "Stamina": 4,
       "Attacks": [
         {
-          "Name": "Double Kick",
+          "Name": "Horn Attack",
           "Type": "physical",
-          "Poke Type": "fighting",
+          "Poke Type": "normal",
           "Range": 2,
-          "Strength": 5,
+          "Strength": 6,
           "Power Cost": 2,
-          "Effect": "This attack can be made twice in the same action. The second attack must target the same character."
+          "Effect": "If a wild is rolled, the target is pushed S before damage is dealt."
         }
       ],
       "Superpowers": [
         {
-          "Name": "Venomous Burst",
+          "Name": "Venom Surge",
           "Type": "active",
           "Cost": 3,
           "Range": 2,
@@ -74,7 +74,7 @@
             "Type": "active",
             "Cost": 5,
             "Range": 0,
-            "Effect": "Replace this character with a Nidorina character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+            "Effect": "Replace this character with a Nidorino character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
          }
       ]
     }

@@ -1,0 +1,91 @@
+{
+    "Number": 31,
+    "Name": "Nidoqueen",
+    "Alter Ego": "",
+    "Type": "Poison/Ground",
+    "Stamina": 8,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 4,
+   "Weak Type": "psychic",
+    "Resistant Type": "fighting",
+    "Weak Defense": 3,
+    "Defense": 4,
+    "Resistant Defense": 5,
+    "Attacks": [
+      {
+        "Name": "Poison Jab",
+        "Type": "physical",
+        "Poke Type": "poison",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Nidoqueen gains power equal to the damage dealt. Wild: The target gains the Poison special condition."
+      },
+      {
+        "Name": "Earth Power",
+        "Type": "energy",
+        "Poke Type": "ground",
+        "Range": 3,
+        "Strength": 7,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled, the target gains the Stun special condition, and enemy characters within Range 2 of the target suffer 1 damage."
+      },
+      {
+        "Name": "Body Slam",
+        "Type": "physical",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "If this attack deals damage, the target gains the Stagger special condition and is Pushed S."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Sheer Force",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When making an attack, Nidoqueen may reroll up to two attack dice. If it does, it cannot trigger special effects on wilds for that attack."
+      },
+      {
+        "Name": "Defensive Stance",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Until the start of its next activation, Nidoqueen adds 1 die to its defense rolls and gains immunity to the Stagger condition."
+      },
+      {
+        "Name": "Toxic Spikes",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 3,
+        "Effect": "Place a Toxic Spike marker within Range 3. If an enemy character ends a movement action within Range 1 of the marker, it gains the Poison special condition."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 7,
+      "Attacks": [
+        {
+          "Name": "Earthquake",
+          "Type": "energy",
+          "Poke Type": "ground",
+          "Range": 2,
+          "Strength": 8,
+          "Power Cost": 4,
+          "Effect": "All characters, including allies, within Range 2 suffer damage. Wild: Enemy characters gain the Stun special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Venomous Burst",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 2,
+          "Effect": "Enemy characters within Range 2 of Nidoqueen suffer 1 damage and gain the Poison special condition."
+        }
+      ]
+    }
+  }
+  
