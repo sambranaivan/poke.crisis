@@ -1,0 +1,91 @@
+{
+    "Number": 36,
+    "Name": "Clefable",
+    "Alter Ego": "",
+    "Type": "Fairy",
+    "Stamina": 7,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "poison",
+    "Resistant Type": "dragon",
+    "Weak Defense": 2,
+    "Defense": 4,
+    "Resistant Defense": 5,
+    "Attacks": [
+      {
+        "Name": "Pound",
+        "Type": "physical",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Clefable gains power equal to the damage dealt."
+      },
+      {
+        "Name": "Moonblast",
+        "Type": "energy",
+        "Poke Type": "fairy",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "If this attack deals damage, the target gains the Stagger special condition."
+      },
+      {
+        "Name": "Dazzling Gleam",
+        "Type": "energy",
+        "Poke Type": "fairy",
+        "Range": 3,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "After this attack is resolved, all enemy characters within Range 2 of the target suffer 1 damage."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Magic Guard",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Clefable cannot take damage from special conditions."
+      },
+      {
+        "Name": "Cosmic Power",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Until the start of its next activation, Clefable adds 1 die to its defense rolls and reduces damage taken from attacks by 1."
+      },
+      {
+        "Name": "Follow Me",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 2,
+        "Effect": "Choose an allied character within Range 2. Until the start of Clefable's next activation, attacks targeting that character must target Clefable instead if possible."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 6,
+      "Attacks": [
+        {
+          "Name": "Fairy Wind",
+          "Type": "energy",
+          "Poke Type": "fairy",
+          "Range": 3,
+          "Strength": 6,
+          "Power Cost": 1,
+          "Effect": "If a wild is rolled, the target is pushed S."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Healing Wish",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 2,
+          "Effect": "Remove 2 damage from Clefable or an allied character within Range 2. Clefable gains the Stagger special condition after using this superpower."
+        }
+      ]
+    }
+  }
+  

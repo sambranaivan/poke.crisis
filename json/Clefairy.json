@@ -1,0 +1,91 @@
+{
+    "Number": 35,
+    "Name": "Clefairy",
+    "Alter Ego": "",
+    "Type": "Fairy",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "poison",
+    "Resistant Type": "dragon",
+    "Weak Defense": 1,
+    "Defense": 2,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Pound",
+        "Type": "physical",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Clefairy gains power equal to the damage dealt."
+      },
+      {
+        "Name": "Disarming Voice",
+        "Type": "mystic",
+        "Poke Type": "fairy",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, the target suffers -1 defense die during its next defense roll."
+      },
+      {
+        "Name": "Moonblast",
+        "Type": "energy",
+        "Poke Type": "fairy",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 3,
+        "Effect": "If this attack deals damage, the target gains the Stagger special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Magic Guard",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Clefairy cannot take damage from special conditions."
+      },
+      {
+        "Name": "Follow Me",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 2,
+        "Effect": "Choose an allied character within Range 2. Until the start of Clefairy's next activation, attacks targeting that character must target Clefairy instead if possible."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Fairy Wind",
+          "Type": "energy",
+          "Poke Type": "fairy",
+          "Range": 3,
+          "Strength": 5,
+          "Power Cost": 1,
+          "Effect": "If a wild is rolled, the target is pushed S."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Healing Wish",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 2,
+          "Effect": "Remove 2 damage from Clefairy or an allied character within Range 2. If Clefairy uses this superpower, it gains the Stagger special condition."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Clefable character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+  }
+  

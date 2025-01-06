@@ -1,0 +1,82 @@
+{
+    "Number": 173,
+    "Name": "Cleffa",
+    "Alter Ego": "",
+    "Type": "Fairy",
+    "Stamina": 4,
+    "Movement": "S",
+    "Size": 1,
+    "Threat Level": 1,
+    "Weak Type": "poison",
+    "Resistant Type": "dragon",
+    "Weak Defense": 1,
+    "Defense": 2,
+    "Resistant Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Pound",
+        "Type": "physical",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Cleffa gains power equal to the damage dealt."
+      },
+      {
+        "Name": "Charm",
+        "Type": "mystic",
+        "Poke Type": "fairy",
+        "Range": 3,
+        "Strength": 3,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, the target suffers -1 attack die on its next attack."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Magic Guard",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Cleffa cannot take damage from special conditions."
+      },
+      {
+        "Name": "Sweet Kiss",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 2,
+        "Effect": "Choose an enemy character within Range 2. That character gains the Stagger special condition."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Fairy Wind",
+          "Type": "energy",
+          "Poke Type": "fairy",
+          "Range": 3,
+          "Strength": 4,
+          "Power Cost": 1,
+          "Effect": "If a wild is rolled, the target is pushed S."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Moonlit Glow",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "Remove 2 damage from Cleffa or an allied character within Range 2."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Clefairy character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+  }
+  
