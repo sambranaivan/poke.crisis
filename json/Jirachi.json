@@ -1,0 +1,91 @@
+{
+    "Number": 385,
+    "Name": "Jirachi",
+    "Alter Ego": "",
+    "Type": "Steel/Psychic",
+    "Stamina": 7,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 4,
+    "Weak Type": "dark",
+    "Resistant Type": "fairy",
+    "Weak Defense": 3,
+    "Defense": 4,
+    "Resistant Defense": 3,
+    "Attacks": [
+      {
+        "Name": "Confusion",
+        "Type": "mystic",
+        "Poke Type": "psychic",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Jirachi gains power equal to the damage dealt. Wild: The target gains the Stun special condition."
+      },
+      {
+        "Name": "Iron Head",
+        "Type": "physical",
+        "Poke Type": "steel",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled, the target is Pushed S before damage is dealt."
+      },
+      {
+        "Name": "Doom Desire",
+        "Type": "energy",
+        "Poke Type": "steel",
+        "Range": 4,
+        "Strength": 7,
+        "Power Cost": 4,
+        "Effect": "Place a Doom Marker on the target. At the end of the next round, the target suffers 3 damage and gains the Stagger special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Serene Grace",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Jirachi may reroll one attack die when rolling for attacks."
+      },
+      {
+        "Name": "Wish Maker",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 2,
+        "Effect": "Remove 2 damage from an allied character within Range 2. That character gains 1 power."
+      },
+      {
+        "Name": "Star Shield",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Until the start of its next activation, Jirachi adds 2 dice to its defense rolls against mystic attacks."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 6,
+      "Attacks": [
+        {
+          "Name": "Future Sight",
+          "Type": "mystic",
+          "Poke Type": "psychic",
+          "Range": 5,
+          "Strength": 8,
+          "Power Cost": 4,
+          "Effect": "Place a Future Sight Marker on the target. At the end of the next round, the target suffers 4 damage."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Healing Wish",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 2,
+          "Effect": "Remove 3 damage from an allied character within Range 2. After using this superpower, Jirachi gains the Stagger special condition."
+        }
+      ]
+    }
+  }
+  
