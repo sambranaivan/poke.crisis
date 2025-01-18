@@ -1,0 +1,82 @@
+{
+    "Number": 174,
+    "Name": "Igglybuff",
+    "Alter Ego": "",
+    "Type": "Normal/Fairy",
+    "Stamina": 4,
+    "Movement": "S",
+    "Size": 1,
+    "Threat Level": 1,
+    "Weak Type": "poison",
+    "Resistant Type": "dark",
+    "Weak Defense": 0,
+    "Defense": 1,
+    "Resistant Defense": 2,
+    "Attacks": [
+      {
+        "Name": "Pound",
+        "Type": "physical",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Igglybuff gains power equal to the damage dealt."
+      },
+      {
+        "Name": "Sweet Kiss",
+        "Type": "mystic",
+        "Poke Type": "fairy",
+        "Range": 3,
+        "Strength": 3,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, the target gains the Stagger special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Competitive Spirit",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "If Igglybuff is attacked and suffers no damage, it gains 1 power."
+      },
+      {
+        "Name": "Sing",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 2,
+        "Effect": "Choose an enemy character within Range 2. That character gains the Stun special condition."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Fairy Wind",
+          "Type": "energy",
+          "Poke Type": "fairy",
+          "Range": 3,
+          "Strength": 4,
+          "Power Cost": 1,
+          "Effect": "If a wild is rolled, the target is Pushed S."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Healing Song",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 2,
+          "Effect": "Remove 1 damage from Igglybuff and each allied character within Range 2."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 3,
+            "Range": 0,
+            "Effect": "Replace this character with a Jigglypuff character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+  }
+  

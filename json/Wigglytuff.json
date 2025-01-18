@@ -1,0 +1,98 @@
+{
+    "Number": 40,
+    "Name": "Wigglytuff",
+    "Alter Ego": "",
+    "Type": "Normal/Fairy",
+    "Stamina": 7,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "poison",
+    "Resistant Type": "dark",
+    "Weak Defense": 2,
+    "Defense": 4,
+    "Resistant Defense": 5,
+    "Attacks": [
+      {
+        "Name": "Pound",
+        "Type": "physical",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, Wigglytuff gains power equal to the damage dealt."
+      },
+      {
+        "Name": "Dazzling Gleam",
+        "Type": "energy",
+        "Poke Type": "fairy",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "After this attack is resolved, enemy characters within Range 2 of the target suffer 1 damage."
+      },
+      {
+        "Name": "Sing",
+        "Type": "mystic",
+        "Poke Type": "fairy",
+        "Range": 2,
+        "Strength": 0,
+        "Power Cost": 3,
+        "Effect": "Choose an enemy character within Range 2. The target gains the Stun special condition. Wild: The target also gains the Stagger condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Cute Charm",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When an enemy character targets Wigglytuff with a physical attack and rolls a wild, the attacking character gains the Stagger special condition."
+      },
+      {
+        "Name": "Rollout",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Place Wigglytuff within Range 3. After placement, enemy characters within Range 1 of Wigglytuff suffer 1 damage."
+      },
+      {
+        "Name": "Competitive Spirit",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When Wigglytuff or an allied character within Range 2 is attacked and suffers damage, Wigglytuff gains 1 power."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 6,
+      "Attacks": [
+        {
+          "Name": "Moonblast",
+          "Type": "energy",
+          "Poke Type": "fairy",
+          "Range": 3,
+          "Strength": 7,
+          "Power Cost": 3,
+          "Effect": "If this attack deals damage, the target gains the Stagger special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Healing Song",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 2,
+          "Effect": "Remove 2 damage from Wigglytuff and all allied characters within Range 2."
+        },
+        {
+          "Name": "Hyper Voice",
+          "Type": "active",
+          "Cost": 2,
+          "Range": 3,
+          "Effect": "Enemy characters within Range 3 suffer -1 defense die until the end of the round."
+        }
+      ]
+    }
+  }
+  
