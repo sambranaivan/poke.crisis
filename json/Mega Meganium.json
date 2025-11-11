@@ -1,0 +1,91 @@
+{
+    "Number": 154,
+    "Name": "Mega Meganium",
+    "Alter Ego": "",
+    "Type": "Grass/Fairy",
+    "Stamina": 7,
+    "Movement": "L",
+    "Size": 3,
+    "Threat Level": 5,
+    "Weak Type": "fire",
+    "Resistant Type": "water",
+    "Weak Defense": 4,
+    "Defense": 5,
+    "Resistant Defense": 7,
+    "Attacks": [
+      {
+        "Name": "Petal Tempest",
+        "Type": "energy",
+        "Poke Type": "grass",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character may advance S. If a wild is rolled, each enemy character within range 2 of the target suffers 1 damage."
+      },
+      {
+        "Name": "Giga Drain",
+        "Type": "energy",
+        "Poke Type": "grass",
+        "Range": 3,
+        "Strength": 7,
+        "Power Cost": 2,
+        "Effect": "After this attack is resolved, this character removes damage equal to half the damage dealt (rounded up). If a wild is rolled, remove one special condition from this character."
+      },
+      {
+        "Name": "Solar Prism Beam",
+        "Type": "energy",
+        "Poke Type": "grass",
+        "Range": 5,
+        "Strength": 8,
+        "Power Cost": 3,
+        "Effect": "This attack requires one turn to charge before it can be used. After charging, on the next activation of this character, use this attack without paying its power cost. When the attack is made, allied characters within range 3 of this character add 1 die to their Defense rolls until the end of the round."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Floral Veil",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 3,
+        "Effect": "Allied characters within range cannot be given special conditions by enemy effects. If an allied character within range already has a special condition when this superpower becomes active, remove one special condition from that character."
+      },
+      {
+        "Name": "Regenerative Bloom",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 3,
+        "Effect": "Choose up to two allied characters within range. Each chosen character removes 2 damage and gains 1 power."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Verdant Cataclysm",
+          "Type": "energy",
+          "Poke Type": "grass",
+          "Range": "A3",
+          "Strength": 8,
+          "Power Cost": 3,
+          "Effect": "This attack deals damage to each other character within range and line of sight of the target space. After the attack is resolved, this character gains power equal to the total damage dealt."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Floral Veil",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 3,
+          "Effect": "Allied characters within range cannot be given special conditions by enemy effects. If an allied character within range already has a special condition when this superpower becomes active, remove one special condition from that character."
+        },
+        {
+          "Name": "Photosynthetic Surge",
+          "Type": "active",
+          "Cost": 2,
+          "Range": 0,
+          "Effect": "This character immediately gains 2 power and may make an immediate move action. If this character ends that move within range 2 of an allied character, that ally gains 1 power."
+        }
+      ]
+    }
+}
+

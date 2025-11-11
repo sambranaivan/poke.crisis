@@ -1,0 +1,91 @@
+{
+    "Number": 153,
+    "Name": "Bayleef",
+    "Alter Ego": "",
+    "Type": "Grass",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "fire",
+    "Resistant Type": "water",
+    "Weak Defense": 3,
+    "Defense": 4,
+    "Resistant Defense": 5,
+    "Attacks": [
+      {
+        "Name": "Body Slam",
+        "Type": "physic",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "If a wild is rolled, after this attack is resolved the target character is Pushed S and gains the Slow special condition."
+      },
+      {
+        "Name": "Razor Leaf Barrage",
+        "Type": "energy",
+        "Poke Type": "grass",
+        "Range": "A3",
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "This attack deals damage to each enemy character within range and line of sight of the target character."
+      },
+      {
+        "Name": "Leech Seed",
+        "Type": "energy",
+        "Poke Type": "grass",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 2,
+        "Effect": "If this attack deals damage, the target character gains the Sap special condition. When that character advances or climbs, it suffers 1 damage and this character gains 1 power."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Overgrow",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character has 3 or fewer Stamina remaining, increase the Strength of its 'Razor Leaf Barrage' attack by 2."
+     },
+     {
+        "Name": "Scent of Vitality",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 2,
+        "Effect": "Allied characters within range remove one special condition and gain 1 power."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Solar Beam",
+          "Type": "energy",
+          "Poke Type": "grass",
+          "Range": 5,
+          "Strength": 7,
+          "Power Cost": 2,
+          "Effect": "This attack requires one turn to charge before it can be used. After charging, on the next activation of this character, use this attack without paying its power cost. If a wild is rolled, the target character is Staggered."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Light Screen",
+           "Type": "active",
+           "Cost": 2,
+           "Range": 0,
+           "Effect": "Until the start of this character's next activation, allied characters within range 3 add 1 die to their Defense rolls."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Meganium character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+}
+

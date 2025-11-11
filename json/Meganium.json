@@ -1,0 +1,91 @@
+{
+    "Number": 154,
+    "Name": "Meganium",
+    "Alter Ego": "",
+    "Type": "Grass",
+    "Stamina": 6,
+    "Movement": "M",
+    "Size": 3,
+    "Threat Level": 4,
+    "Weak Type": "fire",
+    "Resistant Type": "water",
+    "Weak Defense": 3,
+    "Defense": 5,
+    "Resistant Defense": 6,
+    "Attacks": [
+      {
+        "Name": "Petal Dance",
+        "Type": "energy",
+        "Poke Type": "grass",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character may advance S. If a wild is rolled, each enemy character within range 2 of the target suffers 1 damage."
+      },
+      {
+        "Name": "Giga Drain",
+        "Type": "energy",
+        "Poke Type": "grass",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "After this attack is resolved, this character removes damage equal to half the damage dealt (rounded up)."
+      },
+      {
+        "Name": "Solar Beam",
+        "Type": "energy",
+        "Poke Type": "grass",
+        "Range": 5,
+        "Strength": 8,
+        "Power Cost": 3,
+        "Effect": "This attack requires one turn to charge before it can be used. After charging, on the next activation of this character, use this attack without paying its power cost. If a wild is rolled, the target character is Staggered."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Serene Aura",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 2,
+        "Effect": "Allied characters within range add 1 die to their Defense rolls against energy attacks."
+     },
+     {
+        "Name": "Healing Fragrance",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 3,
+        "Effect": "Choose up to two allied characters within range. Each chosen character removes 2 damage and one special condition."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Earthquake",
+          "Type": "physic",
+          "Poke Type": "ground",
+          "Range": "A3",
+          "Strength": 7,
+          "Power Cost": 2,
+          "Effect": "This attack deals damage to all other characters within range 2 of this character."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Chlorophyll Surge",
+           "Type": "active",
+           "Cost": 2,
+           "Range": 0,
+           "Effect": "This character immediately gains 2 power and may make an immediate move action. This superpower can be used only once per turn."
+        },
+        {
+           "Name": "Verdant Shield",
+           "Type": "innate",
+           "Cost": 0,
+           "Range": 0,
+           "Effect": "While this character has 3 or more power, reduce the damage from enemy attacks by 1, to a minimum of 1."
+        }
+      ]
+    }
+}
+
