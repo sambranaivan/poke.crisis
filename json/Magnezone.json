@@ -1,0 +1,91 @@
+{
+    "Number": 462,
+    "Name": "Magnezone",
+    "Alter Ego": "",
+    "Type": "Electric/Steel",
+    "Stamina": 6,
+    "Movement": "M",
+    "Size": 3,
+    "Threat Level": 4,
+    "Weak Type": "ground",
+    "Resistant Type": "flying",
+    "Weak Defense": 3,
+    "Defense": 5,
+    "Resistant Defense": 6,
+    "Attacks": [
+      {
+        "Name": "Zap Cannon",
+        "Type": "energy",
+        "Poke Type": "electric",
+        "Range": 4,
+        "Strength": 7,
+        "Power Cost": 0,
+        "Effect": "This attack does not generate power. If a wild is rolled, the target character gains the Stun and Shocked special conditions."
+      },
+      {
+        "Name": "Flash Cannon",
+        "Type": "energy",
+        "Poke Type": "steel",
+        "Range": 5,
+        "Strength": 7,
+        "Power Cost": 2,
+        "Effect": "If this attack deals damage, the target character's Defense is reduced by 1 (to a minimum of 1) for its next defense roll this round."
+      },
+      {
+        "Name": "Gravity Well",
+        "Type": "mystic",
+        "Poke Type": "steel",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 3,
+        "Effect": "After this attack is resolved, place the target character within S of its current position. Characters placed by this effect gain the Rooted special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Magnet Pull",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 3,
+        "Effect": "Enemy characters within range cannot use or be placed by effects that would move them unless they pay 1 additional power."
+      },
+      {
+        "Name": "Analytic Overdrive",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "During its next activation this round, this character may re-roll up to 2 dice in each of its attack rolls. At the end of that activation, this character gains the Stagger special condition."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Hyper Beam",
+          "Type": "energy",
+          "Poke Type": "normal",
+          "Range": 5,
+          "Strength": 8,
+          "Power Cost": 3,
+          "Effect": "If this attack deals damage, the target character cannot gain power from damage dealt for the rest of the round. After this attack is resolved, this character cannot make attacks for the rest of this turn."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Armor Plating",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 0,
+          "Effect": "When this character suffers damage from an attack, reduce the amount suffered by 1, to a minimum of 1."
+        },
+        {
+          "Name": "Electromagnetic Burst",
+          "Type": "active",
+          "Cost": 2,
+          "Range": "A2",
+          "Effect": "Each enemy character within range suffers 1 damage and gains the Shocked special condition."
+        }
+      ]
+    }
+}
+

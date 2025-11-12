@@ -1,0 +1,91 @@
+{
+    "Number": 82,
+    "Name": "Magneton",
+    "Alter Ego": "",
+    "Type": "Electric/Steel",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "ground",
+    "Resistant Type": "flying",
+    "Weak Defense": 3,
+    "Defense": 4,
+    "Resistant Defense": 5,
+    "Attacks": [
+      {
+        "Name": "Tri Attack",
+        "Type": "energy",
+        "Poke Type": "normal",
+        "Range": 4,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, choose one special condition: Shocked, Incinerate, or Slow. If a wild is rolled, the target character gains the chosen special condition."
+      },
+      {
+        "Name": "Electro Web",
+        "Type": "energy",
+        "Poke Type": "electric",
+        "Range": "A3",
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "Characters damaged by this attack gain the Rooted special condition until the end of their next activation."
+      },
+      {
+        "Name": "Flash Cannon",
+        "Type": "energy",
+        "Poke Type": "steel",
+        "Range": 5,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "If this attack deals damage, the target character cannot add dice to its defense rolls for the rest of the round."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Levitation Matrix",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character ignores the effects of terrain and other characters when moving. Enemy characters within range 2 roll one fewer die when making collision damage rolls caused by this character."
+      },
+      {
+        "Name": "Magnetic Repulsion",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 3,
+        "Effect": "Choose an enemy character within range. Push the chosen character S. If the chosen character has the Slow or Rooted special condition, instead Push it M."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Discharge",
+          "Type": "energy",
+          "Poke Type": "electric",
+          "Range": 3,
+          "Strength": 7,
+          "Power Cost": 3,
+          "Effect": "After this attack is resolved, each other character within range 2 of the target suffers 1 damage and gains the Shocked special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Emergency Overclock",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "For the rest of this round, add 2 dice to this character's attack rolls. At the end of the round, this character suffers 1 damage."
+        },
+        {
+          "Name": "Evolution",
+          "Type": "active",
+          "Cost": 5,
+          "Range": 0,
+          "Effect": "Replace this character with a Magnezone character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+        }
+      ]
+    }
+}
+

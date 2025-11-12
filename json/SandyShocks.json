@@ -1,0 +1,91 @@
+{
+    "Number": 989,
+    "Name": "Sandy Shocks",
+    "Alter Ego": "",
+    "Type": "Electric/Ground",
+    "Stamina": 6,
+    "Movement": "L",
+    "Size": 3,
+    "Threat Level": 4,
+    "Weak Type": "water",
+    "Resistant Type": "electric",
+    "Weak Defense": 3,
+    "Defense": 4,
+    "Resistant Defense": 6,
+    "Attacks": [
+      {
+        "Name": "Paradox Pulsar",
+        "Type": "energy",
+        "Poke Type": "electric",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "If this attack deals damage, this character gains 1 power. If a wild is rolled, the target character gains the Shocked special condition and is pushed S."
+      },
+      {
+        "Name": "Sandstorm Burst",
+        "Type": "energy",
+        "Poke Type": "ground",
+        "Range": "A3",
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "Characters damaged by this attack gain the Slow special condition. Allied characters within the area do not suffer damage."
+      },
+      {
+        "Name": "Magnetic Spike Storm",
+        "Type": "energy",
+        "Poke Type": "steel",
+        "Range": 3,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "After this attack is resolved, choose a terrain feature of size 3 or less within range 3. Remove it from the battlefield. Enemy characters within range 2 of the removed terrain suffer 1 damage."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Protosynthesis",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character has 3 or more power, add 1 die to its attack and defense rolls."
+      },
+      {
+        "Name": "Electro Drift",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "This character advances M. During this advance it does not suffer damage from terrain or collision effects and may move through other characters."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Terra Surge",
+          "Type": "energy",
+          "Poke Type": "ground",
+          "Range": 4,
+          "Strength": 7,
+          "Power Cost": 2,
+          "Effect": "If this attack deals damage, the target character gains the Rooted special condition. If the target already had Rooted, it instead suffers 1 additional damage."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Magnet Rise",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "For the rest of the round, this character gains Flight, reduces collision damage suffered by 1, and may re-roll one die in each defense roll."
+        },
+        {
+          "Name": "Temporal Feedback",
+          "Type": "innate",
+          "Cost": 0,
+          "Range": 2,
+          "Effect": "When an enemy character within range 2 suffers damage from a special condition, this character gains 1 power."
+        }
+      ]
+    }
+}
+

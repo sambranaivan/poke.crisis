@@ -1,0 +1,91 @@
+{
+    "Number": 81,
+    "Name": "Magnemite",
+    "Alter Ego": "",
+    "Type": "Electric/Steel",
+    "Stamina": 3,
+    "Movement": "S",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "ground",
+    "Resistant Type": "flying",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Thunder Shock",
+        "Type": "energy",
+        "Poke Type": "electric",
+        "Range": 4,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains 1 power. If a wild is rolled, the target character gains the Shocked special condition."
+      },
+      {
+        "Name": "Magnet Bomb",
+        "Type": "energy",
+        "Poke Type": "steel",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "This attack ignores line of sight. The target character cannot modify or reroll defense dice when defending against this attack."
+      },
+      {
+        "Name": "Electro Cage",
+        "Type": "energy",
+        "Poke Type": "electric",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "If this attack deals damage, place the target character within S of its current position. Until the end of its next activation, the target cannot advance."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Levitate",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character ignores the effects of terrain and other characters when moving. Enemy characters do not gain cover from this character's attacks."
+      },
+      {
+        "Name": "Analytic Pulse",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Choose an enemy character within range 3. That character gains the Exposed special condition. The next attack this character makes this turn adds 2 dice."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 2,
+      "Attacks": [
+        {
+          "Name": "Flash Cannon",
+          "Type": "energy",
+          "Poke Type": "steel",
+          "Range": 4,
+          "Strength": 6,
+          "Power Cost": 2,
+          "Effect": "If a wild is rolled, the target character gains the Incinerate special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Emergency Recharge",
+          "Type": "active",
+          "Cost": 2,
+          "Range": 0,
+          "Effect": "Remove 1 damage from this character and it gains 1 power."
+        },
+        {
+          "Name": "Evolution",
+          "Type": "active",
+          "Cost": 5,
+          "Range": 0,
+          "Effect": "Replace this character with a Magneton character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+        }
+      ]
+    }
+}
+
