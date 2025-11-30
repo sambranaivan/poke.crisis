@@ -1,0 +1,91 @@
+{
+    "Number": 158,
+    "Name": "Totodile",
+    "Alter Ego": "",
+    "Type": "Water",
+    "Stamina": 4,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "grass",
+    "Resistant Type": "fire",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Water Gun",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is pushed away S distance from Totodile."
+      },
+      {
+        "Name": "Bite",
+        "Type": "physic",
+        "Poke Type": "dark",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, the target character gains the Stun special condition."
+      },
+      {
+        "Name": "Scratch",
+        "Type": "physic",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 3,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Torrent",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character has 2 or fewer Stamina remaining, increase the Strength of its 'Water Gun' attack by 2."
+     },
+     {
+        "Name": "Aqua Jet",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Totodile immediately makes a move action. During this move, it can move through characters without penalty."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Aqua Tail",
+          "Type": "physic",
+          "Poke Type": "water",
+          "Range": 2,
+          "Strength": 5,
+          "Power Cost": 1,
+          "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Stun special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Rage",
+           "Type": "innate",
+           "Cost": 0,
+           "Range": 0,
+           "Effect": "When this character takes damage, it gains 1 power."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Croconaw character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+}
+

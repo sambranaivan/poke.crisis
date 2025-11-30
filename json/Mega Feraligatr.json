@@ -1,0 +1,107 @@
+{
+    "Number": 160,
+    "Name": "Mega Feraligatr",
+    "Alter Ego": "Feraligatr",
+    "Type": "Water",
+    "Stamina": 7,
+    "Movement": "L",
+    "Size": 3,
+    "Threat Level": 5,
+    "Weak Type": "grass",
+    "Resistant Type": "fire",
+    "Weak Defense": 4,
+    "Defense": 6,
+    "Resistant Defense": 7,
+    "Attacks": [
+      {
+        "Name": "Hydro Cannon",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 5,
+        "Strength": 8,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is pushed away L distance from Mega Feraligatr and gains the Soaked special condition."
+      },
+      {
+        "Name": "Crunch",
+        "Type": "physic",
+        "Poke Type": "dark",
+        "Range": 2,
+        "Strength": 7,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, reduce the target character's Defense by 1 until the end of their next activation and the target gains the Stun special condition."
+      },
+      {
+        "Name": "Aqua Jet",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "After this attack is resolved, Mega Feraligatr may make an immediate move action. During this move, it can move through characters without penalty."
+      },
+      {
+        "Name": "Ice Fang",
+        "Type": "physic",
+        "Poke Type": "ice",
+        "Range": 2,
+        "Strength": 7,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled during this attack, the target character gains the Freeze special condition and suffers 1 additional damage."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Sheer Force",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character makes an attack, if a wild is rolled, add 1 additional die to the attack roll."
+     },
+     {
+        "Name": "Torrent",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character has 3 or fewer Stamina remaining, increase the Strength of all its Water-type attacks by 3."
+     },
+     {
+        "Name": "Intimidate",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 4,
+        "Effect": "All enemy characters within range and line of sight reduce their attack Strength by 1 and lose 1 power. This effect lasts until the end of their next activation."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 6,
+      "Attacks": [
+        {
+          "Name": "Liquidation",
+          "Type": "physic",
+          "Poke Type": "water",
+          "Range": 2,
+          "Strength": 8,
+          "Power Cost": 2,
+          "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, reduce the target character's Defense by 1 for the rest of the game and push them away M distance."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Rage",
+           "Type": "innate",
+           "Cost": 0,
+           "Range": 0,
+           "Effect": "When this character takes damage, it gains 2 power and adds 1 die to its next attack roll."
+        },
+        {
+           "Name": "Aqua Rush",
+           "Type": "active",
+           "Cost": 3,
+           "Range": 0,
+           "Effect": "Mega Feraligatr immediately makes a move action and may make an attack action after moving. During this move, it can move through characters and terrain without penalty. This superpower can be used only once per turn."
+        }
+      ]
+    }
+}
+

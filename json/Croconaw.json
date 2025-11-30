@@ -1,0 +1,91 @@
+{
+    "Number": 159,
+    "Name": "Croconaw",
+    "Alter Ego": "",
+    "Type": "Water",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 3,
+    "Weak Type": "grass",
+    "Resistant Type": "fire",
+    "Weak Defense": 3,
+    "Defense": 4,
+    "Resistant Defense": 5,
+    "Attacks": [
+      {
+        "Name": "Water Pulse",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Stun special condition."
+      },
+      {
+        "Name": "Crunch",
+        "Type": "physic",
+        "Poke Type": "dark",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, reduce the target character's Defense by 1 until the end of their next activation."
+      },
+      {
+        "Name": "Ice Fang",
+        "Type": "physic",
+        "Poke Type": "ice",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled during this attack, the target character gains the Freeze special condition."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Torrent",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character has 3 or fewer Stamina remaining, increase the Strength of its 'Water Pulse' attack by 2."
+     },
+     {
+        "Name": "Aqua Jet",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Croconaw immediately makes a move action and may make an attack action after moving. This superpower can be used only once per turn."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Aqua Tail",
+          "Type": "physic",
+          "Poke Type": "water",
+          "Range": 2,
+          "Strength": 6,
+          "Power Cost": 2,
+          "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is pushed away M distance from Croconaw."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Rage",
+           "Type": "innate",
+           "Cost": 0,
+           "Range": 0,
+           "Effect": "When this character takes damage, it gains 1 power."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Feraligatr character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+}
+
