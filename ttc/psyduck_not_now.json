@@ -1,0 +1,17 @@
+{
+  "Name": "Psyduck, Not Now!",
+  "Affiliation": "Misty's Team",
+  "Cost": 1,
+  "Type": "Team Tactic Card",
+  "Effect": [
+    "When an enemy Pokémon declares a reactive ability:",
+    "Cancel that ability.",
+    "The enemy Pokémon gains the Confused condition.",
+    "If the allied Pokémon is Psyduck or Golduck, also choose one:",
+    "• Advance Short",
+    "• Remove a negative condition"
+  ],
+  "Restriction": "Misty's Team only.",
+  "Identity": "Chaotic interruption, low cost, high situational impact.",
+  "Art": "tt02.png"
+}

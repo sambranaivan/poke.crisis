@@ -28,10 +28,12 @@ def build_ttc_template(ttc_name: str) -> str:
     # Replace card type
     template = template.replace("@CardType", data["Type"].upper())
     
-    # Build effect list
+    # Build effect list - inline style like original TTC
     effect_html = ""
-    for effect in data["Effect"]:
-        effect_html += f'<div class="mb-1">• {effect}</div>\n'
+    for i, effect in enumerate(data["Effect"]):
+        if i > 0:
+            effect_html += '<span class="flex flex-row grow mb-1"></span>\n'
+        effect_html += f'<span>{effect}</span>\n'
     template = template.replace("@EffectList", effect_html)
     
     # Replace restriction
