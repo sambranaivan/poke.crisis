@@ -1,0 +1,13 @@
+{
+  "Name": "Aquatic Sync",
+  "Affiliation": "Misty's Team",
+  "Cost": 2,
+  "Type": "Team Tactic Card",
+  "Effect": [
+    "Choose two allied Pokémon from Misty's Team within Range 3 of each other.",
+    "Both may Advance Short.",
+    "Both remove a negative condition.",
+    "If they end the movement within Range 1 of each other, one of them may perform an attack with +1 die."
+  ],
+  "Art": "tt05.png"
+}

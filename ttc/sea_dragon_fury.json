@@ -1,0 +1,13 @@
+{
+  "Name": "Sea Dragon's Fury",
+  "Affiliation": "Misty's Team",
+  "Cost": 4,
+  "Type": "Team Tactic Card",
+  "Effect": [
+    "Play this card when Gyarados or Magikarp is damaged by an attack.",
+    "Reduce the damage received by 2.",
+    "Apply Soaked to all enemies within Range 2.",
+    "The allied Pokémon may perform an additional attack against one of those enemies."
+  ],
+  "Art": "tt04.png"
+}
