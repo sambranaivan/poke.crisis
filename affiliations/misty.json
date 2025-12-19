@@ -1,0 +1,25 @@
+{
+  "Affiliation": "Misty’s Team",
+  "Affiliated Pokemon": [
+    "Staryu",
+    "Starmie",
+    "Psyduck",
+    "Golduck",
+    "Magikarp",
+    "Gyarados",
+    "Goldeen",
+    "Seaking",
+    "Horsea",
+    "Seadra",
+    "Kingdra",
+    "Corsola",
+    "Togepi",
+    "Togetic",
+    "Togekiss"
+  ],
+  "footer": {
+    "rule_text": "Affiliation Requirement: To be an affiliated squad, at least half of your chosen characters (rounded down) must be from this list.",
+    "flavor_text": "The Tomboyish Mermaid's specialized water-type roster."
+  },
+  "Portrait": "Misty.png"
+}
