@@ -1,0 +1,114 @@
+{
+    "Number": 121,
+    "Name": "Starmie",
+    "Alter Ego": "",
+    "Type": "Water/Psychic",
+    "Stamina": 5,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 4,
+    "Weak Type": "grass",
+    "Resistant Type": "fire",
+    "Weak Defense": 3,
+    "Defense": 4,
+    "Resistant Defense": 6,
+    "Attacks": [
+      {
+        "Name": "Hydro Pump",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is pushed away M distance from Starmie."
+      },
+      {
+        "Name": "Swift",
+        "Type": "mystic",
+        "Poke Type": "normal",
+        "Range": 4,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "This attack ignores line of sight and cover. If a wild is rolled, this attack deals 1 additional damage."
+      },
+      {
+        "Name": "Psychic",
+        "Type": "mystic",
+        "Poke Type": "psychic",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled during this attack, the target character is lifted and placed within range 2 of their current position and gains the Confused special condition."
+      },
+      {
+        "Name": "Rapid Spin",
+        "Type": "physic",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "After this attack is resolved, Starmie may make an immediate move action. During this move, it can move through characters without penalty. If a wild is rolled, remove all special conditions from Starmie."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Misty's Team",
+        "Type": "leader",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Friendly characters with the Water type add 1 die to their defense rolls and gain 1 power at the start of their activation."
+     },
+     {
+        "Name": "Natural Cure",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "At the start of this character's activation, remove all special conditions from it and gain 1 power."
+     },
+     {
+        "Name": "Illuminate",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 4,
+        "Effect": "All allied characters within range and line of sight add 1 die to their next attack roll. Enemy characters within range and line of sight subtract 1 die from their next attack roll. This superpower can be used only once per turn."
+     },
+     {
+        "Name": "Analytic",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "If this character attacks after all other characters have activated this round, add 1 die to the attack roll."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Power Gem",
+          "Type": "mystic",
+          "Poke Type": "rock",
+          "Range": 3,
+          "Strength": 7,
+          "Power Cost": 2,
+          "Effect": "This attack ignores defense dice granted by the target's superpowers. If a wild is rolled, the target character gains the Stun special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Recover",
+           "Type": "active",
+           "Cost": 3,
+           "Range": 0,
+           "Effect": "Remove 3 damage from this character. This superpower can be used only once per game."
+        },
+        {
+           "Name": "Cosmic Power",
+           "Type": "active",
+           "Cost": 3,
+           "Range": 0,
+           "Effect": "Add 2 dice to Starmie's defense rolls until the start of its next activation. This superpower can be used only once per turn."
+        }
+      ]
+    }
+}
+

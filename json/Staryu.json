@@ -1,0 +1,98 @@
+{
+    "Number": 120,
+    "Name": "Staryu",
+    "Alter Ego": "",
+    "Type": "Water",
+    "Stamina": 3,
+    "Movement": "M",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "grass",
+    "Resistant Type": "fire",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Water Gun",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is pushed away S distance from Staryu."
+      },
+      {
+        "Name": "Swift",
+        "Type": "mystic",
+        "Poke Type": "normal",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "This attack ignores line of sight. If a wild is rolled, this attack deals 1 additional damage."
+      },
+      {
+        "Name": "Rapid Spin",
+        "Type": "physic",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 3,
+        "Power Cost": 1,
+        "Effect": "After this attack is resolved, Staryu may make an immediate move action. If a wild is rolled, remove one special condition from Staryu."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Misty's Team",
+        "Type": "leader",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Friendly characters with the Water type add 1 die to their defense rolls."
+     },
+     {
+        "Name": "Natural Cure",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "At the start of this character's activation, remove all special conditions from it."
+     },
+     {
+        "Name": "Illuminate",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 3,
+        "Effect": "All allied characters within range and line of sight add 1 die to their next attack roll. This superpower can be used only once per turn."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 2,
+      "Attacks": [
+        {
+          "Name": "Bubble Beam",
+          "Type": "energy",
+          "Poke Type": "water",
+          "Range": 3,
+          "Strength": 5,
+          "Power Cost": 2,
+          "Effect": "If a wild is rolled during this attack, the target character gains the Slow special condition, reducing their movement by S during their next activation."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Recover",
+           "Type": "active",
+           "Cost": 3,
+           "Range": 0,
+           "Effect": "Remove 2 damage from this character. This superpower can be used only once per game."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Starmie character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+}
+

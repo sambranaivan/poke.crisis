@@ -93,13 +93,6 @@
            "Cost": 0,
            "Range": 0,
            "Effect": "When this character takes damage, it gains 2 power and adds 1 die to its next attack roll."
-        },
-        {
-           "Name": "Aqua Rush",
-           "Type": "active",
-           "Cost": 3,
-           "Range": 0,
-           "Effect": "Mega Feraligatr immediately makes a move action and may make an attack action after moving. During this move, it can move through characters and terrain without penalty. This superpower can be used only once per turn."
         }
       ]
     }

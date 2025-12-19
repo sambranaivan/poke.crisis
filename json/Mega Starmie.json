@@ -1,0 +1,121 @@
+{
+    "Number": 121,
+    "Name": "Mega Starmie",
+    "Alter Ego": "Starmie",
+    "Type": "Water/Psychic",
+    "Stamina": 6,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 5,
+    "Weak Type": "grass",
+    "Resistant Type": "fire",
+    "Weak Defense": 4,
+    "Defense": 5,
+    "Resistant Defense": 7,
+    "Attacks": [
+      {
+        "Name": "Hydro Pump",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 5,
+        "Strength": 7,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is pushed away L distance from Mega Starmie and gains the Soaked special condition."
+      },
+      {
+        "Name": "Swift",
+        "Type": "mystic",
+        "Poke Type": "normal",
+        "Range": 5,
+        "Strength": 6,
+        "Power Cost": 1,
+        "Effect": "This attack ignores line of sight and cover. If a wild is rolled, this attack deals 2 additional damage."
+      },
+      {
+        "Name": "Psychic",
+        "Type": "mystic",
+        "Poke Type": "psychic",
+        "Range": 4,
+        "Strength": 7,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled during this attack, the target character is lifted and placed within range 3 of their current position and gains the Confused and Stun special conditions."
+      },
+      {
+        "Name": "Rapid Spin",
+        "Type": "physic",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "After this attack is resolved, Mega Starmie may make an immediate move action. During this move, it can move through characters and terrain without penalty. If a wild is rolled, remove all special conditions from Mega Starmie and gain 2 power."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Misty's Team",
+        "Type": "leader",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Friendly characters with the Water type add 1 die to their defense rolls and gain 1 power at the start of their activation. Additionally, friendly Water-type characters may ignore terrain when moving."
+     },
+     {
+        "Name": "Natural Cure",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "At the start of this character's activation, remove all special conditions from it and gain 2 power."
+     },
+     {
+        "Name": "Illuminate",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 5,
+        "Effect": "All allied characters within range and line of sight add 1 die to their next attack roll and gain 1 power. Enemy characters within range and line of sight subtract 1 die from their next attack roll and lose 1 power. This superpower can be used only once per turn."
+     },
+     {
+        "Name": "Analytic",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "If this character attacks after all other characters have activated this round, add 2 dice to the attack roll."
+     },
+     {
+        "Name": "Cosmic Power",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 0,
+        "Effect": "Add 3 dice to Mega Starmie's defense rolls and gain 2 power until the start of its next activation. This superpower can be used only once per turn."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Power Gem",
+          "Type": "mystic",
+          "Poke Type": "rock",
+          "Range": 4,
+          "Strength": 8,
+          "Power Cost": 2,
+          "Effect": "This attack ignores defense dice granted by the target's superpowers and deals piercing damage. If a wild is rolled, the target character gains the Stun special condition and is pushed away M distance."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Recover",
+           "Type": "active",
+           "Cost": 3,
+           "Range": 0,
+           "Effect": "Remove 4 damage from this character and gain 2 power. This superpower can be used only once per game."
+        },
+        {
+           "Name": "Stellar Flare",
+           "Type": "active",
+           "Cost": 4,
+           "Range": 4,
+           "Effect": "All enemy characters within range and line of sight suffer 2 damage and gain the Confused special condition. This superpower can be used only once per game."
+        }
+      ]
+    }
+}
+
