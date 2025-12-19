@@ -1,0 +1,79 @@
+<div class="team-tactics-card-inner grow">
+    <div class="overflow-hidden h-full rounded-3xl flex flex-col side side-0 current-side bg-slate-100 relative">
+        <picture>
+            <img src="#portrait#" class="absolute top-0 left-0 z-0 min-h-full min-w-full artwork-loaded opacity-30 object-cover blur-sm" alt="">
+        </picture>
+        
+        <!-- Header Title -->
+        <div class="font-face-agency-fb-black-condensed text-center mt-5 mb-2 flex justify-center items-center text-3xl tracking-wider h-12 z-10 bg-[#FAFCFC] py-1 shadow-inner uppercase">
+            @AffiliationName
+        </div>
+
+        <!-- Spacing for Art -->
+        <div class="flex grow shrink z-10" style="flex-basis: 40%;"></div>
+
+        <!-- Content Area -->
+        <div class="flex flex-col z-10 bg-white/95 mx-4 rounded-xl p-4 shadow-md" style="flex-basis: 60%;">
+            <div class="font-face-agency-fb-black-condensed text-center text-2xl tracking-wider text-blue-800">
+                AFFILIATION
+            </div>
+            <div class="mt-1 font-face-noto-sans-condensed-medium text-center text-xl leading-6 border-b border-gray-300 pb-2 mb-2">
+                Affiliated Pokemon
+            </div>
+            
+            <div class="font-face-noto-sans-condensed text-base leading-5 px-2 overflow-hidden">
+                <div class="grid grid-cols-2 gap-x-2 gap-y-0.5">
+                    @PokemonList
+                </div>
+            </div>
+
+            <div class="mt-4 pt-2 border-t border-gray-300">
+                <div class="font-face-noto-sans-condensed text-sm italic text-gray-600 mb-1">
+                    "@FlavorText"
+                </div>
+                <div class="font-face-noto-sans-condensed-bold text-xs leading-tight">
+                    @RuleText
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col z-10" style="flex-basis: 3%;"></div>
+
+        <!-- Footer -->
+        <div class="flex flex-row justify-between pl-8 pr-4 mb-4 z-10 items-end">
+            <span class="font-face-agency-fb-condensed text-sm mt-2 flex flex-row grow items-center text-white drop-shadow-md">
+                <span class="font-face-noto-sans-condensed-medium text-lg leading-4">©</span>
+                <span class="text-lg leading-5 tracking-wide mx-1 uppercase">Poke.Crisis</span>
+                <img src="https://www.jarvis-protocol.com/assets/images/52022998a6c8061db499.png" class="w-[30px] ml-2">
+                <span class="text-lg leading-5 ml-1 grow font-face-noto-sans-condensed">patreon.com/pokecrisis</span>
+            </span>
+        </div>
+
+        <!-- Flip Handles -->
+        <div class="flip-handle absolute top-0 left-0 z-30 h-[70px] w-[70px] cursor-alias"></div>
+        <div class="flip-handle absolute top-0 right-0 z-30 h-[70px] w-[70px] cursor-alias"></div>
+        <div class="flip-handle absolute bottom-0 left-0 z-30 h-[90px] w-[90px] cursor-pointer">
+            <div class="w-0 h-0 border-solid border-t-[90px] border-l-[90px] border-r-0 border-b-0 border-y-transparent border-x-[#E3FFFF] opacity-0 rotate-0 animate-pulse-3 no-print"></div>
+        </div>
+        <div class="flip-handle absolute bottom-0 right-0 z-30 h-[70px] w-[70px] cursor-alias"></div>
+    </div>
+
+    <!-- Back Side -->
+    <div class="overflow-hidden h-full rounded-3xl flex flex-col side side-1 no-print bg-slate-100 relative">
+        <picture>
+            <img src="#portrait#" class="absolute top-0 left-0 z-0 min-h-full min-w-full artwork-loaded opacity-100 object-cover" alt="">
+        </picture>
+        <div class="font-face-agency-fb-black-condensed text-center mt-5 mb-2 flex justify-center items-center text-3xl tracking-wider h-12 z-10 bg-[#FAFCFC] py-1 shadow-inner uppercase">
+            @AffiliationName
+        </div>
+        <div class="flex grow items-center justify-center z-10">
+            <img src="https://www.jarvis-protocol.com/assets/images/52022998a6c8061db499.png" class="w-32 opacity-50">
+        </div>
+        <div class="flip-handle absolute top-0 left-0 z-30 h-[70px] w-[70px] cursor-alias"></div>
+        <div class="flip-handle absolute top-0 right-0 z-30 h-[70px] w-[70px] cursor-alias"></div>
+        <div class="flip-handle absolute bottom-0 left-0 z-30 h-[90px] w-[90px] cursor-pointer">
+            <div class="w-0 h-0 border-solid border-t-[90px] border-l-[90px] border-r-0 border-b-0 border-y-transparent border-x-[#E3FFFF] opacity-0 rotate-0 animate-pulse-3 no-print"></div>
+        </div>
+        <div class="flip-handle absolute bottom-0 right-0 z-30 h-[70px] w-[70px] cursor-alias"></div>
+    </div>
+</div>
