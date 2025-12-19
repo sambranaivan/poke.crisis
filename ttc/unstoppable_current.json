@@ -1,0 +1,14 @@
+{
+  "Name": "Unstoppable Current",
+  "Affiliation": "Misty's Team",
+  "Cost": 3,
+  "Type": "Team Tactic Card",
+  "Effect": [
+    "During the activation of an allied Pokémon from Misty's Team:",
+    "That Pokémon may Advance Medium.",
+    "It may move through other characters.",
+    "It ignores difficult terrain and effects that reduce movement.",
+    "After the movement, it may perform an attack."
+  ],
+  "Art": "tt03.png"
+}

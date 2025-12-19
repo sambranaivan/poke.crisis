@@ -36,12 +36,6 @@ def build_ttc_template(ttc_name: str) -> str:
         effect_html += f'<span>{effect}</span>\n'
     template = template.replace("@EffectList", effect_html)
     
-    # Replace restriction
-    template = template.replace("@Restriction", data["Restriction"])
-    
-    # Replace identity
-    template = template.replace("@Identity", data["Identity"])
-    
     # Replace art URL
     art_file = data.get("Art", "tt01.png")
     template = template.replace("#art#", ttc_art_url + art_file)

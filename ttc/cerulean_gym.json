@@ -8,7 +8,5 @@
     "That Pokémon gains +1 Defense.",
     "Enemies within Range 2 of that Pokémon cannot push or displace allies this turn."
   ],
-  "Restriction": "Can only be included in a squad affiliated with Misty's Team.",
-  "Identity": "Zone defense and objective control.",
   "Art": "tt01.png"
 }
