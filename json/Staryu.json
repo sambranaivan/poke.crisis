@@ -43,7 +43,7 @@
     ],
     "Superpowers": [
      {
-        "Name": "Misty's Team",
+        "Name": "Aqua Tactics (Affiliation: Misty's Team)",
         "Type": "leader",
         "Cost": 0,
         "Range": 0,
@@ -55,14 +55,8 @@
         "Cost": 0,
         "Range": 0,
         "Effect": "At the start of this character's activation, remove all special conditions from it."
-     },
-     {
-        "Name": "Illuminate",
-        "Type": "active",
-        "Cost": 2,
-        "Range": 3,
-        "Effect": "All allied characters within range and line of sight add 1 die to their next attack roll. This superpower can be used only once per turn."
      }
+     
     ],
     "Injured Side": {
       "Stamina": 2,

@@ -23,15 +23,6 @@
         "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is pushed away L distance from Mega Starmie and gains the Soaked special condition."
       },
       {
-        "Name": "Swift",
-        "Type": "mystic",
-        "Poke Type": "normal",
-        "Range": 5,
-        "Strength": 6,
-        "Power Cost": 1,
-        "Effect": "This attack ignores line of sight and cover. If a wild is rolled, this attack deals 2 additional damage."
-      },
-      {
         "Name": "Psychic",
         "Type": "mystic",
         "Poke Type": "psychic",
@@ -52,7 +43,7 @@
     ],
     "Superpowers": [
      {
-        "Name": "Misty's Team",
+        "Name": "Aqua Tactics (Affiliation: Misty's Team)",
         "Type": "leader",
         "Cost": 0,
         "Range": 0,
@@ -64,13 +55,6 @@
         "Cost": 0,
         "Range": 0,
         "Effect": "At the start of this character's activation, remove all special conditions from it and gain 2 power."
-     },
-     {
-        "Name": "Illuminate",
-        "Type": "active",
-        "Cost": 2,
-        "Range": 5,
-        "Effect": "All allied characters within range and line of sight add 1 die to their next attack roll and gain 1 power. Enemy characters within range and line of sight subtract 1 die from their next attack roll and lose 1 power. This superpower can be used only once per turn."
      },
      {
         "Name": "Analytic",
@@ -90,15 +74,7 @@
     "Injured Side": {
       "Stamina": 5,
       "Attacks": [
-        {
-          "Name": "Power Gem",
-          "Type": "mystic",
-          "Poke Type": "rock",
-          "Range": 4,
-          "Strength": 8,
-          "Power Cost": 2,
-          "Effect": "This attack ignores defense dice granted by the target's superpowers and deals piercing damage. If a wild is rolled, the target character gains the Stun special condition and is pushed away M distance."
-        }
+   
       ],
       "Superpowers": [
         {
