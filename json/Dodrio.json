@@ -1,0 +1,114 @@
+{
+    "Number": 85,
+    "Name": "Dodrio",
+    "Alter Ego": "",
+    "Type": "Normal/Flying",
+    "Stamina": 6,
+    "Movement": "L",
+    "Size": 2,
+    "Threat Level": 4,
+    "Weak Type": "electric",
+    "Resistant Type": "ground",
+    "Weak Defense": 3,
+    "Defense": 4,
+    "Resistant Defense": 5,
+    "Attacks": [
+      {
+        "Name": "Tri-Attack",
+        "Type": "energy",
+        "Poke Type": "normal",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, roll a die: on 1-2 the target gains Burn, on 3-4 the target gains Freeze, on 5-6 the target gains Paralyze."
+      },
+      {
+        "Name": "Drill Peck",
+        "Type": "physic",
+        "Poke Type": "flying",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 1,
+        "Effect": "After this attack is resolved, Dodrio gains power equal to the damage dealt. If a wild is rolled, the target character gains the Stagger special condition."
+      },
+      {
+        "Name": "Fury Attack",
+        "Type": "physic",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled, Dodrio may make an additional Fury Attack without paying the cost. The additional attack must target the original character."
+      },
+      {
+        "Name": "Jump Kick",
+        "Type": "physic",
+        "Poke Type": "fighting",
+        "Range": 2,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "If this attack misses or is blocked, Dodrio suffers 2 damage."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Run Away",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character may reroll all defense dice when targeted by an attack from a character that is within Range 2."
+     },
+     {
+        "Name": "Early Bird",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "If this character has the Sleep special condition, it wakes up at the start of its activation instead of the end."
+     },
+     {
+        "Name": "Triple Threat",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When Dodrio makes an attack, if a wild is rolled, add 1 additional die to the attack roll."
+     },
+     {
+        "Name": "Agility",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Dodrio may advance L after being targeted by an enemy attack. This superpower can be used only once per turn."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Tri-Attack",
+          "Type": "energy",
+          "Poke Type": "normal",
+          "Range": 4,
+          "Strength": 7,
+          "Power Cost": 1,
+          "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, roll a die: on 1-2 the target gains Burn, on 3-4 the target gains Freeze, on 5-6 the target gains Paralyze. Additionally, all enemy characters within range 1 of the target suffer 1 damage."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Rage",
+           "Type": "innate",
+           "Cost": 0,
+           "Range": 0,
+           "Effect": "When this character takes damage, it gains 1 power and adds 1 die to its next attack roll."
+        },
+        {
+           "Name": "Triple Threat",
+           "Type": "innate",
+           "Cost": 0,
+           "Range": 0,
+           "Effect": "When Dodrio makes an attack, if a wild is rolled, add 1 additional die to the attack roll."
+        }
+      ]
+    }
+}
+

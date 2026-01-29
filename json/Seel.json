@@ -1,0 +1,91 @@
+{
+    "Number": 86,
+    "Name": "Seel",
+    "Alter Ego": "",
+    "Type": "Water",
+    "Stamina": 4,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 2,
+    "Weak Type": "grass",
+    "Resistant Type": "fire",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Water Gun",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character is pushed away S distance from Seel."
+      },
+      {
+        "Name": "Ice Shard",
+        "Type": "energy",
+        "Poke Type": "ice",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Slow special condition."
+      },
+      {
+        "Name": "Headbutt",
+        "Type": "physic",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, the target character gains the Stun special condition."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Thick Fat",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Reduce damage from Fire and Ice type attacks by 1, to a minimum of 1."
+     },
+     {
+        "Name": "Hydration",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "At the start of this character's activation, if it has the Soaked special condition, remove all special conditions from it."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Aqua Jet",
+          "Type": "physic",
+          "Poke Type": "water",
+          "Range": 2,
+          "Strength": 5,
+          "Power Cost": 1,
+          "Effect": "After this attack is resolved, Seel may make an immediate move action. If a wild is rolled, the target character gains the Stun special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Rest",
+           "Type": "active",
+           "Cost": 3,
+           "Range": 0,
+           "Effect": "Remove 2 damage from this character and remove all special conditions. This character gains the Sleep special condition until the end of its next activation. This superpower can be used only once per game."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Dewgong character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+}
+

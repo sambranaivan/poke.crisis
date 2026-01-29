@@ -1,0 +1,107 @@
+{
+    "Number": 87,
+    "Name": "Dewgong",
+    "Alter Ego": "",
+    "Type": "Water/Ice",
+    "Stamina": 6,
+    "Movement": "L",
+    "Size": 3,
+    "Threat Level": 4,
+    "Weak Type": "grass",
+    "Resistant Type": "fire",
+    "Weak Defense": 3,
+    "Defense": 4,
+    "Resistant Defense": 5,
+    "Attacks": [
+      {
+        "Name": "Water Pulse",
+        "Type": "energy",
+        "Poke Type": "water",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Stun special condition."
+      },
+      {
+        "Name": "Ice Beam",
+        "Type": "energy",
+        "Poke Type": "ice",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, the target character gains the Freeze special condition."
+      },
+      {
+        "Name": "Aqua Jet",
+        "Type": "physic",
+        "Poke Type": "water",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "After this attack is resolved, Dewgong may make an immediate move action. During this move, it can move through characters without penalty."
+      },
+      {
+        "Name": "Blizzard",
+        "Type": "energy",
+        "Poke Type": "ice",
+        "Range": 3,
+        "Strength": 7,
+        "Power Cost": 3,
+        "Effect": "This attack deals damage to all characters (friend and foe) within range 2 of the target character. If a wild is rolled, affected characters also gain the Slow special condition."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Thick Fat",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Reduce damage from Fire and Ice type attacks by 1, to a minimum of 1."
+     },
+     {
+        "Name": "Hydration",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "At the start of this character's activation, if it has the Soaked special condition, remove all special conditions from it and gain 1 power."
+     },
+     {
+        "Name": "Ice Body",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "At the start of this character's activation, remove 1 damage from this character."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Aurora Beam",
+          "Type": "energy",
+          "Poke Type": "ice",
+          "Range": 4,
+          "Strength": 7,
+          "Power Cost": 2,
+          "Effect": "If a wild is rolled during this attack, reduce the target character's attack Strength by 1 until the end of their next activation."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Rest",
+           "Type": "active",
+           "Cost": 3,
+           "Range": 0,
+           "Effect": "Remove 3 damage from this character and remove all special conditions. This character gains the Sleep special condition until the end of its next activation. This superpower can be used only once per game."
+        },
+        {
+           "Name": "Sheer Cold",
+           "Type": "active",
+           "Cost": 4,
+           "Range": 3,
+           "Effect": "Choose an enemy character within range and line of sight. That character suffers 3 damage and gains the Freeze special condition. This superpower can be used only once per game."
+        }
+      ]
+    }
+}
+

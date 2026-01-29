@@ -1,0 +1,98 @@
+{
+    "Number": 84,
+    "Name": "Doduo",
+    "Alter Ego": "",
+    "Type": "Normal/Flying",
+    "Stamina": 4,
+    "Movement": "L",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "electric",
+    "Resistant Type": "ground",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Peck",
+        "Type": "physic",
+        "Poke Type": "flying",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Stagger special condition."
+      },
+      {
+        "Name": "Quick Attack",
+        "Type": "physic",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, this character may make a free Move action."
+      },
+      {
+        "Name": "Fury Attack",
+        "Type": "physic",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled, Doduo may make an additional Fury Attack without paying the cost. The additional attack must target the original character."
+      }
+    ],
+    "Superpowers": [
+     {
+        "Name": "Run Away",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character may reroll all defense dice when targeted by an attack from a character that is within Range 2."
+     },
+     {
+        "Name": "Early Bird",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "If this character has the Sleep special condition, it wakes up at the start of its activation instead of the end."
+     },
+     {
+        "Name": "Double Team",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Until the start of Doduo's next activation, enemy characters subtract 1 die from their attack rolls when targeting Doduo."
+     }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Drill Peck",
+          "Type": "physic",
+          "Poke Type": "flying",
+          "Range": 2,
+          "Strength": 6,
+          "Power Cost": 2,
+          "Effect": "After this attack is resolved, Doduo gains power equal to the damage dealt. If a wild is rolled, the target character gains the Stagger special condition and is pushed away S distance."
+        }
+      ],
+      "Superpowers": [
+        {
+           "Name": "Agility",
+           "Type": "active",
+           "Cost": 2,
+           "Range": 0,
+           "Effect": "Doduo may advance M after being targeted by an enemy attack. This superpower can be used only once per turn."
+        },
+        {
+            "Name": "Evolution",
+            "Type": "active",
+            "Cost": 5,
+            "Range": 0,
+            "Effect": "Replace this character with a Dodrio character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+         }
+      ]
+    }
+}
+
