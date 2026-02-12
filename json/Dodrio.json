@@ -66,13 +66,6 @@
         "Effect": "If this character has the Sleep special condition, it wakes up at the start of its activation instead of the end."
      },
      {
-        "Name": "Triple Threat",
-        "Type": "innate",
-        "Cost": 0,
-        "Range": 0,
-        "Effect": "When Dodrio makes an attack, if a wild is rolled, add 1 additional die to the attack roll."
-     },
-     {
         "Name": "Agility",
         "Type": "active",
         "Cost": 2,
@@ -84,7 +77,7 @@
       "Stamina": 5,
       "Attacks": [
         {
-          "Name": "Tri-Attack",
+          "Name": "Tri-Attack (Enhanced)",
           "Type": "energy",
           "Poke Type": "normal",
           "Range": 4,
@@ -100,13 +93,6 @@
            "Cost": 0,
            "Range": 0,
            "Effect": "When this character takes damage, it gains 1 power and adds 1 die to its next attack roll."
-        },
-        {
-           "Name": "Triple Threat",
-           "Type": "innate",
-           "Cost": 0,
-           "Range": 0,
-           "Effect": "When Dodrio makes an attack, if a wild is rolled, add 1 additional die to the attack roll."
         }
       ]
     }

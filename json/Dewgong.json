@@ -23,15 +23,6 @@
         "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, the target character gains the Stun special condition."
       },
       {
-        "Name": "Ice Beam",
-        "Type": "energy",
-        "Poke Type": "ice",
-        "Range": 4,
-        "Strength": 6,
-        "Power Cost": 1,
-        "Effect": "If a wild is rolled during this attack, the target character gains the Freeze special condition."
-      },
-      {
         "Name": "Aqua Jet",
         "Type": "physic",
         "Poke Type": "water",
