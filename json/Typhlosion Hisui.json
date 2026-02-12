@@ -51,13 +51,7 @@
       }
     ],
     "Superpowers": [
-     {
-        "Name": "Frisk",
-        "Type": "innate",
-        "Cost": 0,
-        "Range": 0,
-        "Effect": "When this character makes an attack, if a wild is rolled, this character gains 1 power."
-     },
+    
      {
         "Name": "Flame Cloak",
         "Type": "innate",
@@ -93,13 +87,6 @@
            "Cost": 4,
            "Range": 4,
            "Effect": "All enemy characters within range and line of sight suffer 2 damage and gain the Burn special condition. Additionally, they lose 2 power. This superpower can be used only once per game."
-        },
-        {
-           "Name": "Frisk",
-           "Type": "innate",
-           "Cost": 0,
-           "Range": 0,
-           "Effect": "When this character makes an attack, if a wild is rolled, this character gains 1 power."
         }
       ]
     }
