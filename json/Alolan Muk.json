@@ -93,13 +93,6 @@
           "Cost": 2,
           "Range": 3,
           "Effect": "All enemy characters within range that have the Poison special condition lose 2 power and suffer 1 damage."
-        },
-        {
-          "Name": "Sucker Punch",
-          "Type": "active",
-          "Cost": 2,
-          "Range": 2,
-          "Effect": "Choose an enemy character within range that has not yet activated this round. That character suffers 3 damage. This superpower can be used only once per turn."
         }
       ]
     }

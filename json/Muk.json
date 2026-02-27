@@ -93,13 +93,6 @@
           "Cost": 2,
           "Range": 0,
           "Effect": "Add 3 dice to Muk's defense rolls until the start of its next activation."
-        },
-        {
-          "Name": "Memento",
-          "Type": "active",
-          "Cost": 4,
-          "Range": 2,
-          "Effect": "Choose an enemy character within range. That character loses all power and gains the Stun special condition. Muk suffers 2 damage. This superpower can be used only once per game."
         }
       ]
     }
