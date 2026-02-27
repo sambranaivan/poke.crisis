@@ -87,14 +87,7 @@
         }
       ],
       "Superpowers": [
-        {
-          "Name": "Iron Defense",
-          "Type": "active",
-          "Cost": 3,
-          "Range": 0,
-          "Effect": "Until the start of Cloyster's next activation, add 2 dice to its defense rolls and reduce all damage dealt to Cloyster by 1, to a minimum of 1."
-        },
-        {
+         {
           "Name": "Spiky Shield",
           "Type": "active",
           "Cost": 2,
