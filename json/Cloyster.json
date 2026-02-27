@@ -1,0 +1,106 @@
+{
+    "Number": 91,
+    "Name": "Cloyster",
+    "Alter Ego": "",
+    "Type": "Water/Ice",
+    "Stamina": 5,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 4,
+    "Weak Type": "grass",
+    "Resistant Type": "fire",
+    "Weak Defense": 3,
+    "Defense": 5,
+    "Resistant Defense": 6,
+    "Attacks": [
+      {
+        "Name": "Icicle Spear",
+        "Type": "physic",
+        "Poke Type": "ice",
+        "Range": 3,
+        "Strength": 5,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt. If a wild is rolled, Cloyster may make an additional Icicle Spear attack against the same target without paying the power cost."
+      },
+      {
+        "Name": "Clamp",
+        "Type": "physic",
+        "Poke Type": "water",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, the target character gains the Rooted special condition until the end of their next activation and suffers 1 damage at the start of their next activation."
+      },
+      {
+        "Name": "Aurora Beam",
+        "Type": "energy",
+        "Poke Type": "ice",
+        "Range": 4,
+        "Strength": 6,
+        "Power Cost": 2,
+        "Effect": "If a wild is rolled during this attack, reduce the target character's attack Strength by 1 until the end of their next activation."
+      },
+      {
+        "Name": "Spike Cannon",
+        "Type": "physic",
+        "Poke Type": "normal",
+        "Range": 3,
+        "Strength": 4,
+        "Power Cost": 2,
+        "Effect": "Roll attack dice three times. Each success deals 1 damage to the target. If a wild is rolled on any roll, the target gains the Bleed special condition."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Shell Armor",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "Critical hits against this character are treated as normal hits. Additionally, reduce damage from attacks against this character by 1, to a minimum of 1."
+      },
+      {
+        "Name": "Skill Link",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character uses Spike Cannon or Icicle Spear, add 1 die to the attack roll."
+      },
+      {
+        "Name": "Withdraw",
+        "Type": "active",
+        "Cost": 2,
+        "Range": 0,
+        "Effect": "Add 3 dice to Cloyster's defense rolls until the start of its next activation."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 4,
+      "Attacks": [
+        {
+          "Name": "Blizzard",
+          "Type": "energy",
+          "Poke Type": "ice",
+          "Range": 3,
+          "Strength": 7,
+          "Power Cost": 3,
+          "Effect": "This attack deals damage to all characters (friend and foe) within range 2 of the target character. If a wild is rolled, affected characters also gain the Slow special condition."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Iron Defense",
+          "Type": "active",
+          "Cost": 3,
+          "Range": 0,
+          "Effect": "Until the start of Cloyster's next activation, add 2 dice to its defense rolls and reduce all damage dealt to Cloyster by 1, to a minimum of 1."
+        },
+        {
+          "Name": "Spiky Shield",
+          "Type": "active",
+          "Cost": 2,
+          "Range": 0,
+          "Effect": "Until the start of Cloyster's next activation, when an enemy character hits Cloyster with a melee attack, that character suffers 1 damage."
+        }
+      ]
+    }
+}
