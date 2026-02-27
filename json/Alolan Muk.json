@@ -1,0 +1,106 @@
+{
+    "Number": 89,
+    "Name": "Alolan Muk",
+    "Alter Ego": "",
+    "Type": "Poison/Dark",
+    "Stamina": 6,
+    "Movement": "M",
+    "Size": 2,
+    "Threat Level": 4,
+    "Weak Type": "ground",
+    "Resistant Type": "ghost",
+    "Weak Defense": 3,
+    "Defense": 4,
+    "Resistant Defense": 5,
+    "Attacks": [
+      {
+        "Name": "Gunk Shot",
+        "Type": "physic",
+        "Poke Type": "poison",
+        "Range": 3,
+        "Strength": 6,
+        "Power Cost": 0,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Poison special condition."
+      },
+      {
+        "Name": "Crunch",
+        "Type": "physic",
+        "Poke Type": "dark",
+        "Range": 2,
+        "Strength": 6,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, reduce the target character's Defense by 1 until the end of their next activation."
+      },
+      {
+        "Name": "Poison Fang",
+        "Type": "physic",
+        "Poke Type": "poison",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Poison special condition and loses 1 power."
+      },
+      {
+        "Name": "Knock Off",
+        "Type": "physic",
+        "Poke Type": "dark",
+        "Range": 2,
+        "Strength": 5,
+        "Power Cost": 2,
+        "Effect": "If this attack deals damage, the target character loses 2 power."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Gluttony",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character removes damage or a special condition from itself, it gains 2 power."
+      },
+      {
+        "Name": "Poison Touch",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character hits with a melee attack, if a wild is rolled, the target also gains the Poison special condition."
+      },
+      {
+        "Name": "Power of Alchemy",
+        "Type": "active",
+        "Cost": 3,
+        "Range": 2,
+        "Effect": "Choose an allied character within range that has been defeated this game. Alolan Muk gains 1 power and adds 1 die to its attack and defense rolls until the end of the round."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 5,
+      "Attacks": [
+        {
+          "Name": "Belch",
+          "Type": "energy",
+          "Poke Type": "poison",
+          "Range": 3,
+          "Strength": 7,
+          "Power Cost": 2,
+          "Effect": "If a wild is rolled during this attack, the target character is given the Poison special condition. If the target already has Poison, this attack deals 2 additional damage."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Venom Drench",
+          "Type": "active",
+          "Cost": 2,
+          "Range": 3,
+          "Effect": "All enemy characters within range that have the Poison special condition lose 2 power and suffer 1 damage."
+        },
+        {
+          "Name": "Sucker Punch",
+          "Type": "active",
+          "Cost": 2,
+          "Range": 2,
+          "Effect": "Choose an enemy character within range that has not yet activated this round. That character suffers 3 damage. This superpower can be used only once per turn."
+        }
+      ]
+    }
+}

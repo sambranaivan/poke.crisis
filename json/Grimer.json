@@ -1,0 +1,90 @@
+{
+    "Number": 88,
+    "Name": "Grimer",
+    "Alter Ego": "",
+    "Type": "Poison",
+    "Stamina": 4,
+    "Movement": "S",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "ground",
+    "Resistant Type": "grass",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Pound",
+        "Type": "physic",
+        "Poke Type": "normal",
+        "Range": 2,
+        "Strength": 3,
+        "Power Cost": 0,
+        "Effect": "After this attack is resolved, this character gains power equal to the damage dealt."
+      },
+      {
+        "Name": "Sludge",
+        "Type": "energy",
+        "Poke Type": "poison",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Poison special condition."
+      },
+      {
+        "Name": "Minimize",
+        "Type": "energy",
+        "Poke Type": "normal",
+        "Range": 0,
+        "Strength": 0,
+        "Power Cost": 2,
+        "Effect": "Until the start of Grimer's next activation, enemy characters subtract 1 die from their attack rolls when targeting Grimer."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Sticky Hold",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "This character cannot be pushed or placed by enemy effects."
+      },
+      {
+        "Name": "Poison Touch",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character hits with a melee attack, if a wild is rolled, the target also gains the Poison special condition."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Sludge Bomb",
+          "Type": "energy",
+          "Poke Type": "poison",
+          "Range": 3,
+          "Strength": 5,
+          "Power Cost": 2,
+          "Effect": "If a wild is rolled during this attack, the target character is given the Poison special condition and loses 1 power."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Acid Armor",
+          "Type": "active",
+          "Cost": 2,
+          "Range": 0,
+          "Effect": "Add 2 dice to Grimer's defense rolls until the start of its next activation."
+        },
+        {
+          "Name": "Evolution",
+          "Type": "active",
+          "Cost": 5,
+          "Range": 0,
+          "Effect": "Replace this character with a Muk character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+        }
+      ]
+    }
+}

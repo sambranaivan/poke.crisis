@@ -1,0 +1,90 @@
+{
+    "Number": 88,
+    "Name": "Alolan Grimer",
+    "Alter Ego": "",
+    "Type": "Poison/Dark",
+    "Stamina": 4,
+    "Movement": "S",
+    "Size": 1,
+    "Threat Level": 2,
+    "Weak Type": "ground",
+    "Resistant Type": "ghost",
+    "Weak Defense": 2,
+    "Defense": 3,
+    "Resistant Defense": 4,
+    "Attacks": [
+      {
+        "Name": "Bite",
+        "Type": "physic",
+        "Poke Type": "dark",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 0,
+        "Effect": "If a wild is rolled during this attack, the target character gains the Stun special condition."
+      },
+      {
+        "Name": "Poison Fang",
+        "Type": "physic",
+        "Poke Type": "poison",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 1,
+        "Effect": "If a wild is rolled during this attack, the target character is given the Poison special condition."
+      },
+      {
+        "Name": "Pursuit",
+        "Type": "physic",
+        "Poke Type": "dark",
+        "Range": 2,
+        "Strength": 4,
+        "Power Cost": 2,
+        "Effect": "If the target character is moving or has moved this round, add 2 dice to this attack roll."
+      }
+    ],
+    "Superpowers": [
+      {
+        "Name": "Gluttony",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character removes damage or a special condition from itself, it gains 1 power."
+      },
+      {
+        "Name": "Poison Touch",
+        "Type": "innate",
+        "Cost": 0,
+        "Range": 0,
+        "Effect": "When this character hits with a melee attack, if a wild is rolled, the target also gains the Poison special condition."
+      }
+    ],
+    "Injured Side": {
+      "Stamina": 3,
+      "Attacks": [
+        {
+          "Name": "Crunch",
+          "Type": "physic",
+          "Poke Type": "dark",
+          "Range": 2,
+          "Strength": 5,
+          "Power Cost": 2,
+          "Effect": "If a wild is rolled during this attack, reduce the target character's Defense by 1 until the end of their next activation."
+        }
+      ],
+      "Superpowers": [
+        {
+          "Name": "Knock Off",
+          "Type": "active",
+          "Cost": 2,
+          "Range": 2,
+          "Effect": "Choose an enemy character within range. That character loses 2 power."
+        },
+        {
+          "Name": "Evolution",
+          "Type": "active",
+          "Cost": 5,
+          "Range": 0,
+          "Effect": "Replace this character with an Alolan Muk character of the same injured status. The new character begins with damage equal to the damage on this character and power equal to the power on this character."
+        }
+      ]
+    }
+}
